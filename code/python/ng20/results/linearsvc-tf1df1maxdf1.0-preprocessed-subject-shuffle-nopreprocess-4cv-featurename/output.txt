@@ -1,0 +1,177 @@
+>>> runfile('/media/wshalaby/b667e28e-5e90-4884-8810-5d897c9e56ce/work/patents/patents-similarity/code/python/ng20/ng20_classifier-4cv.py', wdir=r'/media/wshalaby/b667e28e-5e90-4884-8810-5d897c9e56ce/work/patents/patents-similarity/code/python/ng20')
+0.15.2
+loaded 18828 records.
+done loading 18828 train records and 20 labels.
+loaded 0 records.
+done loading 0 test records.
+loaded 20 labels.
+loaded (167774) terms
+vectorizing done, 167774 terms vocabulary tokenized
+vectorizing done, 167774 terms vocabulary tokenized
+accuracy:  [0.86914103923647934, 0.90934182590233548, 0.90242346938775508, 0.87933602894232821]
+dimensionality: 167774
+density: 0.65782332185
+ng20_raw_unigrams_df1_tf1  -->  accuracy 89.0
+loaded (1605119) terms
+vectorizing done, 1605119 terms vocabulary tokenized
+vectorizing done, 1605119 terms vocabulary tokenized
+accuracy:  [0.88144220572640508, 0.9150743099787686, 0.91135204081632648, 0.88486912108959348]
+dimensionality: 1605119
+density: 0.641831695968
+ng20_raw_bigrams_df1_tf1  -->  accuracy 89.8
+loaded (222176) terms
+vectorizing done, 222176 terms vocabulary tokenized
+vectorizing done, 222176 terms vocabulary tokenized
+accuracy:  [0.87020148462354185, 0.9110403397027601, 0.90752551020408168, 0.87954884017876145]
+dimensionality: 222176
+density: 0.645348057396
+('ng20_raw_unigrams_df1_tf1', '^', 'ng20_raw_bigrams_df1_tf1', '^', 'wiki_bigrams')  -->  accuracy 89.2
+loaded (179781) terms
+vectorizing done, 179781 terms vocabulary tokenized
+vectorizing done, 179781 terms vocabulary tokenized
+accuracy:  [0.86956521739130432, 0.91125265392781318, 0.90603741496598644, 0.87656948286869552]
+dimensionality: 179781
+density: 0.659828902943
+('ng20_raw_unigrams_df1_tf1', '^', 'ng20_raw_bigrams_df1_tf1', '^', 'wiktionary_bigrams')  -->  accuracy 89.1
+loaded (178737) terms
+vectorizing done, 178737 terms vocabulary tokenized
+vectorizing done, 178737 terms vocabulary tokenized
+accuracy:  [0.86956521739130432, 0.91040339702760087, 0.90391156462585032, 0.88061289636092788]
+dimensionality: 178737
+density: 0.65006713775
+('ng20_raw_unigrams_df1_tf1', '^', 'ng20_raw_bigrams_df1_tf1', '^', 'google_bigrams')  -->  accuracy 89.1
+loaded (230625) terms
+vectorizing done, 230625 terms vocabulary tokenized
+vectorizing done, 230625 terms vocabulary tokenized
+accuracy:  [0.87083775185577939, 0.91125265392781318, 0.90710034013605445, 0.88018727388806128]
+dimensionality: 230625
+density: 0.647932140921
+('ng20_raw_unigrams_df1_tf1', '^', 'ng20_raw_bigrams_df1_tf1', '^', 'wiki_wiktionary_google_bigrams_vw')  -->  accuracy 89.2
+loaded (167395) terms
+vectorizing done, 167395 terms vocabulary tokenized
+vectorizing done, 167395 terms vocabulary tokenized
+accuracy:  [0.87274655355249209, 0.91040339702760087, 0.89965986394557829, 0.87912321770589485]
+dimensionality: 167395
+density: 0.674303294603
+ng20_raw_unigrams_stopwords_df1_tf1  -->  accuracy 89.0
+loaded (1674195) terms
+vectorizing done, 1674195 terms vocabulary tokenized
+vectorizing done, 1674195 terms vocabulary tokenized
+accuracy:  [0.88250265111346771, 0.91592356687898091, 0.91028911564625847, 0.8867844222174931]
+dimensionality: 1674195
+density: 0.360389082514
+ng20_raw_bigrams_stopwords_df1_tf1  -->  accuracy 89.9
+loaded (216454) terms
+vectorizing done, 216454 terms vocabulary tokenized
+vectorizing done, 216454 terms vocabulary tokenized
+accuracy:  [0.87359490986214205, 0.91061571125265395, 0.90518707482993199, 0.88040008512449452]
+dimensionality: 216454
+density: 0.633972576159
+('ng20_raw_unigrams_stopwords_df1_tf1', '^', 'ng20_raw_bigrams_stopwords_df1_tf1', '^', 'wiki_bigrams')  -->  accuracy 89.2
+loaded (176285) terms
+vectorizing done, 176285 terms vocabulary tokenized
+vectorizing done, 176285 terms vocabulary tokenized
+accuracy:  [0.87274655355249209, 0.90934182590233548, 0.89944727891156462, 0.87954884017876145]
+dimensionality: 176285
+density: 0.660372691948
+('ng20_raw_unigrams_stopwords_df1_tf1', '^', 'ng20_raw_bigrams_stopwords_df1_tf1', '^', 'wiktionary_bigrams')  -->  accuracy 89.0
+loaded (182413) terms
+vectorizing done, 182413 terms vocabulary tokenized
+vectorizing done, 182413 terms vocabulary tokenized
+accuracy:  [0.87317073170731707, 0.90955414012738856, 0.9000850340136054, 0.87891040646946161]
+dimensionality: 182413
+density: 0.645424394095
+('ng20_raw_unigrams_stopwords_df1_tf1', '^', 'ng20_raw_bigrams_stopwords_df1_tf1', '^', 'google_bigrams')  -->  accuracy 89.0
+loaded (226033) terms
+vectorizing done, 226033 terms vocabulary tokenized
+vectorizing done, 226033 terms vocabulary tokenized
+accuracy:  [0.87401908801696715, 0.91082802547770703, 0.90454931972789121, 0.87997446265162804]
+dimensionality: 226033
+density: 0.62039857012
+('ng20_raw_unigrams_stopwords_df1_tf1', '^', 'ng20_raw_bigrams_stopwords_df1_tf1', '^', 'wiki_wiktionary_google_bigrams_vw')  -->  accuracy 89.2
+loaded (160556) terms
+vectorizing done, 160556 terms vocabulary tokenized
+vectorizing done, 160556 terms vocabulary tokenized
+accuracy:  [0.86914103923647934, 0.90445859872611467, 0.9000850340136054, 0.87656948286869552]
+dimensionality: 160556
+density: 0.642697252049
+ng20_raw_lemmas_unigrams_df1_tf1  -->  accuracy 88.8
+loaded (1535306) terms
+vectorizing done, 1535306 terms vocabulary tokenized
+vectorizing done, 1535306 terms vocabulary tokenized
+accuracy:  [0.87953340402969249, 0.91613588110403399, 0.90986394557823125, 0.88572036603532667]
+dimensionality: 1535306
+density: 0.619545517311
+ng20_raw_lemmas_bigrams_df1_tf1  -->  accuracy 89.8
+loaded (213850) terms
+vectorizing done, 213850 terms vocabulary tokenized
+vectorizing done, 213850 terms vocabulary tokenized
+accuracy:  [0.8704135737009544, 0.90806794055201701, 0.90348639455782309, 0.87720791657799535]
+dimensionality: 213850
+density: 0.638089782558
+('ng20_raw_lemmas_unigrams_df1_tf1', '^', 'ng20_raw_lemmas_bigrams_df1_tf1', '^', 'wiki_bigrams')  -->  accuracy 89.0
+loaded (171551) terms
+vectorizing done, 171551 terms vocabulary tokenized
+vectorizing done, 171551 terms vocabulary tokenized
+accuracy:  [0.86956521739130432, 0.90764331210191085, 0.90221088435374153, 0.87529261545009573]
+dimensionality: 171551
+density: 0.651985123957
+('ng20_raw_lemmas_unigrams_df1_tf1', '^', 'ng20_raw_lemmas_bigrams_df1_tf1', '^', 'wiktionary_bigrams')  -->  accuracy 88.9
+loaded (175324) terms
+vectorizing done, 175324 terms vocabulary tokenized
+vectorizing done, 175324 terms vocabulary tokenized
+accuracy:  [0.87020148462354185, 0.9061571125265393, 0.89987244897959184, 0.87571823792296233]
+dimensionality: 175324
+density: 0.633779744929
+('ng20_raw_lemmas_unigrams_df1_tf1', '^', 'ng20_raw_lemmas_bigrams_df1_tf1', '^', 'google_bigrams')  -->  accuracy 88.8
+loaded (224077) terms
+vectorizing done, 224077 terms vocabulary tokenized
+vectorizing done, 224077 terms vocabulary tokenized
+accuracy:  [0.87104984093319193, 0.90891719745222932, 0.90306122448979587, 0.87848478399659502]
+dimensionality: 224077
+density: 0.627051638499
+('ng20_raw_lemmas_unigrams_df1_tf1', '^', 'ng20_raw_lemmas_bigrams_df1_tf1', '^', 'wiki_wiktionary_google_bigrams_vw')  -->  accuracy 89.0
+loaded (160185) terms
+vectorizing done, 160185 terms vocabulary tokenized
+vectorizing done, 160185 terms vocabulary tokenized
+accuracy:  [0.87062566277836695, 0.90488322717622083, 0.89880952380952384, 0.87252606937646304]
+dimensionality: 160185
+density: 0.653493148547
+ng20_raw_lemmas_unigrams_stopwords_df1_tf1  -->  accuracy 88.7
+loaded (1608112) terms
+vectorizing done, 1608112 terms vocabulary tokenized
+vectorizing done, 1608112 terms vocabulary tokenized
+accuracy:  [0.88038176033934257, 0.91656050955414015, 0.90816326530612246, 0.88550755479889343]
+dimensionality: 1608112
+density: 0.35645959361
+ng20_raw_lemmas_bigrams_stopwords_df1_tf1  -->  accuracy 89.8
+loaded (209623) terms
+vectorizing done, 209623 terms vocabulary tokenized
+vectorizing done, 209623 terms vocabulary tokenized
+accuracy:  [0.87211028632025456, 0.91082802547770703, 0.90136054421768708, 0.87891040646946161]
+dimensionality: 209623
+density: 0.609158346174
+('ng20_raw_lemmas_unigrams_stopwords_df1_tf1', '^', 'ng20_raw_lemmas_bigrams_stopwords_df1_tf1', '^', 'wiki_bigrams')  -->  accuracy 89.1
+loaded (168341) terms
+vectorizing done, 168341 terms vocabulary tokenized
+vectorizing done, 168341 terms vocabulary tokenized
+accuracy:  [0.86892895015906679, 0.90849256900212316, 0.89923469387755106, 0.87401574803149606]
+dimensionality: 168341
+density: 0.647699906737
+('ng20_raw_lemmas_unigrams_stopwords_df1_tf1', '^', 'ng20_raw_lemmas_bigrams_stopwords_df1_tf1', '^', 'wiktionary_bigrams')  -->  accuracy 88.8
+loaded (180158) terms
+vectorizing done, 180158 terms vocabulary tokenized
+vectorizing done, 180158 terms vocabulary tokenized
+accuracy:  [0.87083775185577939, 0.90636942675159238, 0.89965986394557829, 0.87422855926792931]
+dimensionality: 180158
+density: 0.618221505567
+('ng20_raw_lemmas_unigrams_stopwords_df1_tf1', '^', 'ng20_raw_lemmas_bigrams_stopwords_df1_tf1', '^', 'google_bigrams')  -->  accuracy 88.8
+loaded (222124) terms
+vectorizing done, 222124 terms vocabulary tokenized
+vectorizing done, 222124 terms vocabulary tokenized
+accuracy:  [0.87189819724284201, 0.91146496815286626, 0.90072278911564629, 0.87763353905086183]
+dimensionality: 222124
+density: 0.598371405161
+('ng20_raw_lemmas_unigrams_stopwords_df1_tf1', '^', 'ng20_raw_lemmas_bigrams_stopwords_df1_tf1', '^', 'wiki_wiktionary_google_bigrams_vw')  -->  accuracy 89.0
+done!
+>>> 

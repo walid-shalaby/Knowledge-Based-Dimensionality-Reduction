@@ -1,0 +1,15 @@
+loaded (68815) terms
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3  -->  precision  0.730209375534 recall  0.670267394652 f1  0.698955592994
+loaded (1398268) terms
+clef_2010_abstract_raw_lemmas_bigrams_df2_tf3  -->  precision  0.770344844653 recall  0.697281254375 f1  0.731994368234
+loaded (91864) terms
+clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.737943352896 recall  0.680184796304 f1  0.707887858311
+loaded (77614) terms
+clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.734552160233 recall  0.67587848243 f1  0.703994913761
+loaded (130224) terms
+clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.740808467351 recall  0.685123897522 f1  0.711878903898
+loaded (147997) terms
+clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.743791744125 recall  0.687845443091 f1  0.714725443532
+loaded (65199) terms
+precision: 0.829698703366 recall: 0.774329257611 f1:  0.801058331461
+clef_2010_abstract_raw_lemmas_chi_unigrams_df2_tf3  -->  precision  0.730194169427 recall  0.670306593868 f1  0.698969939037

@@ -1,0 +1,1003 @@
+number of features 209623
+density: 0.609158346174
+
+graphic,3.73
+3d,2.79
+image,2.16
+3do,2.16
+pov,2.16
+polygon,2.09
+siggraph,1.95
+cview,1.74
+tiff,1.70
+viewer,1.65
+animation,1.59
+fractal,1.54
+surface,1.50
+sphere,1.43
+photoshop,1.41
+mpeg,1.40
+algorithm,1.40
+hacker,1.36
+format,1.29
+vesa,1.27
+visualization,1.24
+targa,1.21
+point,1.13
+rgb,1.13
+cgm,1.12
+vga,1.12
+gif,1.11
+42,1.09
+map,1.09
+autodesk,1.09
+raytracing,1.07
+povray,1.07
+jpeg,1.05
+hacker ethic,1.03
+radiosity,1.03
+genoa,1.02
+virtual reality,1.02
+phigs,1.01
+68070,0.99
+impulse,0.99
+parametric,0.99
+pbm,0.98
+tga,0.97
+sorry,0.97
+gopher,0.96
+scodal,0.96
+xv,0.96
+quicktime,0.95
+ige,0.94
+corel,0.94
+philosophical,0.94
+rumour,0.92
+24,0.91
+kwansik,0.91
+fli,0.90
+library,0.90
+rayshade,0.89
+vesa driver,0.89
+object,0.88
+vertex,0.87
+ellipse,0.87
+curve,0.86
+imagine,0.85
+bezier,0.85
+spline,0.85
+playmation,0.84
+dmorf,0.84
+renderman,0.84
+contour,0.84
+ray,0.83
+speedstar,0.82
+computer,0.81
+ftp,0.80
+kubota,0.79
+sgi,0.79
+imaging,0.79
+tracing,0.78
+bockamp,0.78
+colour,0.78
+picture,0.77
+significance,0.76
+texture,0.76
+univesa,0.75
+grayscale,0.75
+ch,0.75
+ithaca,0.75
+studio,0.75
+coreldraw,0.73
+rot,0.73
+rendering,0.73
+hp2xx,0.73
+hdtv,0.72
+virtual,0.72
+dxf,0.72
+andre,0.72
+matrox,0.72
+ethic,0.71
+diablo,0.71
+gifs,0.71
+pcx,0.71
+file,0.70
+gamma correction,0.70
+fashion designer,0.70
+lightwave,0.69
+intersection,0.69
+greatly,0.69
+parallelogram,0.69
+bezier curve,0.69
+medical image,0.68
+___,0.68
+vrrend386,0.68
+database,0.68
+mcmains,0.67
+routine,0.67
+rtrace,0.67
+jim noble,0.67
+naplps,0.67
+mode,0.67
+useful,0.67
+conversion,0.66
+noble,0.66
+qc,0.66
+stelth,0.65
+oak,0.64
+2d,0.64
+sloan,0.64
+vatican library,0.64
+email address,0.63
+computer graphic,0.63
+michael abrash,0.63
+abrash,0.63
+modeler,0.63
+craig,0.63
+adobe,0.62
+movie,0.62
+morphing,0.62
+xga,0.62
+unt,0.62
+sigkids,0.61
+workstation,0.61
+24 bit,0.61
+denali,0.60
+xgif,0.60
+dkb,0.60
+draw,0.60
+converter,0.60
+bgi,0.60
+illustrator,0.60
+yeh,0.60
+convert,0.60
+mfltd,0.60
+designer,0.60
+xx,0.60
+coordinate,0.59
+true color,0.59
+anti aliasing,0.59
+unix,0.59
+flc,0.58
+program,0.58
+vatican,0.58
+aliasing,0.58
+hexagon,0.58
+jpeg file,0.57
+tea,0.57
+rued,0.57
+mpeg_play,0.57
+daemon,0.57
+13h,0.57
+xloadimage,0.57
+paintbrush,0.57
+pixel,0.57
+reality,0.57
+bug,0.56
+buffering,0.56
+digitized,0.56
+temp file,0.56
+polyhedron,0.56
+exhibit,0.56
+terrain,0.56
+looking,0.56
+corel draw,0.56
+toontown,0.55
+iff,0.55
+plot,0.55
+wireframe,0.55
+xxxx,0.55
+svga,0.55
+modeling,0.55
+color image,0.54
+pov ray,0.54
+geosphere,0.54
+ansi,0.54
+reprint,0.54
+shape,0.54
+hue,0.54
+hsv,0.54
+edge,0.54
+palette,0.53
+variational,0.53
+code,0.53
+bit,0.53
+kevin martin,0.53
+radon,0.52
+3d studio,0.52
+workshop,0.52
+fractint,0.52
+method,0.52
+hotopp,0.52
+delaunay,0.52
+etna,0.52
+eicn,0.52
+pexlib,0.52
+split,0.52
+screen grabber,0.52
+mirage,0.52
+marching,0.52
+atm,0.52
+frame,0.52
+rix,0.52
+motion video,0.52
+osf,0.52
+crimson,0.52
+package,0.52
+yuv,0.52
+playback,0.51
+screen,0.51
+line removal,0.51
+eylerken,0.51
+pic,0.51
+recognition,0.51
+software,0.51
+cipiti,0.51
+gamma,0.51
+miro,0.51
+comp,0.51
+video capture,0.51
+liefting,0.50
+raytrace,0.50
+10dec91,0.50
+sts,0.50
+p1,0.50
+mode 13h,0.50
+baer,0.50
+pci,0.50
+dmorph,0.50
+manipulate,0.50
+negative,0.50
+multiverse,0.49
+hvs,0.49
+p_c,0.49
+alt,0.49
+180mb,0.49
+coded,0.49
+cga,0.49
+dna helix,0.49
+developable,0.49
+fps,0.48
+ray tracing,0.48
+customer,0.48
+dominik,0.48
+available,0.48
+jr0930,0.48
+1281,0.48
+ascii,0.48
+luminosity,0.48
+psygnosis,0.47
+minivas,0.47
+circle,0.47
+dorsai,0.47
+adobe type,0.47
+site,0.47
+equation,0.47
+ppm,0.47
+showcase,0.47
+project,0.47
+abekas,0.47
+delaunay triangulation,0.47
+scene,0.47
+scf,0.47
+interpolation,0.47
+joachim,0.46
+markc,0.46
+leatham,0.46
+sec,0.46
+group,0.46
+amjad,0.46
+copyrighted,0.46
+vendor,0.46
+rjck,0.46
+op_rows,0.46
+op_cols,0.46
+paper,0.46
+multi,0.45
+nyu,0.45
+cgcad,0.45
+developable surface,0.45
+lcd,0.45
+dec,0.45
+capture,0.45
+life cycle,0.45
+p2,0.45
+autocad dxf,0.44
+trace,0.44
+aau,0.44
+super,0.44
+haston,0.44
+fractel,0.44
+hijaak,0.44
+autotrace,0.44
+lars,0.44
+columbiasc,0.44
+interested,0.44
+rahul,0.44
+p3,0.44
+kenai,0.44
+sdsu,0.44
+triangulation,0.44
+good book,0.43
+i2c,0.43
+compression,0.43
+disney animation,0.43
+cube,0.43
+disney,0.43
+video memory,0.43
+beaver,0.43
+64,0.43
+np,0.43
+320,0.43
+go32,0.43
+simple,0.43
+temp,0.43
+dogfight,0.42
+got,0.42
+passthrough,0.42
+vga passthrough,0.42
+trentu,0.42
+motion,0.42
+320x200x256,0.42
+page,0.42
+usgs,0.42
+acm,0.42
+omar,0.42
+ricardo,0.42
+kih,0.42
+seth,0.42
+representation,0.42
+trearn,0.42
+uab,0.41
+hidden,0.41
+chad,0.41
+fade,0.41
+removal,0.41
+fombaron,0.41
+gl,0.41
+utkvx,0.41
+d1sar,0.41
+manipulation,0.41
+achive,0.41
+artist,0.41
+spec,0.41
+hdf,0.41
+bit plane,0.41
+version,0.41
+bolson,0.40
+nerone,0.40
+helix,0.40
+pex,0.40
+photograph,0.40
+shaders,0.40
+boesel,0.40
+rick,0.40
+usa map,0.40
+msstate,0.40
+proprietary,0.40
+adobe photoshop,0.40
+abraxis,0.40
+paintprogram,0.40
+produce,0.40
+help,0.40
+dtax,0.39
+datasets,0.39
+compiled,0.39
+better,0.39
+lehman,0.39
+geometric,0.39
+tsr,0.39
+advance,0.39
+perret,0.39
+rigby,0.39
+metallic,0.39
+video,0.39
+pnmtops,0.39
+smithsonian institution,0.39
+cylinder,0.39
+uakron,0.39
+chert,0.39
+orientation,0.39
+cboesel,0.39
+diego,0.39
+presentation,0.39
+photographic image,0.39
+red green,0.39
+ribbon,0.39
+fixed point,0.39
+contour plot,0.39
+location,0.39
+truecolor,0.39
+pc paintbrush,0.39
+705,0.39
+multimedia,0.39
+rene,0.38
+forgive,0.38
+machbanding,0.38
+strokeadjust,0.38
+platform,0.38
+file format,0.38
+craig williamson,0.38
+sobel,0.38
+pointing device,0.38
+daresbury,0.38
+john cormack,0.38
+good,0.38
+ufl,0.38
+mark cartwright,0.38
+01,0.38
+loom,0.38
+rchland,0.38
+403,0.38
+newspaper,0.38
+ville,0.38
+csd,0.38
+write,0.38
+fine tuning,0.38
+hardcopy,0.37
+pointer,0.37
+plotter,0.37
+aqueous,0.37
+knowledge,0.37
+raw,0.37
+buggy,0.37
+window version,0.37
+generated,0.37
+den,0.37
+dta,0.37
+pascal,0.37
+khoros,0.37
+uovs,0.37
+gnbich,0.37
+jpg,0.37
+duma,0.37
+bitma,0.37
+douglas adam,0.37
+cch,0.37
+bart,0.37
+programmer,0.37
+rigel,0.37
+vmode,0.37
+williamson,0.37
+piclab,0.37
+trimming,0.37
+dundee,0.37
+hi,0.37
+listserv,0.37
+thermal print,0.37
+alice,0.37
+autocad,0.37
+sco,0.37
+gray level,0.37
+kyanko,0.37
+washington,0.37
+starting,0.36
+crosspost,0.36
+searching,0.36
+path,0.36
+technique,0.36
+ruler,0.36
+concave,0.36
+inaccessible,0.36
+viewing,0.36
+cartwright,0.36
+graphic standard,0.36
+renggli,0.36
+weitek,0.36
+mapping,0.36
+falcon,0.36
+welchgate,0.36
+color,0.36
+martin,0.36
+anims,0.36
+post graduate,0.36
+graph,0.36
+tmc,0.36
+100755,0.36
+100533,0.36
+hoi,0.35
+fashion,0.35
+dv,0.35
+creating,0.35
+find,0.35
+earth,0.35
+cormack,0.35
+kewageshig,0.35
+cross,0.35
+kimd,0.35
+super 8mm,0.35
+line,0.35
+slice,0.35
+nok,0.35
+signature,0.35
+619,0.35
+exe,0.35
+correction,0.35
+input,0.35
+w32,0.35
+know,0.35
+inescn,0.35
+sun sparcstation,0.35
+daimi,0.35
+rpi,0.35
+tga file,0.35
+bounding box,0.35
+ami1,0.35
+station,0.35
+resoltuion,0.35
+precompiled,0.35
+4000,0.35
+engin,0.35
+_______________________________,0.35
+neopaint,0.34
+680x1024,0.34
+technical,0.34
+oak77,0.34
+dactyl,0.34
+screen capture,0.34
+photographic,0.34
+wrote,0.34
+fmli,0.34
+otis,0.34
+ederveen,0.34
+donwloaded,0.34
+pointing,0.34
+wuppertal,0.34
+root window,0.34
+converted,0.34
+934,0.34
+human body,0.34
+daruwala,0.34
+pg,0.34
+uka,0.34
+graeme,0.34
+poorly,0.34
+james murray,0.34
+outline,0.34
+conference,0.34
+ineed,0.34
+publishe,0.34
+hoop,0.34
+email,0.34
+wmf,0.34
+mach banding,0.34
+aerial,0.34
+input device,0.34
+au,0.34
+ftped,0.34
+alpha,0.34
+fill,0.34
+progress,0.34
+prefereably,0.34
+video projector,0.34
+usc,0.33
+print screen,0.33
+key frame,0.33
+eapu207,0.33
+watson,0.33
+8mm,0.33
+tomek,0.33
+dam,0.33
+vatti,0.33
+grid,0.33
+bin file,0.33
+gremlin,0.33
+hofstra,0.33
+e,0.33
+hpgl,0.33
+tseng et4000,0.33
+boisvert,0.33
+graphic file,0.33
+assembly,0.33
+moving picture,0.33
+intersect,0.33
+ooo,0.33
+vector,0.33
+interface,0.33
+samson,0.33
+s_braun,0.33
+smithsonian,0.33
+sunsite,0.33
+mcc,0.33
+wired magazine,0.33
+grepped,0.32
+thi,0.32
+philip,0.32
+gnu,0.32
+spectrum,0.32
+imag,0.32
+cornerstone,0.32
+raoul,0.32
+polyray,0.32
+su,0.32
+yoo,0.32
+myles,0.32
+chessboard,0.32
+mgr,0.32
+given,0.32
+nuc,0.32
+newcastle,0.32
+form,0.32
+waikato,0.32
+ray tracer,0.32
+320x200,0.32
+murray,0.32
+48 bit,0.32
+20hz,0.32
+bb,0.32
+maintaining,0.32
+pgm,0.32
+explain,0.32
+compositing,0.32
+rs6000,0.32
+amiga,0.32
+intensity,0.32
+192,0.32
+plane,0.32
+deniaud,0.32
+scrolling,0.32
+1mb,0.32
+offset,0.32
+wolfram,0.32
+desk top,0.31
+clipart,0.31
+axis,0.31
+nl,0.31
+clp,0.31
+reading post,0.31
+seirio,0.31
+sp1marse,0.31
+encoders,0.31
+wak,0.31
+requires,0.31
+infotec,0.31
+gaskin,0.31
+offline,0.31
+graphical,0.31
+neural,0.31
+editing,0.31
+elliptical,0.31
+big question,0.31
+forty two,0.31
+vga adapter,0.31
+e00,0.31
+acpub,0.31
+cad,0.31
+629,0.31
+complete list,0.31
+nasa lewis,0.31
+texture mapping,0.31
+snail mail,0.31
+virtual world,0.31
+aantal_snijpunten,0.31
+164940,0.31
+11632,0.31
+telematic,0.30
+marino,0.30
+vinge,0.30
+wdm,0.30
+boykin,0.30
+35,0.30
+alford,0.30
+apple laserwriter,0.30
+brno,0.30
+zemcik,0.30
+hl,0.30
+mail,0.30
+arthur,0.30
+willard,0.30
+animator,0.30
+title,0.30
+qiclab,0.30
+laserwriter iig,0.30
+brookpark,0.30
+tdawson,0.30
+herringshaw,0.30
+vm1,0.30
+center,0.30
+quarter,0.30
+iowa,0.30
+sird,0.30
+ocr104,0.30
+valo,0.30
+sz,0.30
+trent university,0.30
+cognos,0.30
+buchholz,0.29
+file converter,0.29
+interleaf,0.29
+pissed,0.29
+crosfield,0.29
+composite,0.29
+print,0.29
+hello,0.29
+don read,0.29
+ridout,0.29
+mono,0.29
+gnuish,0.29
+thinning,0.29
+high resolution,0.29
+grey level,0.29
+saari,0.29
+lightwave3d,0.29
+mesh,0.29
+avi file,0.29
+vicente,0.29
+concerning,0.29
+pond,0.29
+raj,0.29
+iravcl,0.29
+dimensional,0.29
+parallel,0.29
+21000,0.29
+echen,0.29
+ia,0.29
+jhu,0.29
+stereoscopic imaging,0.29
+dithering,0.29
+csc3phx,0.29
+subdirectory,0.29
+aiken,0.29
+isbn,0.29
+color gradient,0.29
+386,0.29
+pc,0.29
+programming,0.29
+banding,0.29
+holler,0.29
+aspect,0.29
+wish list,0.29
+preach,0.29
+vaxc,0.29
+mik,0.29
+sun raster,0.29
+2d shape,0.29
+trent,0.29
+transform,0.29
+karlsruhe,0.28
+clothing,0.28
+informatique,0.28
+animation software,0.28
+5543,0.28
+mfocus,0.28
+extn,0.28
+registration,0.28
+21,0.28
+window bmp,0.28
+kz1o,0.28
+foley,0.28
+umich,0.28
+grasp,0.28
+denize,0.28
+za,0.28
+v1,0.28
+ucf,0.28
+art,0.28
+cjpeg,0.28
+galki,0.28
+tag,0.28
+diffusion,0.28
+iscis,0.28
+oac,0.28
+rendered,0.28
+dsv,0.28
+fractal compression,0.28
+halftone,0.28
+price tag,0.28
+feature,0.28
+supporting,0.28
+u street,0.28
+1600x1200x256,0.28
+101010,0.28
+projector,0.28
+answer,0.28
+triangle,0.28
+stereoscopic,0.28
+hendrix,0.28
+traced,0.28
+archer,0.28
+serge,0.28
+xerox,0.28
+perspective,0.28
+jensen,0.28
+433,0.28
+lined,0.28
+stockel,0.28
+france,0.28
+supposedly,0.28
+electronic data,0.28
+ivan,0.28
+tu muenchen,0.28
+disser,0.27
+3d animation,0.27
+neural network,0.27
+mates,0.27
+san diego,0.27
+bounding,0.27
+mini,0.27
+tsoft,0.27
+rws2v,0.27
+801,0.27
+saturation,0.27
+g1yyh,0.27
+ileaf,0.27
+generic,0.27
+archiving,0.27
+arm,0.27
+oehler,0.27
+dotzlaw,0.27
+fine,0.27
+dialix,0.27
+exucom,0.27
+raytracer,0.27
+toppoint,0.27
+mattone,0.27
+grabber,0.27
+kr,0.27
+sgcs,0.27
+july,0.27
+bobsbox,0.27
+graphic format,0.27
+doe,0.27
+compact video,0.27
+compress,0.27
+cobra,0.27
+se92psh,0.27
+information science,0.27
+hope,0.27
+code package,0.27
+tracer,0.27
+listing,0.27
+uwm,0.27
+globe,0.27
+gotta,0.27
+dwg,0.27
+3dd,0.27
+rotation,0.27
+moment,0.27
+stonehill,0.27
+caspian,0.27
+vogl,0.27
+30d,0.27
+plotting,0.27
+modelling,0.26
+tamu,0.26
+marco,0.26
+pbenson,0.26
+cscihp,0.26
+object recognition,0.26
+help needed,0.26
+brando,0.26
+grass,0.26
+decoder,0.26
+informatica,0.26
+visualization software,0.26
+radon transform,0.26
+glp,0.26
+gordon phillips,0.26
+lighter,0.26
+oberto,0.26
+room,0.26
+macroscopic,0.26
+viewports,0.26
+pat pat,0.26
+ritcsh,0.26
+paflecke,0.26
+heisenbergish,0.26
+paf3580,0.26
+havn,0.26
+add,0.26
+welch,0.26
+gnr100,0.26
+ispart,0.26
+s3 graphic,0.26
+crossposting,0.26
+bitmapped,0.26
+soil,0.26
+dualpage,0.26
+polaroid,0.26
+endpoint,0.26
+analytical,0.26
+manipulating,0.26
+thinman,0.26
+norskog,0.26
+article talk,0.26
+downloaded,0.26
+oemsetup,0.26
+product,0.26
+graphic chip,0.26
+blitz,0.26
+cant,0.26
+kiernan,0.26
+akiernan,0.26
+xv221,0.26
+zip,0.26
+ecole,0.26
+peterborough,0.26
+digitizing,0.26
+impressive,0.26
+convex polygon,0.26
+dot,0.26
+iris,0.26
+nova,0.26
+ressler,0.26
+paint program,0.26
+voronoi,0.26
+real 3d,0.26
+eti,0.26
+boivert,0.26
+c5uhim,0.26
+jfq,0.26
+obtain,0.26
+registration form,0.26
+graphic software,0.26
+new_coord,0.26
+old_coord,0.26
+helpful,0.26
+acm siggraph,0.26
+dk,0.26
+msk,0.26
+formula,0.26
+olasov,0.26
+gaspra,0.25
+budget,0.25
+ira,0.25
+lilley,0.25
+xvga,0.25
+paradise,0.25
+atomic energy,0.25
+mips,0.25
+tuning,0.25
+gino,0.25
+ktt3,0.25
+af774,0.25
+68010,0.25
+wate,0.25
+campbell,0.25
+payroll,0.25
+cyberden,0.25
+publication,0.25
+hauke,0.25
+raytraced,0.25
+divine,0.25
+avi,0.25
+mathematical science,0.25
+base 13,0.25
+spatial,0.25
+bus,0.25
+texture map,0.25
+inetnet,0.25
+_______________________,0.25
+ulrich,0.25
+8bit,0.25
+architecture,0.25
+arbritrary,0.25
+raw file,0.25
+pircture,0.25
+switching,0.25
+wak wak,0.25
+turkey,0.25
+leberle,0.25
+rleberle,0.25
+funcs,0.25
+t_,0.25
+undocumented feature,0.25
+v2,0.25
+thanx,0.25
+ntsc,0.25
+herbst,0.25
+currier,0.25
+dmd2,0.25
+didrectory,0.25
+picture cd,0.25
+readding,0.25
+kaveh,0.25
+external modem,0.25
+llnl,0.25
+earl,0.25
+closed curve,0.25
+image compression,0.25
+spl,0.25
+missouri,0.25
+impulse function,0.25
+mathematically,0.25

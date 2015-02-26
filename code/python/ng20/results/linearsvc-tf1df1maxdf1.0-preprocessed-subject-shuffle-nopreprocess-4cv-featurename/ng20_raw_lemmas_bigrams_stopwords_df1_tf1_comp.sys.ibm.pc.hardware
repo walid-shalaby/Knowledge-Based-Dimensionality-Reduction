@@ -1,0 +1,1003 @@
+number of features 1608112
+density: 0.35645959361
+
+bios,2.25
+gateway,2.09
+ide,1.80
+motherboard,1.60
+pc,1.59
+jumper,1.58
+vlb,1.57
+controller,1.53
+irq,1.48
+monitor,1.45
+modem,1.44
+486,1.42
+isa,1.31
+drive,1.26
+card,1.24
+cmos,1.23
+scsi,1.19
+nanao,1.19
+cpu,1.17
+connector,1.13
+port,1.07
+computer,1.05
+interrupt,1.04
+zeos,1.02
+17 monitor,1.00
+floppy,1.00
+fastmicro,0.98
+compaq,0.96
+connect,0.95
+harddisk,0.94
+pin,0.93
+help,0.91
+17,0.91
+pentium,0.90
+spec,0.90
+motherboards,0.89
+amd,0.89
+setting,0.88
+winmarks,0.88
+joystick,0.85
+dma,0.85
+orchid,0.84
+subject help,0.83
+66,0.83
+date,0.82
+thanks,0.82
+adaptec,0.81
+bus,0.80
+western digital,0.77
+mitsumi,0.77
+cdrom,0.76
+nec,0.75
+fan,0.75
+robert,0.73
+memory,0.72
+16550,0.72
+msdos,0.72
+problem,0.72
+cache,0.71
+comment,0.71
+uart,0.71
+486dx,0.71
+chipset,0.71
+1280x1024,0.71
+486dlc,0.70
+o,0.70
+hardware,0.70
+bb,0.69
+re 17,0.69
+486dx2,0.69
+trinitron,0.69
+upgrade,0.69
+com4,0.69
+eisa,0.69
+laserjet,0.68
+jmarttila,0.68
+benchmark,0.67
+sb,0.66
+winjet,0.66
+s3,0.65
+backup,0.65
+slot,0.64
+partition,0.64
+boot,0.64
+386dx,0.64
+turbo,0.63
+switch,0.63
+i486,0.63
+dx2,0.62
+disk,0.62
+2000,0.62
+tape,0.62
+tech,0.61
+micro,0.61
+emm,0.61
+cyrix,0.61
+courier,0.60
+machine,0.60
+funet fi,0.60
+funet,0.60
+16550a,0.60
+com port,0.60
+null modem,0.60
+blaster,0.59
+refresh,0.59
+hardcard,0.59
+t560i,0.59
+loopback connector,0.59
+sys,0.58
+diamond,0.58
+et4000,0.58
+33,0.58
+jumper setting,0.58
+don copy,0.58
+n5ial,0.57
+specification,0.57
+protected mode,0.57
+window crash,0.57
+null,0.57
+int15h,0.57
+cd rom,0.57
+dx,0.56
+build 59,0.56
+sb pro,0.56
+cpu fan,0.56
+p9000,0.56
+balog,0.56
+autoexec,0.56
+master,0.56
+system,0.56
+interliving,0.56
+24 giving,0.55
+giving winmarks,0.55
+loopback,0.55
+toshiba,0.55
+wincim,0.55
+advance,0.55
+esdi,0.55
+streamer,0.55
+hp laserjet,0.55
+called m,0.54
+ethernet card,0.54
+vl,0.54
+mode,0.54
+mag,0.54
+umbdr522 zip,0.54
+umbdr522,0.54
+gateway 2000,0.54
+clone,0.53
+beep,0.53
+hardware problem,0.53
+floppy burn,0.52
+m dos6,0.52
+installed virus,0.52
+gosh think,0.52
+dos6 don,0.52
+hd,0.52
+address,0.52
+buslogic,0.52
+love window,0.52
+16mb,0.52
+cyrix 486dlc,0.51
+manufacturer,0.51
+ibm,0.51
+shopper,0.51
+husak,0.51
+board,0.51
+re date,0.51
+jumbo,0.51
+re ide,0.51
+telnet,0.51
+59,0.51
+fi,0.50
+low level,0.50
+autoexec bat,0.50
+stealth 24,0.50
+i486 clone,0.50
+western,0.50
+286,0.50
+leading,0.50
+color driver,0.50
+l_l,0.50
+jumbo 250,0.49
+malouf,0.49
+scsi card,0.49
+sound blaster,0.49
+ctx,0.49
+slow,0.48
+atari,0.48
+80286,0.48
+later version,0.48
+ethernet,0.48
+sv com,0.48
+lee tosspot,0.48
+tosspot sv,0.48
+tosspot,0.48
+computer shopper,0.48
+toshiba 3401b,0.48
+3401b,0.48
+interleave,0.48
+info,0.48
+nic,0.47
+ad lib,0.47
+hear,0.47
+virus,0.47
+re umbdr522,0.47
+canberra,0.47
+conner,0.46
+config,0.46
+408 448,0.46
+flame therapy,0.46
+level format,0.46
+drdos,0.46
+2m,0.45
+ad,0.45
+386dx 40,0.45
+inmos,0.45
+3401,0.45
+gamecards,0.45
+chip,0.45
+gosh,0.45
+deskpro,0.45
+apple laserwriter,0.45
+re diamond,0.44
+stuck,0.44
+path width,0.44
+mcmaster,0.44
+viewsonic,0.44
+shadow mask,0.44
+comtrade,0.44
+data compression,0.44
+ide v,0.43
+v scsi,0.43
+lance hartmann,0.43
+supply fan,0.43
+hamster,0.43
+dip switch,0.43
+booting,0.43
+sportster,0.43
+66v,0.43
+tech support,0.43
+tried,0.43
+g2k,0.43
+midwest micro,0.43
+gw2000,0.43
+tseng lab,0.42
+scanner,0.42
+smc,0.42
+slave,0.42
+le memory,0.42
+parity,0.42
+netters,0.42
+guyd,0.42
+null character,0.42
+70ns,0.42
+book hi,0.42
+sony,0.42
+448,0.42
+colfelt,0.42
+zip,0.42
+mfm,0.42
+emm386 exe,0.42
+system ha,0.42
+syntrex,0.42
+lee,0.42
+bing,0.41
+vcpi memory,0.41
+fax,0.41
+worked fine,0.41
+cat david,0.41
+p24t,0.41
+qic,0.41
+tseng,0.41
+mcmaster ca,0.41
+486dx2 50,0.41
+lee lee,0.41
+mouse sys,0.41
+hard disk,0.41
+custom key,0.41
+midwest,0.41
+pro,0.41
+toshiba 3401,0.40
+permanent,0.40
+teac,0.40
+rockwell,0.40
+00 network,0.40
+problem please,0.40
+buy,0.40
+trinitron tube,0.40
+re gateway,0.40
+16 meg,0.40
+port doe,0.40
+vl bus,0.40
+dfi,0.40
+50,0.40
+v,0.40
+hartmann,0.39
+loading,0.39
+dsr,0.39
+ati,0.39
+tube,0.39
+subject conner,0.39
+ip number,0.39
+jt fax,0.39
+sale 125,0.39
+hayes jt,0.39
+pas16,0.39
+xt,0.39
+ultrastor,0.39
+egelmeers,0.39
+perry egelmeers,0.39
+card hi,0.39
+micron computer,0.38
+archive,0.38
+486 33,0.38
+mancus,0.38
+wa called,0.38
+hdd,0.38
+memory manager,0.38
+s3 based,0.38
+interlaced,0.38
+djs6015,0.38
+stack,0.38
+installed,0.38
+phil,0.38
+configuration,0.38
+maxtor,0.38
+yuri,0.38
+kx 1124,0.38
+skcgoh,0.38
+skcgoh tartarus,0.38
+re modem,0.38
+f550iw,0.38
+seagate,0.38
+isa bus,0.38
+menu system,0.38
+ide drive,0.38
+videotaped,0.38
+mark,0.38
+mail please,0.38
+rockwell chipset,0.38
+aachen,0.38
+720,0.37
+16550 uart,0.37
+sv,0.37
+____,0.37
+refresh rate,0.37
+w32,0.37
+mike yang,0.37
+connection,0.37
+heat sink,0.37
+disk data,0.37
+address interliving,0.37
+int,0.37
+33 motherboard,0.37
+atlanta ga,0.37
+guy dawson,0.37
+2000 scsi,0.37
+4778,0.37
+832 4778,0.37
+800 832,0.37
+memory standard,0.37
+powergraph,0.37
+com,0.37
+two,0.37
+80386,0.37
+frequency,0.37
+regard,0.37
+streamer software,0.36
+sector,0.36
+hartzman,0.36
+vcpi,0.36
+digital,0.36
+486 66,0.36
+work fine,0.36
+tc,0.36
+interlink,0.36
+quantum,0.36
+8088,0.36
+comm,0.36
+nec 5fgx,0.36
+5fgx,0.36
+heard,0.36
+dma channel,0.36
+monitor nanao,0.36
+prong,0.36
+bus hi,0.36
+laserjet fax,0.36
+bad memory,0.36
+cpi,0.36
+stacker,0.35
+1124,0.35
+difference,0.35
+diamond stealth,0.35
+leading edge,0.35
+wally waggoner,0.35
+waggoner,0.35
+clock,0.35
+one tell,0.35
+et4000 w32,0.35
+magitronic,0.35
+modem cable,0.35
+motherboard ha,0.35
+noticable,0.35
+lut,0.35
+standard,0.35
+21,0.35
+ihno,0.35
+hot,0.35
+install,0.35
+alr,0.35
+ctrl,0.35
+philip,0.35
+netters looking,0.35
+cent,0.35
+usma edu,0.35
+usma,0.35
+99,0.35
+setup program,0.34
+work,0.34
+smc 270e,0.34
+270e arcnet,0.34
+270e,0.34
+error,0.34
+koblenz,0.34
+winmark result,0.34
+isgtec,0.34
+dip,0.34
+texel,0.34
+memory chip,0.34
+protected,0.34
+rll,0.34
+buying,0.34
+qemm,0.34
+swapfile,0.34
+mnp,0.34
+o os2,0.34
+72,0.34
+alignment,0.34
+dx3,0.34
+sync,0.34
+vixie,0.34
+reformat,0.34
+astrachan,0.34
+register,0.34
+f550i,0.34
+80486,0.33
+montuno,0.33
+mike tancsa,0.33
+tancsa,0.33
+desmond li,0.33
+li lut,0.33
+lut uk,0.33
+dh,0.33
+50mhz,0.33
+tell,0.33
+fm synthesis,0.33
+80486dx,0.33
+subject needed,0.33
+2mb ram,0.33
+write,0.33
+virtual memory,0.33
+wong,0.33
+dx3 99,0.33
+considering,0.33
+stephen husak,0.33
+cap lock,0.33
+button mouse,0.33
+yang,0.33
+clock count,0.33
+banshee,0.33
+mikey sgi,0.33
+mouse port,0.33
+austin,0.33
+speed,0.33
+ncsa telnet,0.32
+blowing,0.32
+rom drive,0.32
+flat screen,0.32
+3401b cd,0.32
+uni koblenz,0.32
+tdb uu,0.32
+price,0.32
+monitor problem,0.32
+528,0.32
+bit wide,0.32
+wally,0.32
+guyd austin,0.32
+atmos washington,0.32
+md,0.32
+ibm com,0.32
+faster,0.32
+experience,0.32
+lance,0.32
+gravis,0.32
+service,0.32
+dhrystone,0.32
+dhrystone benchmark,0.32
+re 16550,0.32
+irqs,0.32
+jmarttila abo,0.32
+composite sync,0.32
+samsung,0.32
+ben,0.32
+max,0.32
+comdex,0.32
+machine please,0.32
+800 number,0.32
+landmark speed,0.32
+wave qwk,0.32
+qwk v2,0.32
+60ns,0.32
+expected,0.32
+upenn edu,0.32
+vesa specification,0.32
+regard jimmy,0.32
+486sx,0.32
+clock chip,0.32
+usenet,0.31
+hicolor,0.31
+hpcvccl,0.31
+scott hpcvccl,0.31
+hpcvccl cv,0.31
+scott linn,0.31
+tdb,0.31
+port thanks,0.31
+intensive job,0.31
+computationally intensive,0.31
+mostert,0.31
+linear mode,0.31
+blue wave,0.31
+edu grover,0.31
+desmond,0.31
+ii,0.31
+qwk,0.31
+upenn,0.31
+max brante,0.31
+brante,0.31
+m88max,0.31
+m88max tdb,0.31
+subject amd,0.31
+mikey,0.31
+opinion,0.31
+suggestion please,0.31
+attached,0.31
+dawson,0.31
+page frame,0.31
+p5200,0.31
+nec p5200,0.31
+warranty,0.31
+wd,0.31
+5fg,0.31
+pc system,0.31
+mind thanks,0.31
+viewsonic 17,0.31
+dcd,0.31
+multiport,0.31
+phillips,0.31
+448 7404,0.31
+rts,0.31
+cyl,0.30
+386sx 25,0.30
+type 47,0.30
+thacker,0.30
+novell de,0.30
+technology,0.30
+subject 44mb,0.30
+44mb wanted,0.30
+email soon,0.30
+soon skcgoh,0.30
+wanted subject,0.30
+relevant book,0.30
+4778 western,0.30
+im14u2c,0.30
+hi recently,0.30
+claim,0.30
+koblenz de,0.30
+satam,0.30
+asus,0.30
+cached,0.30
+david todd,0.30
+subject address,0.30
+performance vlb,0.30
+wharton upenn,0.30
+esdi controller,0.30
+company,0.30
+config sys,0.30
+computationally,0.30
+ncsa,0.30
+diskette,0.30
+hoskyns,0.30
+sink,0.30
+appletalk hookup,0.30
+appleshare file,0.30
+geometry jumper,0.30
+suggestion,0.30
+lps240a,0.30
+phantom seek,0.30
+cv hp,0.30
+dx 50,0.30
+please,0.30
+fdisk,0.30
+music,0.30
+linn,0.30
+arcnet,0.30
+called,0.30
+penev,0.30
+low emission,0.30
+svga card,0.30
+feature connector,0.30
+winjet accelerator,0.30
+sys ibm,0.30
+usma1,0.30
+usma1 usma,0.30
+100 sipps,0.30
+sipps 1mb,0.30
+100 simms,0.30
+oz,0.30
+air77 larc,0.30
+air77,0.30
+jka air77,0.30
+jka,0.30
+fixed frequency,0.30
+bit processor,0.30
+6000sx,0.30
+maxitor,0.29
+perry,0.29
+sipps,0.29
+subject hayes,0.29
+parity error,0.29
+act australia,0.29
+solution canberra,0.29
+620 262,0.29
+compact solution,0.29
+canberra act,0.29
+small file,0.29
+enrique,0.29
+internet,0.29
+netbios,0.29
+later,0.29
+sinn,0.29
+wa3wbu,0.29
+video projector,0.29
+kevin,0.29
+ultrascsi,0.29
+ultrastor ultrascsi,0.29
+620,0.29
+oz au,0.29
+boot disk,0.29
+dx2 66,0.29
+austin ibm,0.29
+fl,0.29
+uucp,0.29
+dorsai,0.29
+grover,0.29
+appreciated,0.29
+comp publish,0.29
+publish cdrom,0.29
+vlb card,0.29
+finger,0.29
+lab video,0.29
+ac bu,0.29
+running,0.29
+accessing,0.29
+stb,0.29
+ac power,0.29
+mine,0.29
+ga,0.28
+10 beep,0.28
+intensive,0.28
+subject regard,0.28
+noisy line,0.28
+spectre,0.28
+volante,0.28
+kb,0.28
+password,0.28
+atmos,0.28
+stealth pro,0.28
+please please,0.28
+ac,0.28
+________,0.28
+40 motherboard,0.28
+7404,0.28
+vlb video,0.28
+motherboard manufacturer,0.28
+cat,0.28
+uunet,0.28
+walton,0.28
+video card,0.28
+conner cp3204f,0.28
+cp3204f,0.28
+edu wrote,0.28
+munoz,0.28
+overlapping,0.28
+subject question,0.28
+sstor,0.28
+balog eniac,0.28
+eric balog,0.28
+cmos setting,0.28
+fan blowing,0.28
+pincushioning,0.28
+uu se,0.28
+dos6,0.28
+subject appletalk,0.28
+scanman driver,0.28
+disabled,0.28
+832,0.28
+hhaldre,0.28
+nicola,0.28
+disabled data,0.28
+wincim discovered,0.28
+problem downloading,0.28
+re wincim,0.28
+wen,0.28
+re toshiba,0.28
+ncr 1204,0.28
+1204 external,0.28
+logitech,0.28
+486dx 50,0.28
+replacement,0.28
+spirit ii,0.28
+28800baud,0.28
+uc edu,0.28
+dvpeg24,0.28
+tick,0.27
+subject maxtor,0.27
+isa machine,0.27
+subject isa,0.27
+backing,0.27
+dirr,0.27
+special driver,0.27
+better thanks,0.27
+adjust,0.27
+drive geometry,0.27
+486slc,0.27
+sc 431,0.27
+samtron,0.27
+hodgen,0.27
+glang,0.27
+poke,0.27
+adcock,0.27
+skew,0.27
+doe,0.27
+washington edu,0.27
+kosman,0.27
+kosman uucp,0.27
+24bit mode,0.27
+spiro,0.27
+re cpu,0.27
+won work,0.27
+ws13,0.27
+ws13 webo,0.27
+adykes,0.27
+lost,0.27
+flash bios,0.27
+srl ford,0.27
+sound card,0.27
+cooler,0.27
+stacken kth,0.27
+stacken,0.27
+handy scanner,0.27
+dfi handy,0.27
+system boot,0.27
+amd i486,0.27
+prohibiting amd,0.27
+robert desonia,0.27
+desonia,0.27
+miami fl,0.27
+thacker miami,0.27
+thanks carlisle,0.27
+carlisle thacker,0.27
+new viewsonic,0.27
+power source,0.27
+switch setting,0.27
+accucolor,0.27
+handle,0.27
+emission,0.27
+connecting,0.27
+internal cache,0.27
+subject joystick,0.27
+horrer,0.27
+horrer story,0.27
+uucp kevin,0.27
+identify,0.27
+gerardis,0.27
+4000s,0.27
+2themax,0.27
+regard desmond,0.27
+koberg,0.26
+cover,0.26
+port setting,0.26
+elec,0.26
+ncr,0.26
+ford com,0.26
+wa having,0.26
+level ii,0.26
+data processing,0.26
+digital ide,0.26
+jouni,0.26
+ren,0.26
+bat,0.26
+fix,0.26
+ultb rit,0.26
+486 dx2,0.26
+carlisle,0.26
+8800cs,0.26
+trident 8800cs,0.26
+pc mag,0.26
+scsi controller,0.26
+motherboard advice,0.26
+l40,0.26
+srl,0.26
+recently,0.26
+motherboard battery,0.26
+isa eisa,0.26
+ssd csd,0.26
+1204,0.26
+scan rate,0.26
+experience buying,0.26
+slower,0.26
+pc hardware,0.26
+420 0729,0.26
+510 420,0.26
+bk,0.26
+uw,0.26
+info wanted,0.26
+simtel20,0.26
+don smith,0.26
+umeister,0.26
+subject 256,0.26
+quadtel video,0.26
+driver name,0.26
+umeister washington,0.26
+pd program,0.26
+mono vga,0.26
+irq2,0.26
+hello,0.26
+wait,0.26
+create problem,0.26
+re help,0.26
+question hi,0.26
+djs6015 ultb,0.26
+leading technology,0.26
+silicon graphic,0.26
+413 545,0.26
+mg,0.26
+horrible,0.26
+trying,0.26
+value point,0.26
+bboard,0.26
+enclosure,0.26
+consumer,0.26
+preferred,0.25
+542b,0.25
+mpr ii,0.25
+gig,0.25
+0729,0.25
+quantum lps240a,0.25
+lps240a hard,0.25
+disk phantom,0.25
+nshah,0.25
+application error,0.25
+needed,0.25
+light,0.25
+lope,0.25
+jayaputera,0.25
+glenn jayaputera,0.25
+cluster size,0.25
+disk sector,0.25
+latonia,0.25
+ab245 cleveland,0.25
+latonia writes,0.25
+ab245,0.25
+edu ab245,0.25
+sam latonia,0.25
+subject et4000,0.25
+com guy,0.25
+locked,0.25
+sector interleave,0.25
+hayes,0.25
+16 port,0.25
+blink,0.25
+16,0.25
+660,0.25
+gateway monitor,0.25
+count,0.25
+memory management,0.25
+jimmy,0.25
+activate,0.25
+wharton,0.25
+msstate edu,0.25
+os2,0.25
+comm program,0.25
+nl,0.25
+pc convertible,0.25
+tartarus uwa,0.25
+lpt1,0.25
+surface test,0.25
+replace,0.25
+simulator,0.25
+quick,0.25
+chris crayton,0.25
+crayton,0.25
+emm driver,0.25
+emm code,0.25
+virtual mode,0.25
+discovered,0.25
+spinrite,0.25
+ry01,0.25
+model number,0.25
+micron,0.25
+mustek,0.25
+databehandling,0.25
+institutionen teknisk,0.25
+l_l __l_l,0.25
+brante m88max,0.25
+uppsala universitet,0.25
+se institutionen,0.25
+databehandling l_l,0.25
+__l_l,0.25
+___ max,0.25
+institutionen,0.25
+teknisk,0.25
+teknisk databehandling,0.25
+__l_l uppsala,0.25
+l_l l_l,0.25
+stealth,0.25
+data path,0.25
+subject bios,0.25
+comp,0.25
+jester gun,0.25
+gun de,0.25
+main memory,0.25
+ati build,0.25
+jamesc,0.25
+artec,0.25
+malouf csli,0.25
+malouf malouf,0.25
+rob malouf,0.25
+4dx2,0.25
+4dx2 66v,0.25
+compaq deskpro,0.25
+main,0.25
+msstate,0.25
+perfect,0.24
+controller card,0.24
+fastmicro wa,0.24
+fastmicro thought,0.24
+handle high,0.24
+quality,0.24
+msdos ann,0.24
+port board,0.24
+262,0.24
+inch max,0.24
+sierra,0.24
+46,0.24
+dx266,0.24
+important file,0.24
+bought,0.24
+buslogic card,0.24
+v2 10,0.24
+3c503,0.24
+programme,0.24
+80386sx,0.24
+djohnson moose,0.24
+dtr,0.24
+16 bit,0.24
+alr proveisa,0.24
+proveisa,0.24
+goyal,0.24
+howtek,0.24
+dialtone,0.24
+scan ii,0.24
+ii model,0.24
+ez scan,0.24
+model 35,0.24
+bootable,0.24
+quadtel,0.24
+ps2,0.24
+linn scott,0.24
+524,0.24
+386dx 25,0.24
+bug,0.24
+temperature,0.24
+1499,0.24
+driver good,0.24
+soundblaster,0.24
+250 00,0.24
+universitet,0.24
+cpi font,0.24
+sectored,0.24
+kevin kosman,0.24
+cooling,0.24
+lau,0.24
+new motherboard,0.24
+821,0.24
+bios upgrade,0.24
+talking,0.24
+maker,0.24
+edge,0.24

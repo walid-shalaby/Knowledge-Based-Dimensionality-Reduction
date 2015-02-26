@@ -1,0 +1,1003 @@
+number of features 222515
+density: 0.444742826326
+
+circuit,2.97
+electron,2.42
+copi protect,2.01
+scope,2.00
+voltag,1.82
+tv,1.48
+adcom,1.45
+dsp,1.43
+resistor,1.43
+explod,1.42
+motorola,1.40
+8051,1.40
+2600,1.39
+ee,1.38
+256k,1.36
+wire,1.36
+power,1.33
+copi,1.29
+pcb,1.28
+cool tower,1.27
+ground,1.27
+ic,1.24
+bubblejet,1.22
+amp,1.19
+fluke,1.19
+eprom,1.17
+rf,1.16
+detector,1.14
+project,1.13
+dayton,1.11
+compani,1.09
+them,1.07
+68hc16,1.06
+design,1.06
+uv,1.04
+hamfest,1.04
+6551,1.03
+rs232,1.03
+radar,1.02
+build,1.02
+eeprom,1.02
+decod,1.02
+line,1.02
+cool,1.01
+diod,1.01
+nois,1.00
+disk copi,1.00
+detect,1.00
+frequenc,0.99
+babb,0.99
+spice,0.98
+resist,0.98
+audio,0.97
+low,0.97
+batteri,0.97
+signal,0.97
+protect,0.97
+electr,0.97
+assembl,0.96
+compon,0.95
+power line,0.94
+concret,0.94
+the disk,0.94
+led,0.93
+devic,0.93
+lbl,0.93
+receiv,0.92
+capacitor,0.92
+chip,0.92
+ham,0.90
+baden,0.90
+radio shack,0.90
+cap,0.90
+modul,0.90
+smd,0.90
+keypad,0.89
+latch,0.89
+antenna,0.89
+packet radio,0.89
+shack,0.88
+pod,0.88
+bison,0.88
+host,0.88
+how to,0.87
+transform,0.87
+ir,0.87
+schemat,0.87
+dehydr,0.87
+phone line,0.87
+principle_of_the_breathalyz,0.87
+ohm,0.86
+amplifi,0.85
+yxy4145,0.84
+tower,0.84
+ieee,0.84
+cci,0.83
+arcad,0.83
+hc11,0.83
+cad program,0.83
+lead acid,0.82
+radio,0.82
+heathkit,0.81
+radar detector,0.81
+pc board,0.81
+copper,0.80
+atari,0.80
+in seri,0.80
+mhz,0.80
+part,0.79
+analog,0.79
+speedo,0.79
+inqmind,0.78
+sublimin,0.78
+blakey,0.78
+dial,0.77
+za,0.77
+packet,0.77
+aftershav,0.77
+filter,0.76
+lead,0.76
+mycal,0.76
+the batteri,0.75
+sync,0.75
+use,0.75
+joystick,0.75
+number,0.74
+68hc11,0.74
+pcmcia,0.74
+bulb,0.74
+wayn,0.74
+wireless,0.74
+catalog,0.73
+logic,0.73
+food dehydr,0.73
+output,0.73
+distanc,0.73
+trace,0.72
+wave,0.72
+sehari,0.72
+neoucom,0.72
+cancel,0.72
+outlet,0.72
+dac,0.71
+cheer,0.71
+oversampl,0.71
+univers,0.70
+work,0.70
+cellular antenna,0.70
+fet,0.70
+oscilloscop,0.70
+differenti,0.70
+rmx,0.70
+acid,0.69
+hydrophon,0.69
+pinout,0.69
+martin,0.69
+current,0.69
+traffic report,0.69
+atari 2600,0.68
+hb9nbi,0.68
+surplu,0.68
+ulan,0.67
+know what,0.67
+usl,0.67
+band,0.67
+pad,0.67
+pal,0.67
+data book,0.67
+cd player,0.66
+up to,0.66
+sonar,0.66
+ohmit,0.66
+pink nois,0.65
+gp,0.65
+timer,0.65
+polic radar,0.65
+myer,0.65
+opamp,0.65
+hm8348,0.65
+hm8350,0.65
+sell,0.64
+anyon,0.64
+microwav,0.64
+dmm,0.64
+code 39,0.64
+lcd,0.64
+video tape,0.63
+cycl,0.63
+047,0.63
+zero,0.63
+membran,0.63
+beam,0.63
+nyc,0.62
+quantiti,0.62
+find out,0.62
+the number,0.62
+pictur tube,0.62
+channel,0.62
+character,0.62
+the compani,0.62
+cmkrnl,0.62
+austrailia,0.61
+magstrip card,0.61
+magstrip,0.61
+programm,0.61
+rfi,0.61
+koberg,0.61
+diagram,0.61
+uk,0.61
+prutchi,0.61
+lihan,0.61
+imped,0.61
+registr,0.60
+quid,0.60
+harp,0.60
+huski,0.60
+nois cancel,0.59
+neon,0.59
+wear on,0.59
+knx,0.59
+traffic,0.59
+kludg,0.59
+freeway,0.59
+barcod,0.59
+flash,0.58
+intel,0.58
+microcontrol,0.58
+mk3801,0.58
+just test,0.58
+appl mac,0.58
+need,0.58
+zenith,0.58
+digit signal,0.58
+eeg,0.58
+boxer,0.58
+old,0.58
+hi there,0.57
+larc,0.57
+td,0.57
+measur,0.57
+nuclear,0.57
+ring,0.57
+idc,0.57
+someth,0.57
+fishman,0.56
+month club,0.56
+peripher,0.56
+zinc,0.56
+omti,0.56
+emerson,0.56
+cost,0.56
+knbr,0.56
+120vac,0.55
+standbi,0.55
+pirbhai,0.55
+hatley,0.55
+ale,0.55
+metal,0.55
+b30,0.55
+array,0.55
+multiplex,0.55
+microlab,0.55
+wd 40,0.54
+drill,0.54
+mcole,0.54
+regul,0.54
+zero db,0.54
+induct,0.54
+olymp game,0.54
+fuse,0.54
+amper,0.54
+composit,0.54
+022,0.54
+doe,0.54
+digit,0.54
+seri,0.54
+recept,0.53
+videotext,0.53
+melpar,0.53
+annes,0.53
+type,0.53
+rang,0.53
+caller id,0.53
+prasad,0.53
+posit,0.53
+here,0.53
+answerfax,0.53
+levi,0.53
+floor,0.53
+conduct,0.53
+inov,0.53
+hl00,0.53
+freeway traffic,0.53
+jeh,0.53
+jacob ladder,0.52
+wex,0.52
+netlist,0.52
+the whereabout,0.52
+transistor,0.52
+thanx,0.52
+geva,0.52
+junghann,0.52
+applic,0.52
+kit,0.52
+phone,0.52
+distributor,0.52
+epld,0.51
+scsi adapt,0.51
+hp,0.51
+teletext,0.51
+black border,0.51
+kazel,0.51
+bit serial,0.51
+legend,0.51
+dtmedin,0.51
+catbyt,0.51
+steam,0.51
+multifunct,0.51
+855,0.51
+linnig,0.51
+beckman,0.51
+coil,0.51
+mc143120,0.51
+heuvel,0.51
+next cube,0.50
+sublimin messag,0.50
+macrovis,0.50
+the popular,0.50
+gate,0.50
+polic,0.50
+au,0.50
+doherti,0.50
+48v,0.50
+khz,0.49
+suggest,0.49
+cciw,0.49
+csx,0.49
+meter movement,0.49
+power consumpt,0.49
+data rate,0.49
+vanderbyl,0.49
+jhain,0.49
+volt,0.49
+pwm,0.49
+littl big,0.49
+interfer,0.49
+would,0.49
+electr power,0.49
+made,0.49
+bunch,0.49
+descrambl,0.49
+invert,0.49
+lo,0.49
+tron,0.48
+meter,0.48
+time delay,0.48
+mpce,0.48
+thing,0.48
+and how,0.48
+pmp,0.48
+knob,0.48
+charli,0.48
+fcc,0.48
+suppli,0.48
+tv screen,0.48
+a500,0.48
+mosfet,0.48
+supra,0.48
+tarbel,0.48
+dip,0.48
+chri,0.48
+amiganet,0.48
+flea,0.48
+logic devic,0.48
+construct,0.47
+logic high,0.47
+appreaci,0.47
+magic,0.47
+node,0.47
+short,0.47
+buhrow,0.47
+nfbcal,0.47
+style button,0.47
+compili,0.47
+fujitsu,0.47
+otter,0.47
+ttl,0.47
+gec,0.47
+robot,0.47
+dancer,0.47
+wsu,0.47
+xc,0.47
+toni wayn,0.47
+interfac,0.46
+yellow,0.46
+parallel port,0.46
+rs,0.46
+delay,0.46
+an,0.46
+semiconductor,0.46
+temperatur,0.46
+xc68882rc33,0.46
+pirat,0.46
+canright,0.46
+fegmania,0.46
+fiber optic,0.46
+reciev,0.46
+uva386,0.46
+cargil,0.46
+pc xt,0.46
+kg,0.45
+area,0.45
+cabl tv,0.45
+databook,0.45
+illus,0.45
+switchov,0.45
+need help,0.45
+technic report,0.45
+100mb,0.45
+basel,0.45
+ganter,0.45
+phonograph,0.45
+send you,0.45
+telephon,0.45
+msfc,0.45
+205,0.45
+do with,0.45
+kng,0.45
+relay,0.45
+11544,0.45
+beam robot,0.45
+lab,0.45
+rajan,0.45
+transmitt,0.45
+macra,0.45
+style,0.45
+blue,0.45
+blue wave,0.45
+cjp1,0.45
+result,0.45
+3527,0.45
+ladder,0.45
+486slc,0.44
+phone wire,0.44
+wayn martin,0.44
+markz,0.44
+the user,0.44
+solar cell,0.44
+olymp,0.44
+decoupl,0.44
+vdc,0.44
+blockley,0.44
+xyz coordin,0.44
+grouper,0.44
+joystick port,0.44
+greatli,0.44
+the protect,0.44
+mc,0.44
+telecapt,0.44
+eico,0.44
+card reader,0.44
+qwk,0.44
+cross compil,0.44
+re power,0.44
+power signal,0.44
+hpl,0.44
+speedomet,0.44
+sampl,0.43
+thermal fuse,0.43
+look for,0.43
+x10,0.43
+plant,0.43
+kolstad,0.43
+schadow,0.43
+price cap,0.43
+vcc,0.43
+pink,0.43
+correct,0.43
+kick,0.43
+inform card,0.43
+umc,0.43
+dnewman,0.43
+airplan,0.43
+on hook,0.43
+dirk,0.43
+bgb,0.43
+b4,0.43
+carbid,0.43
+commun area,0.43
+paula,0.43
+conductor,0.43
+show peopl,0.42
+spread spectrum,0.42
+3a,0.42
+avali,0.42
+ultrason,0.42
+patent,0.42
+switch,0.42
+refer,0.42
+second,0.42
+land base,0.42
+vsync,0.42
+lamp,0.42
+there is,0.42
+light,0.42
+stepper,0.42
+2465a,0.42
+ac,0.42
+out there,0.42
+one design,0.42
+line level,0.42
+vanderbeek,0.42
+layout editor,0.42
+modifi,0.41
+ibm pc,0.41
+68008,0.41
+jh,0.41
+eniac,0.41
+arrl,0.41
+600rpm,0.41
+harri,0.41
+1070,0.41
+thankx,0.41
+gmd,0.41
+project plan,0.41
+low cost,0.41
+ink,0.41
+vga connector,0.41
+break,0.41
+nimbu,0.41
+balanc,0.41
+apana,0.41
+hook,0.41
+caller,0.41
+thru,0.41
+equip,0.41
+regist,0.41
+caltran,0.41
+cantrel,0.41
+chassi,0.41
+lancer,0.40
+di box,0.40
+or so,0.40
+n1nig,0.40
+johnp,0.40
+bl298,0.40
+beeblbrox,0.40
+wherev,0.40
+panix,0.40
+hain,0.40
+radio on,0.40
+capacit,0.40
+3479p,0.40
+data,0.40
+car speed,0.40
+infra red,0.40
+tcm3105,0.40
+power up,0.40
+squarewav,0.40
+pavement,0.40
+macintosh environ,0.40
+radar gun,0.40
+mike,0.40
+vari,0.40
+public domain,0.40
+oscil,0.40
+servic depart,0.40
+rate,0.40
+compress air,0.40
+polar,0.40
+the distanc,0.40
+cube,0.40
+the news,0.40
+wavelength,0.39
+differenti gp,0.39
+pyeatt,0.39
+arcnet,0.39
+system work,0.39
+998,0.39
+hpcuhe,0.39
+whereabout,0.39
+forum,0.39
+it work,0.39
+out,0.39
+gadget,0.39
+the program,0.39
+jdr,0.39
+site,0.39
+engin student,0.39
+hardwar design,0.39
+vert,0.39
+sheng,0.39
+starter,0.39
+the contact,0.39
+mprgate,0.39
+mabbot,0.39
+the cool,0.39
+555,0.39
+assembl languag,0.39
+info,0.39
+wustl,0.39
+order line,0.39
+ssc,0.39
+registr card,0.39
+aber,0.39
+the month,0.39
+loop,0.39
+tdr,0.39
+car batteri,0.39
+id,0.39
+mjm,0.38
+fiber,0.38
+horizont,0.38
+mq,0.38
+atari 5200,0.38
+softwar,0.38
+johnh,0.38
+to the,0.38
+slide projector,0.38
+good,0.38
+histori question,0.38
+input,0.38
+io,0.38
+label,0.38
+sdsu,0.38
+layout,0.38
+phone compani,0.38
+keho,0.38
+design softwar,0.38
+storag,0.38
+mc146818a,0.38
+folk,0.38
+ft,0.38
+303a,0.38
+ualberta,0.38
+the softwar,0.38
+eric taylor,0.38
+2788,0.38
+coventri,0.38
+infra,0.38
+pc softwar,0.38
+flashlight,0.38
+sauron,0.38
+the breaker,0.38
+help,0.38
+go about,0.38
+host adapt,0.38
+rll,0.37
+27c512,0.37
+cement,0.37
+seema,0.37
+electrician,0.37
+5200,0.37
+lcd display,0.37
+451,0.37
+claar,0.37
+the main,0.37
+prove ground,0.37
+pattern gener,0.37
+skill,0.37
+onto,0.37
+vd,0.37
+jiggl,0.37
+biomed engin,0.37
+variou,0.37
+mora,0.37
+togeth,0.37
+______,0.37
+other use,0.37
+mf,0.37
+mc143150,0.37
+refer book,0.37
+louisvil,0.37
+umass,0.37
+al,0.37
+withrow,0.37
+digikey,0.37
+data transfer,0.37
+dil,0.37
+power bar,0.37
+gp system,0.37
+produc,0.37
+sound like,0.37
+find,0.37
+fpu,0.37
+at bu,0.37
+4khz,0.37
+condens,0.37
+radar jammer,0.37
+babak,0.36
+crack,0.36
+harvey,0.36
+vacuum tube,0.36
+the meter,0.36
+self,0.36
+higher,0.36
+tunnel diod,0.36
+one,0.36
+ucnv,0.36
+galvan,0.36
+fnald,0.36
+transduc,0.36
+unfortun,0.36
+murdoch,0.36
+model,0.36
+make up,0.36
+spec,0.36
+don,0.36
+hfe,0.36
+der,0.36
+mayhew,0.36
+control power,0.36
+routh,0.36
+goe,0.36
+voltmet,0.36
+aint,0.36
+polic band,0.36
+48,0.36
+make,0.36
+mchen,0.36
+emi,0.36
+mostek,0.36
+wtm,0.36
+document,0.36
+snow,0.36
+pace,0.36
+til311,0.36
+simtel,0.36
+uki,0.36
+ken martin,0.36
+program work,0.36
+pioneer,0.36
+box fan,0.36
+amcu,0.36
+data link,0.36
+player,0.36
+250v,0.36
+blinker,0.36
+scheme,0.36
+prompro,0.36
+at fault,0.36
+laser,0.36
+knot,0.36
+low resolut,0.35
+covington,0.35
+montgomeri,0.35
+via,0.35
+domain,0.35
+919,0.35
+fm,0.35
+murashi,0.35
+my own,0.35
+ground plane,0.35
+nessi,0.35
+brett,0.35
+hotel,0.35
+an extern,0.35
+ago,0.35
+pick up,0.35
+crow,0.35
+no document,0.35
+sean kelli,0.35
+howeg,0.35
+aberdeen,0.35
+mc68sec811e2,0.35
+68sec811e2,0.35
+68hc811e2,0.35
+ve6dau,0.35
+medin,0.35
+the wire,0.35
+cheap,0.35
+regmad,0.35
+dre,0.35
+vacuum,0.35
+ken thompson,0.35
+news group,0.35
+c2,0.35
+free inform,0.35
+odomet,0.35
+chipset,0.35
+combin,0.35
+120466,0.35
+swr,0.35
+lo angel,0.35
+pin out,0.35
+skelli,0.35
+forc air,0.35
+northeastern,0.34
+smoke test,0.34
+alan,0.34
+big job,0.34
+alreadi,0.34
+the posit,0.34
+dorsey,0.34
+improb,0.34
+esd,0.34
+kasey,0.34
+glow,0.34
+intel hex,0.34
+me me,0.34
+hv,0.34
+xyz,0.34
+hall effect,0.34
+cheapi,0.34
+made it,0.34
+est,0.34
+compil,0.34
+discret,0.34
+wide,0.34
+wear,0.34
+pole,0.34
+x0,0.34
+drive through,0.34
+up,0.34
+cabl,0.34
+phantom power,0.34
+adapt,0.34
+ir detector,0.34
+time clock,0.34
+ai,0.34
+littl,0.34
+panel,0.34
+traffic light,0.34
+video record,0.34
+6551a,0.34
+switch set,0.34
+thompson,0.34
+on board,0.34
+scott,0.34
+ecl,0.34
+boyd,0.34
+dash,0.34
+flexibl,0.34
+surg,0.34
+magnet,0.33
+tillyer,0.33
+datcc,0.33
+adda10,0.33
+pob,0.33
+891,0.33
+533,0.33
+ken,0.33
+damp,0.33
+the 52,0.33
+80x25,0.33
+mcovingt,0.33
+10k,0.33
+mc68882rc25,0.33
+phosphor,0.33
+tvi,0.33
+breaker,0.33
+the toll,0.33
+rom,0.33
+on tv,0.33
+wish that,0.33
+39,0.33
+check out,0.33
+3v,0.33
+28,0.33
+near,0.33
+tesla,0.33
+discharg,0.33
+vak12,0.33
+_ct,0.33
+backup copi,0.33
+212,0.33
+standbi mode,0.33
+appear,0.33
+hex,0.33
+biomed,0.33
+awhil,0.33
+effect,0.33
+in use,0.33
+506,0.33
+amsat,0.33
+3733,0.33
+spike,0.33
+250,0.33
+box,0.33
+document data,0.33
+rs 232,0.33
+thank god,0.33
+even smoke,0.33
+want to,0.33
+go faster,0.33
+polar effect,0.33
+not news,0.33
+charact graphic,0.33
+hpfcso,0.32
+technolog,0.32
+uga,0.32
+dell,0.32
+tektronix,0.32
+grissom,0.32
+vcr,0.32
+sinc,0.32
+kentucki,0.32
+consumpt,0.32
+huge,0.32
+vh tape,0.32
+on stage,0.32
+game machin,0.32
+around,0.32
+1541b,0.32
+mtrek,0.32
+tax prefer,0.32
+assist,0.32
+mark,0.32
+ingr,0.32
+mkt,0.32
+cleveland freenet,0.32
+freq,0.32
+gotten,0.32
+me it,0.32
+the appl,0.32
+michigan compani,0.32
+accur,0.32
+too,0.32
+mush,0.32
+pass on,0.32
+64k,0.32
+prof,0.32
+viel,0.32
+paj,0.32
+uv light,0.32
+applic note,0.32
+68030,0.32
+313,0.32
+dram control,0.32
+paul johnson,0.32
+598,0.31
+carbon,0.31
+measur distanc,0.31
+breaker box,0.31
+duti cycl,0.31
+uwa,0.31
+phase,0.31
+kc2wz,0.31
+lui perez,0.31
+lperez,0.31
+corp,0.31
+ide control,0.31
+ten second,0.31
+inch,0.31
+in advanc,0.31
+mine,0.31
+scopemet,0.31
+voltag regul,0.31
+part number,0.31
+datasheet,0.31
+at,0.31
+grendal,0.31
+995,0.31
+hook up,0.31
+terra,0.31
+eleph,0.31
+mcc,0.31
+frode,0.31
+report,0.31
+umn,0.31
+eec,0.31
+the approach,0.31
+need sourc,0.31
+receiv system,0.31
+late night,0.31
+fossil,0.31
+msunde01,0.31
+rky57514,0.31
+mpr,0.31
+the concret,0.31
+griff,0.31
+laser printer,0.31
+150mhz,0.31
+cowen,0.31
+probabl,0.31
+valv,0.31
+req,0.31
+speaker design,0.31
+at present,0.31
+rubin,0.31
+logisit,0.31
+cvm,0.31
+ftp site,0.31
+sgberg,0.31
+for all,0.31
+8mh,0.31
+banzhaf,0.31
+refer to,0.31
+protect scheme,0.31
+reproduc,0.31
+get thi,0.30
+sensor,0.30
+remind me,0.30
+the comput,0.30
+cern,0.30
+weir,0.30
+ed byrn,0.30
+someonepost,0.30
+mvanhorn,0.30
+rootstown,0.30

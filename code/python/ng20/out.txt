@@ -1,0 +1,216 @@
+
+======================================================
+Classification of text documents using sparse features
+======================================================
+
+This is an example showing how scikit-learn can be used to classify documents
+by topics using a bag-of-words approach. This example uses a scipy.sparse
+matrix to store the features and demonstrates various classifiers that can
+efficiently handle sparse matrices.
+
+The dataset used in this example is the 20 newsgroups dataset. It will be
+automatically downloaded, then cached.
+
+The bar plot indicates the accuracy, training time (normalized) and test time
+(normalized) of each classifier.
+
+
+Usage: document_classification_20newsgroups.py [options]
+
+Options:
+  -h, --help            show this help message and exit
+  --report              Print a detailed classification report.
+  --chi2_select=SELECT_CHI2
+                        Select some number of features using a chi-squared
+                        test
+  --confusion_matrix    Print the confusion matrix.
+  --top10               Print ten most discriminative terms per class for
+                        every classifier.
+  --all_categories      Whether to use all categories or not.
+  --use_hashing         Use a hashing vectorizer.
+  --n_features=N_FEATURES
+                        n_features when using the hashing vectorizer.
+  --filtered            Remove newsgroup information that is easily overfit:
+                        headers, signatures, and quoting.
+
+Loading 20 newsgroups dataset for categories:
+all
+data loaded
+11314 documents - 22.055MB (training set)
+7532 documents - 13.801MB (test set)
+20 categories
+
+Extracting features from the training dataset using a sparse vectorizer
+done in 4.032914s at 5.469MB/s
+n_samples: 11314, n_features: 129792
+
+Extracting features from the test dataset using the same vectorizer
+done in 2.102885s at 6.563MB/s
+n_samples: 7532, n_features: 129792
+
+================================================================================
+Ridge Classifier
+________________________________________________________________________________
+Training: 
+RidgeClassifier(alpha=1.0, class_weight=None, copy_X=True, fit_intercept=True,
+        max_iter=None, normalize=False, solver='lsqr', tol=0.01)
+train time: 4.550s
+test time:  0.321s
+f1-score:   0.861
+dimensionality: 129792
+density: 1.000000
+
+
+================================================================================
+Perceptron
+________________________________________________________________________________
+Training: 
+Perceptron(alpha=0.0001, class_weight=None, eta0=1.0, fit_intercept=True,
+      n_iter=50, n_jobs=1, penalty=None, random_state=0, shuffle=False,
+      verbose=0, warm_start=False)
+train time: 6.803s
+test time:  0.059s
+f1-score:   0.796
+dimensionality: 129792
+density: 0.098179
+
+
+================================================================================
+Passive-Aggressive
+________________________________________________________________________________
+Training: 
+PassiveAggressiveClassifier(C=1.0, fit_intercept=True, loss='hinge',
+              n_iter=50, n_jobs=1, random_state=None, shuffle=False,
+              verbose=0, warm_start=False)
+train time: 6.084s
+test time:  0.057s
+f1-score:   0.854
+dimensionality: 129792
+density: 0.456828
+
+
+================================================================================
+kNN
+________________________________________________________________________________
+Training: 
+KNeighborsClassifier(algorithm='auto', leaf_size=30, metric='minkowski',
+           n_neighbors=10, p=2, weights='uniform')
+train time: 0.255s
+test time:  819.135s
+f1-score:   0.716
+
+================================================================================
+L2 penalty
+________________________________________________________________________________
+Training: 
+LinearSVC(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+     intercept_scaling=1, loss='l2', multi_class='ovr', penalty='l2',
+     random_state=None, tol=0.001, verbose=0)
+train time: 13.440s
+test time:  0.800s
+f1-score:   0.860
+dimensionality: 129792
+density: 1.000000
+
+
+________________________________________________________________________________
+Training: 
+SGDClassifier(alpha=0.0001, class_weight=None, epsilon=0.1, eta0=0.0,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='optimal',
+       loss='hinge', n_iter=50, n_jobs=1, penalty='l2', power_t=0.5,
+       random_state=None, shuffle=False, verbose=0, warm_start=False)
+train time: 7.614s
+test time:  0.056s
+f1-score:   0.857
+dimensionality: 129792
+density: 0.390184
+
+
+================================================================================
+L1 penalty
+________________________________________________________________________________
+Training: 
+LinearSVC(C=1.0, class_weight=None, dual=False, fit_intercept=True,
+     intercept_scaling=1, loss='l2', multi_class='ovr', penalty='l1',
+     random_state=None, tol=0.001, verbose=0)
+train time: 7.376s
+test time:  0.038s
+f1-score:   0.826
+dimensionality: 129792
+density: 0.002417
+
+
+________________________________________________________________________________
+Training: 
+SGDClassifier(alpha=0.0001, class_weight=None, epsilon=0.1, eta0=0.0,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='optimal',
+       loss='hinge', n_iter=50, n_jobs=1, penalty='l1', power_t=0.5,
+       random_state=None, shuffle=False, verbose=0, warm_start=False)
+train time: 13.025s
+test time:  0.051s
+f1-score:   0.795
+dimensionality: 129792
+density: 0.001176
+
+
+================================================================================
+Elastic-Net penalty
+________________________________________________________________________________
+Training: 
+SGDClassifier(alpha=0.0001, class_weight=None, epsilon=0.1, eta0=0.0,
+       fit_intercept=True, l1_ratio=0.15, learning_rate='optimal',
+       loss='hinge', n_iter=50, n_jobs=1, penalty='elasticnet',
+       power_t=0.5, random_state=None, shuffle=False, verbose=0,
+       warm_start=False)
+train time: 17.623s
+test time:  0.050s
+f1-score:   0.849
+dimensionality: 129792
+density: 0.032481
+
+
+================================================================================
+NearestCentroid (aka Rocchio classifier)
+________________________________________________________________________________
+Training: 
+NearestCentroid(metric='euclidean', shrink_threshold=None)
+train time: 0.474s
+test time:  0.223s
+f1-score:   0.792
+
+================================================================================
+Naive Bayes
+________________________________________________________________________________
+Training: 
+MultinomialNB(alpha=0.01, class_prior=None, fit_prior=True)
+train time: 0.354s
+test time:  0.055s
+f1-score:   0.836
+dimensionality: 129792
+density: 1.000000
+
+
+________________________________________________________________________________
+Training: 
+BernoulliNB(alpha=0.01, binarize=0.0, class_prior=None, fit_prior=True)
+train time: 0.234s
+test time:  0.254s
+f1-score:   0.761
+dimensionality: 129792
+density: 1.000000
+
+
+================================================================================
+LinearSVC with L1-based feature selection
+________________________________________________________________________________
+Training: 
+L1LinearSVC(C=1.0, class_weight=None, dual=True, fit_intercept=True,
+      intercept_scaling=1, loss='l2', multi_class='ovr', penalty='l2',
+      random_state=None, tol=0.0001, verbose=0)
+train time: 8.181s
+test time:  0.057s
+f1-score:   0.840
+dimensionality: 4388
+density: 0.920123
+
+

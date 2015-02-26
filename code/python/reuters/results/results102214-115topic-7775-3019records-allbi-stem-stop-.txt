@@ -1,0 +1,100 @@
+reuters_classifier-svm-allbigrams-stopwords.py:10: SyntaxWarning: import * only allowed at module level
+  def vectorize_corpus(corpus,tokenizer,vocabulary,max_ngram_size):
+reuters_classifier-svm-allbigrams-stopwords.py:101: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_unigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:142: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:183: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_bigrams_with_LSA(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens,num_components):
+reuters_classifier-svm-allbigrams-stopwords.py:236: SyntaxWarning: import * only allowed at module level
+  def test_stemmed_unigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:277: SyntaxWarning: import * only allowed at module level
+  def test_stemmed_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:318: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_wiki_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:363: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_wiktionary_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:408: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_google_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:452: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_wiki_wiktionary_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:496: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_wiki_google_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:540: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_wiktionary_google_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:584: SyntaxWarning: import * only allowed at module level
+  def test_stemmed_wiki_wiktionary_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:628: SyntaxWarning: import * only allowed at module level
+  def test_stemmed_wiki_google_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:672: SyntaxWarning: import * only allowed at module level
+  def test_stemmed_wiktionary_google_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:716: SyntaxWarning: import * only allowed at module level
+  def test_lemmatized_all_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:760: SyntaxWarning: import * only allowed at module level
+  def test_stemmed_wiki_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:804: SyntaxWarning: import * only allowed at module level
+  def test_stemmed_wiktionary_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:848: SyntaxWarning: import * only allowed at module level
+  def test_stemmed_google_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+reuters_classifier-svm-allbigrams-stopwords.py:892: SyntaxWarning: import * only allowed at module level
+  def test_stemmed_all_bigrams(corpus_train_data,corpus_test_data,vocabulary_src,with_stopwords_removal,use_chi_features,use_raw_tokens):
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/__init__.py:93: DeprecationWarning: Function multilabel_ is deprecated; Attribute multilabel_ is deprecated and will be removed in 0.17. Use 'y_type_.startswith('multilabel')' instead
+  warnings.warn(msg, category=DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+0.15.2
+loaded 7775 records.
+done loading 7775 train records and 115 labels.
+loaded 3019 records.
+done loading 3019 test records.
+loaded (41699) terms
+vectorizing done, 41699 terms vocabulary tokenized
+vectorizing done, 41699 terms vocabulary tokenized
+reuters21578_all_raw_stems_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_stopwords_df1_tf1 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.94701986755 recall  0.763888888889 f1  0.845653459491
+done!

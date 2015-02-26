@@ -1,0 +1,25 @@
+loaded 9603 records.
+done loading 9603 train records and 113 labels.
+loaded 3299 records.
+done loading 3299 test records.
+loaded (24993) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1  -->  precision  0.843095110156 recall  0.843548387097 f1  0.843321687718
+loaded (337053) terms
+reuters21578_all_raw_lemmas_bigrams_df1_tf1  -->  precision  0.845506380668 recall  0.837096774194 f1  0.841280561934
+loaded (39500) terms
+done loading vocabulary
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiki_bigrams  -->  precision  0.846091644205 recall  0.843817204301 f1  0.844952893674
+loaded (28318) terms
+done loading vocabulary
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiktionary_bigrams  -->  precision  0.844892473118 recall  0.844892473118 f1  0.844892473118
+loaded (37417) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ google_bigrams  -->  precision  0.845574387947 recall  0.844892473118 f1  0.845233292994
+loaded (40595) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiki_wiktionary_bigrams_vw  -->  precision  0.84536637931 recall  0.843548387097 f1  0.844456404736
+loaded (46855) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiki_google_bigrams_vw  -->  precision  0.845697329377 recall  0.842741935484 f1  0.844217045914
+loaded (39514) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiktionary_google_bigrams_vw  -->  precision  0.844396667562 recall  0.844623655914 f1  0.844510146486
+loaded (47904) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.844827586207 recall  0.843010752688 f1  0.843918191604
+done!

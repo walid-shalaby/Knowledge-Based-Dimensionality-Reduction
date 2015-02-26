@@ -1,0 +1,1003 @@
+number of features 222515
+density: 0.444742826326
+
+gateway,2.12
+bio,2.12
+pc,1.74
+vlb,1.72
+jumper,1.65
+motherboard,1.60
+fastmicro,1.51
+486,1.49
+cmo,1.49
+ide,1.46
+irq,1.44
+scsi,1.38
+monitor,1.37
+connector,1.29
+os,1.28
+harddisk,1.28
+pentium,1.28
+winmark,1.24
+connect,1.23
+adaptec,1.22
+zeo,1.22
+486dlc,1.21
+umbdr522,1.21
+help,1.20
+17,1.20
+floppi,1.18
+orchid,1.15
+cpu,1.14
+amd,1.13
+modem,1.13
+port,1.13
+cdrom,1.12
+do,1.10
+robert,1.07
+card,1.06
+msdo,1.06
+isa,1.05
+compaq,1.04
+jmarttila,1.04
+nanao,1.02
+spec,1.01
+hardwar,1.01
+interliv,1.00
+pin,0.99
+interrupt,0.99
+t560i,0.96
+winjet,0.96
+burn it,0.95
+59,0.95
+n5ial,0.95
+autoexec,0.93
+turbo,0.93
+hardwar problem,0.93
+gosh,0.93
+com4,0.92
+chipset,0.92
+comput,0.92
+clone,0.92
+slot,0.91
+wincim,0.91
+2000,0.91
+just love,0.91
+protect mode,0.91
+dma,0.90
+s3,0.90
+bb,0.90
+sb,0.90
+bu,0.90
+mitsumi,0.89
+backup,0.89
+telnet,0.88
+ctx,0.88
+tape,0.88
+nec,0.87
+i486,0.87
+memori,0.87
+date,0.86
+ibm,0.85
+66,0.85
+back up,0.85
+walli,0.83
+tosspot,0.83
+comment,0.83
+boot,0.82
+skcgoh,0.81
+laserjet,0.81
+smc,0.80
+appl laserwrit,0.80
+control,0.79
+beep,0.79
+1280x1024,0.79
+hamster,0.79
+p24t,0.78
+my system,0.78
+tech,0.78
+hardcard,0.78
+disk,0.78
+lee,0.78
+dx,0.77
+waggon,0.77
+tseng,0.77
+386dx,0.77
+f550iw,0.76
+memori manag,0.76
+western digit,0.76
+joystick,0.76
+have,0.75
+3401b,0.75
+the connector,0.75
+yuri,0.74
+slow,0.74
+hicolor,0.74
+funet,0.74
+balog,0.74
+husak,0.74
+trinitron,0.73
+drive,0.73
+486dx2,0.73
+esdi,0.72
+80286,0.72
+benchmark,0.72
+2m,0.72
+int15h,0.71
+80486,0.71
+99,0.71
+loopback,0.71
+conner,0.71
+seagat,0.71
+aachen,0.71
+270e,0.71
+rockwel,0.71
+nic,0.70
+colfelt,0.70
+cent,0.70
+shadow mask,0.70
+stack,0.70
+gw2000,0.70
+vcpi,0.70
+the time,0.70
+netter,0.69
+alr,0.69
+egelm,0.69
+partit,0.69
+blaster,0.69
+jumbo,0.69
+usma,0.69
+midwest,0.68
+viru,0.68
+buy,0.68
+my comput,0.68
+ihno,0.68
+etc,0.68
+isgtec,0.68
+3401,0.68
+sy,0.68
+trakker,0.68
+tech support,0.68
+later,0.68
+80386,0.68
+dx2,0.67
+hd,0.67
+sv,0.66
+perman,0.66
+kevin,0.66
+sportster,0.65
+l_l,0.65
+dorsai,0.65
+set,0.65
+72,0.65
+mag,0.65
+gateway 2000,0.65
+data compress,0.65
+486sx,0.64
+70n,0.64
+mancu,0.64
+low level,0.63
+refresh,0.63
+give,0.63
+toshiba,0.63
+gamecard,0.63
+memori chip,0.63
+instal,0.63
+tseng lab,0.63
+switch,0.63
+is it,0.63
+videotap,0.63
+drdo,0.62
+jimmi,0.62
+configur,0.62
+howev,0.62
+prong,0.62
+g2k,0.62
+null charact,0.62
+16550,0.62
+16mb,0.61
+exe,0.61
+my,0.61
+int,0.61
+diamond stealth,0.61
+wa3wbu,0.61
+5fgx,0.61
+dh,0.61
+canberra,0.61
+f550i,0.61
+koblenz,0.61
+digit,0.60
+zip,0.60
+astrachan,0.60
+2themax,0.60
+suppli fan,0.60
+interlink,0.60
+atmo,0.60
+dfi,0.60
+486dx,0.60
+4778,0.60
+the tape,0.60
+streamer,0.60
+scsi card,0.60
+cyrix,0.60
+buslog,0.60
+sound blaster,0.59
+austin,0.59
+44mb,0.59
+address,0.59
+the resolut,0.59
+jt,0.59
+usma1,0.59
+jka,0.59
+air77,0.59
+db25,0.59
+cd rom,0.59
+flat screen,0.58
+drive geometri,0.58
+720,0.58
+cat,0.58
+in advanc,0.58
+config,0.58
+lut,0.58
+hpcvccl,0.58
+soni,0.58
+____,0.58
+cp3204f,0.58
+btw,0.57
+qic,0.57
+dx3,0.57
+ethernet,0.57
+clock count,0.57
+p5200,0.57
+hot,0.57
+ncsa telnet,0.57
+wong,0.57
+fm synthesi,0.57
+hay,0.57
+null,0.57
+qemm,0.57
+featur connector,0.57
+driver name,0.57
+umeist,0.57
+master,0.57
+optim,0.57
+com,0.56
+courier,0.56
+60n,0.56
+mitsubishi,0.56
+align,0.56
+vs,0.56
+setup,0.56
+jumper set,0.56
+can,0.56
+archiv,0.56
+fix,0.56
+ted,0.56
+null modem,0.56
+setup program,0.56
+bing,0.56
+the phone,0.56
+gravi,0.55
+80486dx,0.55
+advanc,0.55
+wait,0.55
+fax,0.55
+phil,0.55
+linn,0.55
+com port,0.55
+tschew,0.55
+guyd,0.55
+hard disk,0.55
+volant,0.54
+upenn,0.54
+quadtel,0.54
+mcmaster,0.54
+isa bu,0.54
+disk data,0.54
+1499,0.54
+walton,0.54
+vote,0.54
+dhryston,0.54
+samsung,0.54
+yang,0.53
+multiport,0.53
+1204,0.53
+atari,0.53
+ncsa,0.53
+satam,0.53
+regard,0.53
+speed,0.53
+hookup,0.53
+the control,0.53
+arcnet,0.53
+montuno,0.53
+interleav,0.53
+125,0.53
+scsi control,0.53
+p9000,0.53
+hofkin,0.53
+lead edg,0.52
+david todd,0.52
+the extra,0.52
+the system,0.52
+machin,0.52
+sector,0.52
+do anyth,0.52
+no,0.52
+ati,0.52
+oz,0.52
+dsr,0.52
+wait for,0.52
+netbio,0.52
+compani,0.52
+hdd,0.52
+486 dx2,0.51
+stuck,0.51
+ppi,0.51
+boot disk,0.51
+mous,0.51
+16550 uart,0.51
+therapi,0.51
+spectr,0.51
+time is,0.51
+on high,0.51
+sound card,0.50
+ethernet card,0.50
+lead,0.50
+sorta,0.50
+pariti,0.50
+data process,0.50
+524,0.50
+v42bi,0.50
+cs1442au,0.50
+decster,0.50
+6000sx,0.50
+5fg,0.50
+5fge,0.50
+8088,0.50
+fi,0.50
+the speed,0.50
+srl,0.50
+im14u2c,0.49
+local bu,0.49
+page frame,0.49
+level ii,0.49
+simtel20,0.49
+will est,0.49
+gerardi,0.49
+jamesc,0.49
+cv,0.49
+ps2,0.49
+fine,0.48
+16 bit,0.48
+greatli,0.48
+anyth,0.48
+proveisa,0.48
+utexa,0.48
+purchas,0.48
+western,0.48
+ws13,0.48
+fan,0.48
+glang,0.48
+stacken,0.48
+ip number,0.48
+synthesi,0.48
+ben,0.48
+differ,0.48
+thank,0.48
+pc convert,0.48
+notic,0.48
+perfect,0.48
+the driver,0.47
+dtr,0.47
+blue wave,0.47
+overlap,0.47
+grover,0.47
+qwk,0.47
+apoyli,0.47
+uart,0.47
+dawson,0.47
+reformat,0.47
+explain,0.47
+data path,0.47
+1200dpi,0.47
+product avail,0.47
+debug,0.47
+28800baud,0.47
+tangent,0.47
+omaha,0.47
+simm,0.47
+832,0.47
+wrote,0.47
+8800c,0.47
+jouni,0.47
+660,0.47
+warp 10,0.47
+0729,0.46
+larc,0.46
+ctrl,0.46
+mg,0.46
+________,0.46
+mikey,0.46
+power down,0.46
+enriqu,0.46
+hartmann,0.46
+inod,0.46
+l40,0.46
+micron comput,0.46
+mfm,0.46
+fix it,0.46
+greg,0.46
+wow,0.46
+ay,0.46
+these,0.46
+stealth,0.45
+sbpro,0.45
+comput shopper,0.45
+mustek,0.45
+the drive,0.45
+sierra,0.45
+model number,0.45
+the standard,0.45
+heatsink,0.45
+hhaldr,0.45
+tartaru,0.45
+scanner,0.45
+interlac,0.45
+accucolor,0.45
+blink,0.45
+hodgen,0.45
+ren,0.45
+cdw,0.45
+and then,0.45
+intens,0.45
+the ac,0.44
+sec,0.44
+maker,0.44
+the differ,0.44
+port address,0.44
+elec,0.44
+dma channel,0.44
+nshah,0.44
+to you,0.44
+board,0.44
+desmond,0.44
+video projector,0.44
+rll,0.44
+hp laserjet,0.44
+16450,0.44
+main memori,0.44
+uc,0.44
+amoco,0.44
+advertis,0.44
+messi,0.44
+pariti error,0.44
+620,0.44
+the orchid,0.44
+sale manual,0.44
+get,0.44
+refresh rate,0.44
+applic error,0.44
+menu system,0.43
+bondwel,0.43
+system,0.43
+mono,0.43
+lope,0.43
+1542b,0.43
+choic,0.43
+everyth,0.43
+lead technolog,0.43
+80386sx,0.43
+dip switch,0.43
+thurbin,0.43
+tancsa,0.43
+adyk,0.43
+nynashamn,0.43
+ungsgard,0.43
+protocol,0.43
+an,0.43
+turbo debugg,0.43
+pci,0.43
+wen,0.43
+brown,0.43
+est,0.42
+amex,0.42
+unread,0.42
+eh,0.42
+bat,0.42
+ol400,0.42
+kxp2124,0.42
+either,0.42
+command,0.42
+geometri,0.42
+identifi,0.42
+trc,0.42
+1qte10,0.42
+aovai,0.42
+control card,0.42
+49,0.42
+nn,0.42
+448,0.42
+camera readi,0.42
+joe_west,0.42
+joe west,0.42
+chr,0.42
+the disk,0.42
+wq,0.42
+card it,0.42
+m88max,0.42
+tigger,0.41
+how,0.41
+the spec,0.41
+appleshar,0.41
+uw,0.41
+qualiti differ,0.41
+manufactur,0.41
+1124,0.41
+becaus,0.41
+pc lan,0.41
+simul,0.41
+anybodi,0.41
+quick,0.41
+cornel system,0.41
+v117q38h,0.41
+servic price,0.41
+citibank,0.41
+banshe,0.41
+cap lock,0.41
+kn5,0.41
+teac,0.41
+wharton,0.41
+skew,0.41
+micro,0.41
+do someth,0.41
+music,0.41
+regist,0.41
+jason brown,0.41
+3c503,0.41
+ac power,0.41
+shopper,0.40
+cyl,0.40
+adcock,0.40
+vesa,0.40
+bad block,0.40
+ted richard,0.40
+jesper,0.40
+width,0.40
+edwin,0.40
+louisvil,0.40
+slave,0.40
+dcd,0.40
+eisa,0.40
+sft,0.40
+acps7117,0.40
+_canadian_,0.40
+my eye,0.40
+nicola,0.40
+wathc,0.40
+the do,0.40
+vlbu,0.40
+jbodnar,0.40
+cisko,0.40
+system boot,0.40
+come from,0.40
+joedal,0.40
+pincushion,0.40
+_______,0.40
+mous port,0.40
+switch on,0.39
+7033d,0.39
+ken smith,0.39
+386sx25,0.39
+gateway system,0.39
+new group,0.39
+ruben sierra,0.39
+on it,0.39
+uunet,0.39
+multi,0.39
+which,0.39
+diskett,0.39
+debugg,0.39
+16bit,0.39
+1ps6pjinndua,0.39
+becaus of,0.39
+apart,0.39
+merl,0.39
+call,0.39
+amd cpu,0.39
+amd microprocessor,0.39
+erlangen,0.39
+replac,0.39
+student,0.39
+stub,0.39
+told,0.39
+brant,0.39
+821,0.39
+haldr,0.39
+anonym,0.39
+mine,0.39
+16mhz,0.39
+desonia,0.39
+sweat,0.38
+system analyst,0.38
+third down,0.38
+ruben,0.38
+pleas,0.38
+tv radio,0.38
+latonia,0.38
+ab245,0.38
+tia,0.38
+specif,0.38
+the problem,0.38
+book in,0.38
+sstor,0.38
+scan rate,0.38
+newsgroup name,0.38
+talk,0.38
+dos6,0.38
+friend of,0.38
+grabber,0.38
+tdb,0.38
+the fan,0.38
+dk,0.38
+pro,0.38
+microsoft work,0.38
+instal program,0.38
+ho,0.38
+standard,0.38
+teach purpos,0.38
+kosman,0.38
+rash,0.37
+doc,0.37
+video bio,0.37
+lino,0.37
+small,0.37
+msstate,0.37
+sta,0.37
+xga,0.37
+chemic engin,0.37
+4sale,0.37
+nebraska,0.37
+cmo set,0.37
+isdn,0.37
+nmt,0.37
+west,0.37
+adjust,0.37
+perri,0.37
+doe it,0.37
+centron,0.37
+ta,0.37
+com2,0.37
+not enough,0.37
+lost,0.37
+across,0.37
+hw,0.37
+first messag,0.37
+wish,0.37
+anonym ftp,0.37
+let me,0.37
+own,0.37
+vpic,0.37
+webo,0.37
+uwa,0.37
+binari file,0.37
+21,0.37
+geniu,0.37
+soon,0.37
+austlcm,0.37
+my master,0.36
+time,0.36
+heard,0.36
+card game,0.36
+_______________________________________,0.36
+ersi,0.36
+otron,0.36
+it,0.36
+memori error,0.36
+uniko,0.36
+digit tablet,0.36
+refer guid,0.36
+1360x1024,0.36
+cm,0.36
+spiro,0.36
+digit graphic,0.36
+novel,0.36
+md,0.36
+ta 2000,0.36
+lau,0.36
+data,0.36
+edg,0.36
+pc mag,0.36
+for good,0.36
+enclosur,0.36
+datasav,0.36
+videostream,0.36
+how much,0.36
+email address,0.36
+claim,0.36
+thought read,0.36
+financi difficulti,0.36
+vertic refresh,0.36
+mail me,0.36
+bootabl,0.36
+fl,0.36
+50,0.36
+800 number,0.36
+grisch,0.36
+j21,0.36
+it wa,0.36
+hello,0.36
+ip,0.36
+scanlon,0.36
+cain,0.36
+audio spectrum,0.36
+spin up,0.36
+bboard,0.36
+real mode,0.36
+build,0.35
+the net,0.35
+perstor,0.35
+back,0.35
+32bitdiskaccess,0.35
+recommend,0.35
+50ea,0.35
+thrir,0.35
+aid system,0.35
+disk sector,0.35
+pc keyboard,0.35
+dpi,0.35
+sune,0.35
+decpc325sxlp,0.35
+decpc,0.35
+325sxlp,0.35
+difficult,0.35
+tmccn,0.35
+allist,0.35
+slot drive,0.35
+5603,0.35
+handi scanner,0.35
+poe,0.35
+henson,0.35
+attach,0.35
+junk,0.35
+your comput,0.35
+bk,0.35
+technolog,0.35
+djohnson,0.35
+rithea,0.35
+r0h7630,0.35
+lock,0.35
+cover,0.35
+digit control,0.35
+rom,0.35
+overdr,0.35
+swapfil,0.35
+ddg,0.35
+richard,0.35
+comptest,0.35
+soundblast,0.35
+speedway,0.35
+magitron,0.35
+heikki,0.35
+beach,0.35
+seem,0.35
+telesoft,0.35
+comm,0.35
+camelot,0.34
+mcmail,0.34
+hollyk,0.34
+cach,0.34
+cartridg,0.34
+handl,0.34
+cooler,0.34
+solut,0.34
+toggl,0.34
+beng,0.34
+burn,0.34
+comm program,0.34
+262,0.34
+marka,0.34
+while,0.34
+barrel distort,0.34
+silvera,0.34
+inherit,0.34
+tell,0.34
+grate,0.34
+djweisb,0.34
+caton,0.34
+color text,0.34
+721,0.34
+yee,0.34
+audio cabl,0.34
+quick refer,0.34
+expert,0.34
+anagld,0.34
+china cat,0.34
+5976,0.34
+ct,0.34
+product,0.34
+great idea,0.34
+36pin,0.34
+nimesh,0.34
+mvi,0.34
+divya,0.34
+mark,0.34
+paid,0.34
+day job,0.34
+count,0.34
+show,0.34
+lanc,0.34
+abo,0.34
+happen on,0.34
+ann,0.33
+what the,0.33
+comput world,0.33
+horrer,0.33
+286a,0.33
+rmbult01,0.33
+ghost,0.33
+8n1,0.33
+pc user,0.33
+khoo,0.33
+memmori,0.33
+light,0.33
+gerhard,0.33
+tc,0.33
+mot,0.33
+all,0.33
+86c805,0.33
+on one,0.33
+silicon graphic,0.33
+ich344,0.33
+edward,0.33
+washingt,0.33
+word55,0.33
+linefe,0.33
+math function,0.33
+total,0.33
+power sourc,0.33
+uvm,0.33
+use it,0.33
+1604,0.33
+clock,0.33
+big fan,0.33
+unabl,0.33
+vl,0.33
+dip,0.33
+ryevm,0.33
+ryerson,0.33
+ie,0.33
+lack,0.33
+file copi,0.33
+pretti good,0.33
+hon,0.33
+write protect,0.33
+cpu cooler,0.33
+iko,0.33
+uppsala universitet,0.33
+institutionen,0.33
+__l_l,0.33
+databehandl,0.33
+teknisk,0.33
+blow,0.33
+jsc,0.32
+control chip,0.32
+two,0.32
+ll,0.32
+hear,0.32
+irq2,0.32
+rnichol,0.32
+faster,0.32
+comput plan,0.32
+asu,0.32
+nebuchadnezzar,0.32
+suffic,0.32
+go,0.32
+junior,0.32
+acceler card,0.32
+ncu,0.32
+the zenith,0.32
+confuciu,0.32
+point,0.32
+weisberg,0.32
+46,0.32
+choos,0.32
+solti,0.32
+24bit,0.32
+universitet,0.32
+usrobot,0.32
+zbiciak,0.32
+thi world,0.32
+smcap,0.32
+nmsu,0.32
+the softwar,0.32
+scientif school,0.32
+ram limit,0.32
+1360x1024x16,0.32
+kantron,0.32
+32w,0.32
+w4zbb,0.32
+selcal,0.32
+kamterm,0.32
+nial,0.32
+tnc,0.32
+23n,0.32
+hot shot,0.32
+jvc,0.32
+anyon els,0.32
+hst,0.32
+sipp,0.32
+ralf,0.32
+amil,0.32
+poylish,0.32
+relev,0.31
+dir command,0.31
+readi,0.31
+hamilton,0.31
+intel 386,0.31
+such as,0.31
+washburn,0.31
+uartcmd,0.31
+user type,0.31
+staffan,0.31
+join,0.31
+ani,0.31
+duco,0.31
+x31,0.31
+fijma,0.31
+miami fl,0.31
+royal melbourn,0.31
+melbourn institut,0.31
+richard solomon,0.31
+unload,0.31
+is,0.31
+main menu,0.31
+diku,0.31
+group question,0.31
+aachen univers,0.31
+amtor,0.31
+walton beach,0.31
+1024x768x64k,0.31
+32plu,0.31
+flexibilti,0.31
+appreci,0.31
+dfmorgan,0.31
+school account,0.31
+toroid,0.31
+mic,0.31
+ecp,0.31
+right place,0.31
+legal,0.31
+tamut,0.31
+cplab,0.31
+5bj,0.31
+p92019,0.31
+0334,0.31
+eh16,0.31
+74244,0.31
+9764,0.31
+kjetil,0.31
+kolin,0.31
+pop off,0.31
+went out,0.31
+steuer,0.31
+47,0.31
+486dx3,0.31
+udel,0.31
+configur model,0.31
+digiboard,0.31
+the back,0.31
+the other,0.31
+epp,0.31
+boot_b,0.31
+doubledisk,0.31
+ggeorg,0.31
+gerri georg,0.31
+fatten,0.31
+72607,0.31
+ioc,0.31
+ps,0.31
+attn,0.31
+376h,0.31
+merlicek,0.31
+ctpm,0.31

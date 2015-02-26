@@ -1,0 +1,129 @@
+cutoff point for minimum label proba
+classifiers
+stopwords
+binary vectors
+# of labels per instance
+minimum # of labels in case no one above cutoff
+corpus # documents
+random state of classifier
+
+Logistic Regression
+-------------------
+lemmas
+--------
+loaded (107430) terms
+clef_2010_lemmas_unigrams_df2_tf3 -->  precision  0.739799265532 recall  0.555629810442 f1  0.634622972877
+
+loaded (130908) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.745023650166 recall  0.558872168954 f1  0.638659894732
+
+loaded (116343) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.742892161484 recall  0.557824419915 f1  0.637192444481
+
+loaded (171775) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.747907522325 recall  0.559716031693 f1  0.640269639045
+
+stemms
+--------
+loaded (85993) terms
+clef_2010_stems_unigrams_df2_tf3  -->  precision  0.736366299596 recall  0.555190888548 f1  0.633071247518
+
+loaded (113289) terms
+clef_2010_stems_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.742868205107 recall  0.559619752052 f1  0.638353266092
+
+loaded (95312) terms
+clef_2010_stems_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.739990009727 recall  0.557937690081 f1  0.636196171438
+
+loaded (158859) terms
+clef_2010_stems_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.74571673975 recall  0.56055139917 f1  0.64001034611
+
+Multinomial NB
+---------------
+lemmas
+-------
+loaded (107430) terms
+clef_2010_lemmas_unigrams_df2_tf3  -->  precision  0.550182063385 recall  0.577621213237 f1  0.563567844749
+
+loaded (130908) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.536973754446 recall  0.60960870821 f1  0.570990552275
+
+loaded (116343) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.544372398857 recall  0.590783206565 f1  0.566629050372
+
+loaded (171775) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.537574474371 recall  0.618319184002 f1  0.575126626789
+
+stems
+------
+loaded (85993) terms
+clef_2010_stems_unigrams_df2_tf3  -->  precision  0.558660743443 recall  0.561941790462 f1  0.560296463613
+
+loaded (113289) terms
+clef_2010_stems_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.541642322265 recall  0.60116441731 f1  0.569853291512
+
+loaded (95312) terms
+clef_2010_stems_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.552053222471 recall  0.577581568679 f1  0.564528941083
+
+loaded (158859) terms
+clef_2010_stems_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.540978761031 recall  0.611571113842 f1  0.574113087271
+
+label cutoff=0.4
+-----------------
+loaded (107430) terms
+clef_2010_lemmas_unigrams_df2_tf3  -->  precision  0.717438986178 recall  0.583539579428 f1  0.643598680759
+
+loaded (130908) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.722641252838 recall  0.586835741268 f1  0.64769632027
+
+loaded (116343) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.720062961196 recall  0.585533134355 f1  0.645867009007
+
+loaded (171775) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.725670656356 recall  0.586994319501 f1  0.649007265287
+
+loaded (85993) terms
+clef_2010_stems_unigrams_df2_tf3  -->  precision  0.713149986686 recall  0.583986996585 f1  0.642137760638
+
+loaded (113289) terms
+clef_2010_stems_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.720046598226 recall  0.588093040115 f1  0.647414665168
+
+loaded (95312) terms
+clef_2010_stems_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.717025955362 recall  0.586320362011 f1  0.645119278146
+
+loaded (158859) terms
+clef_2010_stems_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.723381751761 recall  0.588772661113 f1  0.649172680907
+
+label cutoff=0.3
+----------------
+loaded (107430) terms
+clef_2010_lemmas_unigrams_df2_tf3  -->  precision  0.679879684326 recall  0.62086493099 f1  0.649033558656
+
+loaded (130908) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.68562877981 recall  0.623453154291 f1  0.653064432883
+
+loaded (116343) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.682963795776 recall  0.622702739439 f1  0.651442638831
+
+loaded (171775) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.688734414998 recall  0.623985524073 f1  0.65476312517
+
+loaded (85993) terms
+clef_2010_stems_unigrams_df2_tf3  -->  precision  0.674541804128 recall  0.621258544818 f1  0.646804671711
+
+loaded (113289) terms
+clef_2010_stems_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.682078727895 recall  0.625067254161 f1  0.652329706735
+
+loaded (95312) terms
+clef_2010_stems_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.678507379903 recall  0.62354093867 f1  0.649863945177
+
+loaded (158859) terms
+clef_2010_stems_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.685807412926 recall  0.625608119206 f1  0.654326070152
+
+label cutoff=0.25
+----------------
+loaded (107430) terms
+clef_2010_lemmas_unigrams_df2_tf3  -->  precision  0.651625457875 recall  0.644801748891 f1  0.648195645181
+
+loaded (130908) terms
+clef_2010_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.657669241058 recall  0.647457934292 f1  0.652523641075
+

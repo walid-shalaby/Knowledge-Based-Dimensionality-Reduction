@@ -1,0 +1,1003 @@
+number of features 222176
+density: 0.645348057396
+
+car,4.32
+cars,3.09
+ford,2.10
+oil,1.73
+geico,1.73
+toyota,1.69
+auto,1.63
+dealer,1.55
+automotive,1.51
+warning,1.48
+autos,1.41
+engine,1.38
+v6,1.34
+nissan,1.26
+honda,1.23
+integra,1.22
+vw,1.22
+opel,1.19
+callison,1.18
+diesels,1.17
+eliot,1.16
+mustang,1.13
+mr2,1.11
+dumbest,1.11
+driving,1.08
+tires,1.06
+chevrolet,1.04
+jeep,1.04
+shifting,1.04
+saturn,1.04
+saab,1.02
+wagon,1.00
+89,0.99
+v8,0.97
+valentine,0.93
+vehicles,0.92
+bmw,0.92
+sho,0.92
+mazda,0.91
+truck,0.91
+the dealer,0.90
+mileage,0.90
+shift,0.88
+convertibles,0.88
+convertible,0.86
+v4,0.86
+sunroof,0.85
+road,0.85
+freon,0.84
+models,0.84
+accident,0.84
+taurus,0.83
+lh,0.83
+teenagers,0.82
+automobile,0.81
+alarm,0.80
+subaru,0.80
+brake,0.79
+air,0.79
+villager,0.78
+awd,0.77
+the car,0.77
+clutch,0.77
+trunk,0.77
+rear,0.76
+leaks,0.76
+centerline,0.75
+qazi,0.74
+wv,0.74
+viper,0.73
+radar,0.73
+v12,0.72
+300zx,0.72
+94,0.72
+buick,0.71
+dodge,0.71
+rocks,0.71
+haggle,0.71
+read in,0.71
+prizm,0.70
+frost,0.70
+sedan,0.70
+gear,0.70
+regal,0.70
+talon,0.69
+esp,0.69
+gauges,0.69
+hail,0.68
+master cylinder,0.68
+insurance companies,0.68
+overpass,0.68
+crx,0.67
+engines,0.66
+corvette,0.66
+sc300,0.66
+insurance,0.66
+monsanto,0.65
+probe,0.65
+boyle,0.65
+concepts,0.65
+wheel,0.65
+fast,0.65
+george howell,0.64
+rotor,0.64
+chrysler,0.64
+license plates,0.64
+the clutch,0.64
+turbo,0.63
+seats,0.63
+magnus,0.63
+changing,0.63
+sunroofs,0.63
+new car,0.62
+clutchless,0.62
+uoknor,0.62
+trucks,0.62
+fuel,0.62
+buying,0.61
+cylinder,0.61
+pontiac,0.60
+chevy,0.60
+oil change,0.60
+wheels,0.60
+torque,0.60
+blah,0.60
+miata,0.60
+intrepid,0.60
+aftermarket,0.60
+lexus,0.59
+mph,0.59
+liter,0.59
+just testing,0.59
+vascar,0.59
+jimf,0.59
+off road,0.59
+syclone,0.58
+automatic,0.58
+blah blah,0.58
+militech,0.58
+borgward,0.58
+transmission,0.58
+fiberglass,0.58
+headlights,0.58
+tort,0.58
+civic,0.58
+leak,0.57
+altima,0.57
+power windows,0.57
+pockets,0.57
+tommy,0.57
+87,0.57
+the engine,0.57
+experiences,0.56
+gas,0.56
+parts,0.56
+infiniti,0.56
+taxi,0.56
+typhoon,0.56
+frip,0.56
+300e,0.56
+bird,0.56
+boole,0.55
+also,0.55
+fluid,0.55
+gk,0.55
+flat,0.54
+trucking,0.54
+wagons,0.54
+minivan,0.54
+merc,0.54
+extended,0.54
+tailgate,0.54
+consumer reports,0.54
+the gear,0.54
+substitutes,0.54
+insurance company,0.54
+r12,0.53
+rec,0.53
+dirty,0.53
+tint,0.53
+market,0.53
+tobias,0.52
+transmissions,0.52
+air conditioning,0.52
+4runner,0.52
+86,0.52
+alfa,0.52
+diesel,0.52
+explorer,0.52
+20w50,0.51
+indicator,0.51
+hand,0.51
+rotors,0.51
+conditioning,0.50
+vx,0.50
+impala ss,0.50
+suspension,0.50
+1962,0.50
+nancy,0.50
+sc,0.50
+grand national,0.50
+bimmer,0.50
+16v,0.50
+tranny,0.50
+10w40,0.50
+130,0.50
+radar detectors,0.49
+carburetor,0.49
+kill,0.49
+4wd,0.49
+bigots,0.49
+howell,0.49
+audi,0.49
+mgb,0.49
+bought,0.48
+sundance,0.48
+impala,0.48
+ctron,0.48
+porsche,0.48
+volvo,0.48
+drain,0.48
+westminster,0.48
+ss,0.48
+left hand,0.48
+cdac,0.48
+consumer,0.48
+andrew,0.47
+gt,0.47
+sue,0.47
+waxing,0.47
+buy,0.47
+schrader,0.46
+dealership,0.46
+gli,0.46
+ignition,0.46
+honda crx,0.46
+ka,0.46
+what car,0.46
+lojack,0.46
+suv,0.46
+after market,0.46
+have,0.46
+the stupid,0.46
+wax,0.46
+cheek,0.46
+aamir,0.46
+photo radar,0.46
+listing,0.46
+acs,0.46
+vw corrado,0.45
+lampman,0.45
+dream,0.45
+injector,0.45
+ecn,0.45
+chevelle,0.45
+manual,0.45
+plates,0.45
+driven,0.45
+state farm,0.45
+vr6,0.45
+have you,0.45
+test drive,0.45
+re,0.45
+the paint,0.45
+option,0.45
+ranger,0.45
+interceptors,0.45
+disconcerting,0.45
+rush,0.45
+my,0.44
+sdexter,0.44
+att,0.44
+previa,0.44
+read,0.44
+v16t,0.44
+broncos,0.44
+photo,0.44
+9500,0.44
+lesabre,0.44
+warranty,0.44
+price,0.44
+exhausts,0.44
+honda civic,0.44
+bronco,0.44
+mustangs,0.44
+bugatti,0.44
+erich,0.44
+clas,0.43
+com,0.43
+the trunk,0.43
+lois,0.43
+engr,0.43
+gears,0.43
+shl,0.43
+pathfinder,0.43
+mechanical,0.43
+plymouth,0.43
+ssave,0.43
+teens,0.43
+owners,0.43
+speed,0.43
+mercury villager,0.43
+plug,0.43
+beamer,0.42
+steering,0.42
+stalk,0.42
+early,0.42
+left,0.42
+automatic transmissions,0.42
+beamers,0.42
+sumax,0.42
+______,0.42
+these,0.42
+hello,0.42
+book value,0.42
+wharfie,0.42
+acura,0.42
+the year,0.42
+bombed,0.42
+gauge,0.42
+heiser,0.42
+65,0.42
+uokmax,0.42
+mechanic,0.42
+kids,0.42
+_____,0.42
+discussion,0.42
+1989,0.42
+sales,0.41
+alarms,0.41
+slick,0.41
+indy,0.41
+interstate,0.41
+eagle talon,0.41
+200sx,0.41
+sc2,0.41
+geo,0.41
+bel,0.41
+radial,0.40
+biscayne,0.40
+grand,0.40
+turn signal,0.40
+ashtrays,0.40
+sighting,0.40
+toyota previa,0.40
+male,0.40
+warnings,0.40
+eurowiper,0.40
+your radio,0.40
+designed,0.40
+fleet,0.40
+fuel injector,0.39
+amigo,0.39
+out there,0.39
+desoto,0.39
+bel air,0.39
+drove,0.39
+unisql,0.39
+wrat,0.39
+john nielsen,0.39
+locking,0.39
+brake fluid,0.39
+here,0.39
+712,0.38
+deals,0.38
+colello,0.38
+plymouth sundance,0.38
+smorris,0.38
+bridges,0.38
+craig,0.38
+ugly,0.38
+325is,0.38
+theirs,0.38
+hyundai,0.38
+the inside,0.38
+idling,0.38
+stealing,0.38
+stick,0.38
+drew,0.38
+wy1z,0.38
+save you,0.38
+top,0.38
+mg,0.38
+controls,0.38
+waxes,0.38
+3000,0.38
+like,0.38
+dumb,0.38
+speeds,0.38
+ford ranger,0.38
+rovax,0.38
+corporate,0.38
+kindling,0.38
+extended warranty,0.38
+voodoo,0.38
+south,0.38
+donnell,0.38
+you can,0.37
+luxury,0.37
+calibra,0.37
+purdue,0.37
+rust,0.37
+mchaffee,0.37
+cocaine,0.37
+powered,0.37
+nx2000,0.37
+bijan,0.37
+odometer,0.37
+riviera,0.37
+626,0.37
+triumf,0.37
+violence,0.37
+license,0.37
+maintenance,0.37
+gmc,0.37
+roofs,0.37
+lehigh,0.37
+camaro,0.37
+push it,0.37
+mgqlu,0.37
+shos,0.37
+roads,0.37
+pick up,0.37
+axle,0.37
+corrado,0.37
+ole,0.37
+george,0.36
+drive on,0.36
+cr,0.36
+put,0.36
+intersections,0.36
+wondering,0.36
+curiosity,0.36
+hose,0.36
+checker,0.36
+robbie,0.36
+derek,0.36
+firing order,0.36
+value,0.36
+buyer,0.36
+ford explorer,0.36
+danny,0.36
+comparison,0.36
+s4,0.36
+korea,0.36
+doors,0.36
+bimmers,0.36
+look ahead,0.36
+rims,0.36
+mercury,0.36
+super,0.35
+sequent,0.35
+they,0.35
+vans,0.35
+the basic,0.35
+production,0.35
+mas,0.35
+antennas,0.35
+rip,0.35
+tek,0.35
+the owner,0.35
+3090,0.35
+manuals,0.35
+license plate,0.35
+exotics,0.35
+nielsen,0.35
+0l,0.35
+sales manager,0.35
+differential,0.35
+out,0.35
+woobin,0.35
+shaman,0.35
+mot,0.35
+temp,0.35
+compartment,0.35
+dodge intrepid,0.35
+the way,0.35
+rx7,0.35
+in california,0.35
+guerra,0.35
+megatest,0.35
+auto show,0.35
+havent,0.35
+responded,0.35
+klossner,0.35
+female,0.35
+mad9a,0.35
+mike davis,0.35
+hailstorm,0.34
+thatch,0.34
+neilson,0.34
+michael apple,0.34
+f350,0.34
+feagans,0.34
+converter,0.34
+xmission,0.34
+low,0.34
+opel gt,0.34
+the left,0.34
+stolen,0.34
+james,0.34
+v16,0.34
+lights,0.34
+wa,0.34
+seal,0.34
+the mustang,0.34
+wfu,0.34
+strut,0.34
+braindead,0.34
+cleaning,0.34
+eric thomas,0.34
+numbers,0.34
+wvnet,0.34
+skcla,0.34
+are,0.34
+sentra,0.34
+kubelwagen,0.34
+strait,0.34
+the new,0.34
+vehicle,0.34
+prelude,0.34
+trade in,0.34
+alamo,0.34
+zdem0a,0.34
+hgo7,0.34
+edf003,0.34
+trestle,0.33
+sump,0.33
+the uk,0.33
+the performance,0.33
+saabs,0.33
+umcc,0.33
+sensor,0.33
+tail light,0.33
+dodge shadow,0.33
+here is,0.33
+year,0.33
+flash,0.33
+rubber,0.33
+tomm,0.33
+lane,0.33
+automatics,0.33
+workmanship,0.33
+repair,0.33
+lubricate,0.33
+chellis,0.33
+charlie ellis,0.33
+washington,0.33
+opel calibra,0.33
+alman,0.33
+almanb,0.33
+c5r66a,0.33
+6rb,0.33
+bob alman,0.33
+any,0.33
+sensing,0.33
+1994,0.33
+troy,0.33
+decent,0.33
+quad,0.33
+teddy,0.33
+pencom,0.33
+csd4,0.33
+ones,0.33
+ferrari,0.33
+telxon,0.33
+feel,0.33
+model,0.33
+caprice,0.33
+bqueiser,0.33
+killing me,0.32
+gm,0.32
+coat,0.32
+oil pressure,0.32
+larose,0.32
+cleaner,0.32
+outatime,0.32
+firebird,0.32
+make you,0.32
+for any,0.32
+the road,0.32
+ford taurus,0.32
+motor,0.32
+the cars,0.32
+sedans,0.32
+cylinders,0.32
+responde,0.32
+dx,0.32
+tire,0.32
+bolt,0.32
+hasler,0.32
+cigarette,0.32
+viscous,0.32
+phornprapha,0.32
+ip02,0.32
+6700,0.32
+on,0.32
+cause,0.32
+thunderbird,0.32
+shaz,0.32
+spacer,0.31
+convex,0.31
+station wagons,0.31
+sl2,0.31
+the truck,0.31
+mad max,0.31
+reverse,0.31
+dealerships,0.31
+bumper,0.31
+all trac,0.31
+recommendations,0.31
+wb3ffv,0.31
+necessary,0.31
+avoid,0.31
+top end,0.31
+tho,0.31
+or direct,0.31
+issa,0.31
+hagenjd,0.31
+ahead,0.31
+ravi,0.31
+litres,0.31
+big,0.31
+in europe,0.31
+lock,0.31
+room,0.31
+ns1,0.31
+mik,0.31
+gonna,0.31
+cab,0.31
+pep boys,0.31
+celicas,0.31
+mliggett,0.31
+ford probe,0.31
+hagen,0.31
+dork,0.31
+headroom,0.30
+champion_________________,0.30
+___________________the,0.30
+tach,0.30
+opnion,0.30
+1st time,0.30
+pieces,0.30
+_________________,0.30
+nist,0.30
+mgbs,0.30
+the us,0.30
+camry,0.30
+vent,0.30
+new,0.30
+rmt6r,0.30
+thigpen,0.30
+roy matthew,0.30
+corolla,0.30
+90,0.30
+heater,0.30
+grady,0.30
+btw,0.30
+right,0.30
+grille,0.30
+kuebelwagen,0.30
+andrei,0.30
+mechanics,0.30
+enthusiasts,0.30
+passat,0.30
+bricklin,0.30
+ages,0.30
+geo prizm,0.30
+ohio state,0.30
+autofom,0.30
+robert wade,0.30
+thing,0.30
+antannas,0.30
+biggest companies,0.30
+approaching,0.30
+os2,0.30
+eabu288,0.30
+indy 500,0.30
+youy,0.30
+limited,0.30
+alternative fuels,0.30
+follow,0.30
+trac,0.30
+ampr,0.30
+preludes,0.30
+tom spencer,0.30
+defroster,0.30
+kissanej,0.30
+glas,0.30
+drain plug,0.30
+self,0.30
+companeies,0.30
+trucking industry,0.30
+dad,0.30
+mazda 626,0.30
+gts,0.30
+ifp,0.29
+erini,0.29
+add,0.29
+chatter,0.29
+my mate,0.29
+mpv,0.29
+loose wire,0.29
+i4,0.29
+corvette car,0.29
+jkjec,0.29
+shazad,0.29
+lugnuts,0.29
+couldnt,0.29
+stephen phillips,0.29
+on 88,0.29
+lake stevens,0.29
+farm,0.29
+carb,0.29
+darkman,0.29
+vette,0.29
+mihir,0.29
+bogey,0.29
+please,0.29
+six,0.29
+weather,0.29
+balsamo,0.29
+hotsoup,0.29
+2002,0.29
+tercel,0.29
+saturns,0.29
+synchros,0.29
+borgwards,0.29
+aas7,0.29
+barlas,0.29
+lovall,0.29
+boeing,0.29
+cherokee,0.29
+1993apr26,0.29
+oliver,0.29
+sweden,0.29
+market now,0.29
+handy,0.29
+five,0.29
+the master,0.29
+reingold,0.29
+3000 miles,0.29
+too,0.29
+showroom,0.29
+land cruiser,0.29
+marshatt,0.29
+feserve,0.29
+velapoldi,0.28
+fx,0.28
+the villager,0.28
+celica,0.28
+goucher,0.28
+highways,0.28
+708,0.28
+325ix,0.28
+pricing,0.28
+7k,0.28
+aware,0.28
+60,0.28
+180,0.28
+vents,0.28
+nomenclature,0.28
+argue,0.28
+isuzu,0.28
+extensions,0.28
+comparing,0.28
+quattro,0.28
+the spare,0.28
+ejv2j,0.28
+mks,0.28
+grand am,0.28
+yeah,0.28
+ascom,0.28
+lemon law,0.28
+ncube,0.28
+asbestos,0.28
+1993apr15,0.28
+country,0.28
+isuzu amigo,0.28
+centreforce,0.28
+noise,0.28
+bcstec,0.28
+30k,0.28
+seoul,0.28
+tinting,0.28
+911,0.28
+setting off,0.28
+cruiser,0.28
+dodson,0.28
+cbnewsd,0.28
+pedal,0.28
+beretta,0.28
+laredo,0.28
+jeep laredo,0.28
+wade,0.28
+advice,0.28
+brandeis,0.27
+door,0.27
+solbourne,0.27
+changed,0.27
+you do,0.27
+direct,0.27
+trans,0.27
+andy brandt,0.27
+japan,0.27
+traction control,0.27
+share,0.27
+chintan,0.27
+solved,0.27
+my friend,0.27
+dealers,0.27
+716,0.27
+paint,0.27
+time in,0.27
+robust,0.27
+abs,0.27
+change,0.27
+around,0.27
+the driver,0.27
+owning,0.27
+after,0.27
+hou281,0.27
+spare,0.27
+lot,0.27
+not here,0.27
+kevinh,0.27
+significant,0.27
+peng,0.27
+dh3q,0.27
+forget,0.27
+eagle,0.27
+andyh,0.27
+andrew huang,0.27
+much,0.27
+model year,0.27
+engineer,0.27
+liberty,0.27
+chaffee,0.27
+porsches,0.27
+and if,0.27
+seattleu,0.27
+stupid,0.27
+the name,0.27
+us,0.27
+wanna be,0.27
+alternative fuel,0.27
+usho72,0.27
+australia,0.27
+sport utility,0.27
+take off,0.27
+queiser,0.27
+damage,0.27
+mailing list,0.27
+regals,0.27
+ljbartel,0.27
+amin,0.26
+philip,0.26
+jetta,0.26
+archive site,0.26
+lsi,0.26
+alignment,0.26
+milage,0.26
+robbie felix,0.26
+burying alive,0.26
+rfelix,0.26
+unleaded,0.26
+jnielsen,0.26
+preset,0.26
+525e,0.26
+person file,0.26
+the country,0.26
+want,0.26
+replica,0.26
+rip off,0.26
+renault,0.26
+marshall,0.26
+extended warranties,0.26
+brandt,0.26
+retrofit,0.26
+sonata,0.26
+drl,0.26
+vibration,0.26
+worn,0.26
+mega,0.26
+tkh,0.26
+options,0.26
+seniors,0.26
+uwm,0.26
+markus,0.26
+emergency brake,0.26
+even tho,0.26
+magazines,0.26
+grey power,0.26
+smith,0.26
+_____________,0.26
+10pm,0.26
+good deal,0.26
+deadly force,0.26
+300,0.26
+without,0.26
+station wagon,0.26
+guys,0.26
+gearbox,0.26
+sticky,0.26
+rear window,0.26
+traction,0.26
+buck,0.26
+hk,0.26
+the spring,0.26
+the other,0.26
+left turn,0.26
+60k,0.26
+9000,0.26
+volkswagen,0.26
+compact,0.26
+spiders,0.26
+bokonon,0.26
+exams,0.26
+caught you,0.26
+____,0.26
+onto,0.26
+grey,0.26
+capri,0.26
+lease,0.26
+performance,0.26
+escort,0.26
+mail car,0.26
+tumbler ridge,0.26
+ibm os2,0.26
+hp,0.26
+graham thomas,0.26
+the price,0.26
+turning signal,0.26
+cadiz,0.26
+socially acceptable,0.25
+springs,0.25
+the drain,0.25
+wwii,0.25
+hood,0.25
+oklahoma law,0.25
+coupe,0.25
+netters,0.25
+volskwagen,0.25
+yorker,0.25
+new yorker,0.25
+ever,0.25
+front end,0.25
+pack,0.25
+warranties,0.25
+bmw 320i,0.25
+7000,0.25
+granite,0.25
+discussed,0.25
+bulldozers,0.25
+reliability,0.25
+in mexico,0.25
+mailing,0.25
+sportscar,0.25
+the bricklin,0.25
+the back,0.25
+glove box,0.25
+stecz,0.25
+320i,0.25
+shadow,0.25
+balltown,0.25
+humphrey,0.25
+269,0.25
+honda prelude,0.25
+turn,0.25
+pair,0.25
+deal,0.25
+improvements,0.25
+larger,0.25
+brakes,0.25
+want to,0.25
+importing,0.25
+liters,0.25
+the horn,0.25
+dimmer,0.25
+wrong place,0.25
+orlin,0.25
+sorlin,0.25
+huang,0.25
+bumpers,0.25
+master,0.25
+considering,0.25
+advantage,0.25
+know that,0.25
+minivans,0.25
+93,0.25
+based on,0.25
+responses,0.25
+the wagon,0.25
+the 10,0.25
+service,0.25
+loral,0.25
+puvvala,0.25
+blazer,0.25
+finnegan,0.25
+collision,0.25

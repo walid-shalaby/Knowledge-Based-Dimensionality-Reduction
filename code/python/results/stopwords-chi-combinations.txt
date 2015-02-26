@@ -1,0 +1,312 @@
+no stopwords removal & no chi
+------------------------
+done loading 552917 records and 121 labels.
+loaded (94793) terms
+clef_2010_abstract_lemmas_unigrams_df2_tf3  -->  precision  0.775730985365 recall  0.613450570342 f1  0.685112199265
+loaded (1352800) terms
+clef_2010_abstract_lemmas_bigrams_df2_tf3  -->  precision  0.80813272721 recall  0.637309885932 f1  0.712627359278
+loaded (117287) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.783136028972 recall  0.622542096687 f1  0.693665408272
+loaded (103278) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.779957173448 recall  0.618278109723 f1  0.689770101882
+loaded (156059) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.78663250017 recall  0.627383215644 f1  0.698040371075
+loaded (75265) terms
+clef_2010_abstract_stems_unigrams_df2_tf3  -->  precision  0.773175764235 recall  0.606810157523 f1  0.679964773395
+loaded (1194310) terms
+clef_2010_abstract_stems_bigrams_df2_tf3  -->  precision  0.807126495073 recall  0.637571292776 f1  0.712399073668
+loaded (101444) terms
+done loading vocabulary
+clef_2010_abstract_stems_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.781742218867 recall  0.618705866377 f1  0.690733918528
+loaded (84137) terms
+clef_2010_abstract_stems_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.777992136665 recall  0.613331749049 f1  0.685918329768
+loaded (144928) terms
+clef_2010_abstract_stems_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.785486334508 recall  0.625023764259 f1  0.696127771077
+done loading 552877 records and 121 labels.
+loaded (260088) terms
+clef_2010_claims_lemmas_unigrams_df2_tf3  -->  precision  0.783293754658 recall  0.613274795667 f1  0.687935178296
+loaded (3085935) terms
+clef_2010_claims_lemmas_bigrams_df2_tf3  -->  precision  0.812910961721 recall  0.637150156579 f1  0.714378642402
+loaded (289653) terms
+done loading vocabulary
+clef_2010_claims_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.789148873687 recall  0.619968853799 f1  0.694402906377
+loaded (270574) terms
+done loading vocabulary
+clef_2010_claims_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.786576769048 recall  0.617078160678 f1  0.691593547099
+loaded (338671) terms
+done loading vocabulary
+clef_2010_claims_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.791449282849 recall  0.623806147134 f1  0.697698687214
+loaded (217082) terms
+clef_2010_claims_stems_unigrams_df2_tf3  -->  precision  0.78003642892 recall  0.607347517634 f1  0.682944602243
+loaded (2666395) terms
+clef_2010_claims_stems_bigrams_df2_tf3  -->  precision  0.812001676743 recall  0.637506403971 f1  0.714250959821
+loaded (251378) terms
+done loading vocabulary
+clef_2010_claims_stems_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.787566652084 recall  0.616884769237 f1  0.691854292792
+loaded (227960) terms
+clef_2010_claims_stems_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.784046920821 recall  0.612297659964 f1  0.687609779888
+loaded (305417) terms
+clef_2010_claims_stems_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.790411112356 recall  0.622435442883 f1  0.696437824695
+done loading 552917 records and 121 labels.
+loaded (428363) terms
+clef_2010_description_lemmas_unigrams_df2_tf3  -->  precision  0.791471290428 recall  0.625750271592 f1  0.698921591676
+loaded (4292189) terms
+clef_2010_description_lemmas_bigrams_df2_tf3  -->  precision  0.818508581406 recall  0.652478272678 f1  0.726123505299
+loaded (459339) terms
+done loading vocabulary
+clef_2010_description_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.795867288538 recall  0.632597772949 f1  0.704901908862
+loaded (439526) terms
+done loading vocabulary
+clef_2010_description_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.7938821694 recall  0.628826045627 f1  0.701779577857
+loaded (505553) terms
+done loading vocabulary
+clef_2010_description_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.798067994991 recall  0.636108093427 f1  0.707943068942
+loaded (363195) terms
+clef_2010_description_stems_unigrams_df2_tf3  -->  precision  0.788155252406 recall  0.618237370994 f1  0.692931722018
+loaded (3949759) terms
+clef_2010_description_stems_bigrams_df2_tf3  -->  precision  0.818231722107 recall  0.652777023357 f1  0.726199445952
+loaded (398731) terms
+done loading vocabulary
+clef_2010_description_stems_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.793894340626 recall  0.628676670288 f1  0.70169129948
+loaded (374717) terms
+clef_2010_description_stems_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.792060752503 recall  0.62319391635 f1  0.697552819577
+loaded (450433) terms
+clef_2010_description_stems_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.796998035699 recall  0.633626425856 f1  0.705984037523
+
+stopwords removal & no chi
+------------------------
+done loading 552917 records and 121 labels.
+loaded (94439) terms
+clef_2010_abstract_lemmas_unigrams_stopwords_df2_tf3  -->  precision  0.774935491337 recall  0.613776480174 f1  0.685004792919
+loaded (1821107) terms
+clef_2010_abstract_lemmas_bigrams_stopwords_df2_tf3  -->  precision  0.806134538969 recall  0.639825502444 f1  0.713415892087
+loaded (116121) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.782029744342 recall  0.622660917979 f1  0.693304756073
+loaded (101496) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.778373826662 recall  0.618206816947 f1  0.689105935956
+loaded (169483) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.785582317889 recall  0.62792979359 f1  0.697964366508
+loaded (75021) terms
+clef_2010_abstract_stems_unigrams_stopwords_df2_tf3  -->  precision  0.772314328193 recall  0.606650597501 f1  0.679531349822
+loaded (1586072) terms
+clef_2010_abstract_stems_bigrams_stopwords_df2_tf3  -->  precision  0.805462605585 recall  0.639037887018 f1  0.712663130516
+loaded (102212) terms
+done loading vocabulary
+clef_2010_abstract_stems_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.781411315411 recall  0.618223791418 f1  0.690304299618
+loaded (82960) terms
+clef_2010_abstract_stems_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.777255837384 recall  0.612846279196 f1  0.6853285701
+loaded (161275) terms
+clef_2010_abstract_stems_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.78441641454 recall  0.624928707224 f1  0.695648394838
+done loading 552877 records and 121 labels.
+loaded (259725) terms
+clef_2010_claims_lemmas_unigrams_stopwords_df2_tf3  -->  precision  0.782093732979 recall  0.613858362823 f1  0.687838472315
+loaded (4369554) terms
+clef_2010_claims_lemmas_bigrams_stopwords_df2_tf3  -->  precision  0.809278994704 recall  0.637153549412 f1  0.712974809696
+loaded (289256) terms
+done loading vocabulary
+clef_2010_claims_lemmas_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.788110845989 recall  0.620827240372 f1  0.694538228981
+loaded (268732) terms
+done loading vocabulary
+clef_2010_claims_lemmas_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.785360026221 recall  0.617844940778 f1  0.691603479608
+loaded (355071) terms
+done loading vocabulary
+clef_2010_claims_lemmas_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.789912685302 recall  0.624623819718 f1  0.697611234473
+loaded (216828) terms
+clef_2010_claims_stems_unigrams_stopwords_df2_tf3  -->  precision  0.779205698928 recall  0.607890370803 f1  0.682968759827
+loaded (3551083) terms
+clef_2010_claims_stems_bigrams_stopwords_df2_tf3  -->  precision  0.808419991557 recall  0.636715874044 f1  0.712367402639
+loaded (252976) terms
+done loading vocabulary
+clef_2010_claims_stems_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.786473237829 recall  0.617285123448 f1  0.691683473586
+loaded (226779) terms
+clef_2010_claims_stems_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.783237182127 recall  0.613094975555 f1  0.687800217717
+loaded (324069) terms
+clef_2010_claims_stems_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.788705472009 recall  0.622968117555 f1  0.696107608494
+done loading 552917 records and 121 labels.
+loaded (427988) terms
+clef_2010_description_lemmas_unigrams_stopwords_df2_tf3  -->  precision  0.790109314937 recall  0.625220668115 f1  0.69806007035
+loaded (5126954) terms
+clef_2010_description_lemmas_bigrams_stopwords_df2_tf3  -->  precision  0.814431327969 recall  0.651829847909 f1  0.72411471759
+loaded (458205) terms
+done loading vocabulary
+clef_2010_description_lemmas_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.794718840604 recall  0.631844106464 f1  0.703983538565
+loaded (437349) terms
+done loading vocabulary
+clef_2010_description_lemmas_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.792828514662 recall  0.62857821836 f1  0.701213415743
+loaded (522964) terms
+done loading vocabulary
+clef_2010_description_lemmas_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.796825558845 recall  0.636053775122 f1  0.707420217184
+loaded (362934) terms
+clef_2010_description_stems_unigrams_stopwords_df2_tf3  -->  precision  0.786976824628 recall  0.617911461162 f1  0.692271413358
+loaded (4613139) terms
+clef_2010_description_stems_bigrams_stopwords_df2_tf3  -->  precision  0.813741391462 recall  0.650645029875 f1  0.723110763995
+loaded (399776) terms
+done loading vocabulary
+clef_2010_description_stems_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.793244981987 recall  0.62789584465 f1  0.700951262033
+loaded (373235) terms
+clef_2010_description_stems_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.790311669173 recall  0.622657523085 f1  0.696538196429
+loaded (470170) terms
+clef_2010_description_stems_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.794944431409 recall  0.632574008691 f1  0.70452495959
+
+no stopwords removal & chi
+------------------------
+done loading 552917 records and 121 labels.
+loaded (88880) terms
+clef_2010_abstract_lemmas_chi_unigrams_df2_tf3  -->  precision  0.775784849643 recall  0.613335143944 f1  0.68506121087
+loaded (662784) terms
+clef_2010_abstract_lemmas_chi_bigrams_df2_tf3  -->  precision  0.803093981173 recall  0.638341933732 f1  0.711302610972
+loaded (66337) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_chi_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.782113432224 recall  0.62166281912 f1  0.692718430993
+loaded (57684) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_chi_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.779030821155 recall  0.617480309614 f1  0.688911362104
+loaded (89648) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_chi_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.785450245233 recall  0.626853612167 f1  0.697247013554
+loaded (72322) terms
+clef_2010_abstract_stems_chi_unigrams_df2_tf3  -->  precision  0.773088669141 recall  0.606728680065 f1  0.679879939285
+loaded (624294) terms
+clef_2010_abstract_stems_chi_bigrams_df2_tf3  -->  precision  0.802425847231 recall  0.637846279196 f1  0.710732828326
+loaded (59393) terms
+done loading vocabulary
+clef_2010_abstract_stems_chi_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.781048612005 recall  0.618003123303 f1  0.690025207058
+loaded (48584) terms
+clef_2010_abstract_stems_chi_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.777408680816 recall  0.612557713199 f1  0.685207478098
+loaded (86581) terms
+clef_2010_abstract_stems_chi_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.784148973377 recall  0.62415127648 f1  0.69506141568
+done loading 552877 records and 121 labels.
+loaded (200155) terms
+clef_2010_claims_lemmas_chi_unigrams_df2_tf3  -->  precision  0.782670306812 recall  0.612776049318 f1  0.687380946491
+loaded (774260) terms
+clef_2010_claims_lemmas_chi_bigrams_df2_tf3  -->  precision  0.804953865679 recall  0.636973729299 f1  0.711179212495
+loaded (91540) terms
+done loading vocabulary
+clef_2010_claims_lemmas_chi_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.786270878393 recall  0.617939940083 f1  0.692016003708
+loaded (83265) terms
+done loading vocabulary
+clef_2010_claims_lemmas_chi_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.784050353644 recall  0.614933890663 f1  0.689270285071
+loaded (114016) terms
+done loading vocabulary
+clef_2010_claims_lemmas_chi_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.788613969972 recall  0.622119909479 f1  0.695542169589
+loaded (173517) terms
+clef_2010_claims_stems_chi_unigrams_df2_tf3  -->  precision  0.779634801476 recall  0.607116805038 f1  0.682644804657
+loaded (746182) terms
+clef_2010_claims_stems_chi_bigrams_df2_tf3  -->  precision  0.805272251017 recall  0.637299441201 f1  0.711506482979
+loaded (85408) terms
+done loading vocabulary
+clef_2010_claims_stems_chi_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.785046769444 recall  0.61506281829 f1  0.689736121706
+loaded (75077) terms
+clef_2010_claims_stems_chi_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.781920530952 recall  0.610777671092 f1  0.68583358573
+loaded (111198) terms
+clef_2010_claims_stems_chi_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.787531713453 recall  0.620314922694 f1  0.693992742401
+done loading 552917 records and 121 labels.
+loaded (306651) terms
+clef_2010_description_lemmas_chi_unigrams_df2_tf3  -->  precision  0.790681391563 recall  0.62490833786 f1  0.698088413484
+loaded (838373) terms
+clef_2010_description_lemmas_chi_bigrams_df2_tf3  -->  precision  0.80784121663 recall  0.649572243346 f1  0.720113057502
+loaded (139799) terms
+done loading vocabulary
+clef_2010_description_lemmas_chi_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.793588754607 recall  0.628652906029 f1  0.70155711309
+loaded (132005) terms
+done loading vocabulary
+clef_2010_description_lemmas_chi_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.791934679417 recall  0.625288565997 f1  0.698813968312
+loaded (157899) terms
+done loading vocabulary
+clef_2010_description_lemmas_chi_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.794894572975 recall  0.631854291146 f1  0.704058800499
+loaded (268249) terms
+clef_2010_description_stems_chi_unigrams_df2_tf3  -->  precision  0.787758494552 recall  0.617779060293 f1  0.692490500627
+loaded (824627) terms
+clef_2010_description_stems_chi_bigrams_df2_tf3  -->  precision  0.807498279727 recall  0.649378734383 f1  0.719857895797
+loaded (127139) terms
+done loading vocabulary
+clef_2010_description_stems_chi_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.791751628251 recall  0.624826860402 f1  0.698454322243
+loaded (117850) terms
+clef_2010_description_stems_chi_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.789749333979 recall  0.619938212928 f1  0.694616040047
+loaded (147316) terms
+clef_2010_description_stems_chi_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.793360239329 recall  0.629314910375 f1  0.701879734122
+
+stopwords removal & chi
+------------------------
+done loading 552917 records and 121 labels.
+loaded (88844) terms
+clef_2010_abstract_lemmas_chi_unigrams_stopwords_df2_tf3  -->  precision  0.774930338235 recall  0.613688212928 f1  0.684947805165
+loaded (766726) terms
+clef_2010_abstract_lemmas_chi_bigrams_stopwords_df2_tf3  -->  precision  0.800372056675 recall  0.639754209669 f1  0.711106247453
+loaded (62722) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_chi_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.780924394478 recall  0.621608500815 f1  0.692217977532
+loaded (54629) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_chi_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.77847892912 recall  0.618166078218 f1  0.689121808421
+loaded (92604) terms
+done loading vocabulary
+clef_2010_abstract_lemmas_chi_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.784101135997 recall  0.627057305812 f1  0.696840739148
+loaded (72226) terms
+clef_2010_abstract_stems_chi_unigrams_stopwords_df2_tf3  -->  precision  0.772247484353 recall  0.606535171103 f1  0.679433061044
+loaded (34492) terms
+clef_2010_abstract_stems_chi_bigrams_stopwords_df2_tf3  -->  precision  0.740332589628 recall  0.55649103748 f1  0.635380852524
+loaded (34492) terms
+done loading vocabulary
+clef_2010_abstract_stems_chi_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.740332589628 recall  0.55649103748 f1  0.635380852524
+loaded (34492) terms
+clef_2010_abstract_stems_chi_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.740338278798 recall  0.556497827268 f1  0.635387373419
+loaded (34492) terms
+clef_2010_abstract_stems_chi_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.740332589628 recall  0.55649103748 f1  0.635380852524
+done loading 552877 records and 121 labels.
+loaded (200467) terms
+clef_2010_claims_lemmas_chi_unigrams_stopwords_df2_tf3  -->  precision  0.781455064194 recall  0.613335866648 f1  0.687263457835
+loaded (866794) terms
+clef_2010_claims_lemmas_chi_bigrams_stopwords_df2_tf3  -->  precision  0.801264243036 recall  0.636071235907 f1  0.709174920987
+loaded (82584) terms
+done loading vocabulary
+clef_2010_claims_lemmas_chi_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.785217133043 recall  0.618934039947 f1  0.692229756651
+loaded (75194) terms
+done loading vocabulary
+clef_2010_claims_lemmas_chi_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.782540271119 recall  0.615775313074 f1  0.68921348784
+loaded (108830) terms
+done loading vocabulary
+clef_2010_claims_lemmas_chi_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.786759725283 recall  0.622645798486 f1  0.695147889098
+loaded (173738) terms
+clef_2010_claims_stems_chi_unigrams_stopwords_df2_tf3  -->  precision  0.778755056766 recall  0.607411981448 f1  0.682493724136
+loaded (108997) terms
+clef_2010_claims_stems_chi_bigrams_stopwords_df2_tf3  -->  precision  0.758010660048 recall  0.576119889122 f1  0.654666093497
+loaded (108997) terms
+done loading vocabulary
+clef_2010_claims_stems_chi_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.758011740285 recall  0.576123281955 f1  0.654668686892
+loaded (108997) terms
+clef_2010_claims_stems_chi_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.758011740285 recall  0.576123281955 f1  0.654668686892
+loaded (108997) terms
+clef_2010_claims_stems_chi_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.758011740285 recall  0.576123281955 f1  0.654668686892
+done loading 552917 records and 121 labels.
+loaded (307319) terms
+clef_2010_description_lemmas_chi_unigrams_stopwords_df2_tf3  -->  precision  0.789412017167 recall  0.624433052689 f1  0.697296989916
+loaded (884829) terms
+clef_2010_description_lemmas_chi_bigrams_stopwords_df2_tf3  -->  precision  0.804505405896 recall  0.646944595329 f1  0.717173066682
+loaded (135615) terms
+done loading vocabulary
+clef_2010_description_lemmas_chi_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.792424884528 recall  0.628449212385 f1  0.700975259719
+loaded (128616) terms
+done loading vocabulary
+clef_2010_description_lemmas_chi_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.790213332189 recall  0.624986420424 f1  0.697954618695
+loaded (158150) terms
+done loading vocabulary
+clef_2010_description_lemmas_chi_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.793736266081 recall  0.631531776209 f1  0.703404074302
+loaded (268884) terms
+clef_2010_description_stems_chi_unigrams_stopwords_df2_tf3  -->  precision  0.786410328496 recall  0.617266431287 f1  0.691647409014
+loaded (196218) terms
+clef_2010_description_stems_chi_bigrams_stopwords_df2_tf3  -->  precision  0.766497574571 recall  0.586325366649 f1  0.664413586955
+loaded (196218) terms
+done loading vocabulary
+clef_2010_description_stems_chi_bigrams_stopwords_df2_tf3 ^ wiki_bigrams  -->  precision  0.766493136459 recall  0.586321971754 f1  0.664409739921
+loaded (196218) terms
+clef_2010_description_stems_chi_bigrams_stopwords_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.766499940085 recall  0.586321971754 f1  0.664412295938
+loaded (196218) terms
+clef_2010_description_stems_chi_bigrams_stopwords_df2_tf3 ^ google_bigrams  -->  precision  0.766493136459 recall  0.586321971754 f1  0.664409739921
+

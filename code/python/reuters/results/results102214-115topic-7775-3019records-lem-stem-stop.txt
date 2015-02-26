@@ -1,0 +1,74 @@
+loaded 7775 records.
+loaded 3019 records.
+loaded (22596) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1  -->  precision  0.947051363348 recall  0.79780982906 f1  0.866048129893
+loaded (286933) terms
+reuters21578_all_raw_lemmas_bigrams_df1_tf1  -->  precision  0.950310559006 recall  0.776442307692 f1  0.854622960459
+loaded (35575) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiki_bigrams  -->  precision  0.947702060222 recall  0.798611111111 f1  0.866792288737
+loaded (25658) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiktionary_bigrams  -->  precision  0.9470681458 recall  0.798076923077 f1  0.866212494564
+loaded (33605) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ google_bigrams  -->  precision  0.946185501741 recall  0.798344017094 f1  0.866000289729
+loaded (36597) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiki_wiktionary_bigrams_vw  -->  precision  0.947668886775 recall  0.798076923077 f1  0.866463679861
+loaded (41979) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiki_google_bigrams_vw  -->  precision  0.948571428571 recall  0.798076923077 f1  0.86684073107
+loaded (35544) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiktionary_google_bigrams_vw  -->  precision  0.948221092757 recall  0.797275641026 f1  0.866221706326
+loaded (42963) terms
+reuters21578_all_raw_lemmas_unigrams_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_df1_tf1 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.948856416773 recall  0.79780982906 f1  0.866802089379
+loaded (18192) terms
+reuters21578_all_raw_stems_unigrams_df1_tf1  -->  precision  0.947652284264 recall  0.79780982906 f1  0.866299303944
+loaded (265841) terms
+reuters21578_all_raw_stems_bigrams_df1_tf1  -->  precision  0.949623814197 recall  0.775373931624 f1  0.85369798559
+loaded (32513) terms
+reuters21578_all_raw_stems_unigrams_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_df1_tf1 ^ wiki_bigrams  -->  precision  0.947685478757 recall  0.798344017094 f1  0.866628008118
+loaded (21341) terms
+reuters21578_all_raw_stems_unigrams_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_df1_tf1 ^ wiktionary_bigrams  -->  precision  0.949793454083 recall  0.798344017094 f1  0.867508344217
+loaded (30836) terms
+_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_df1_tf1 ^ google_bigrams  -->  precision  0.947735191638 recall  0.799145299145 f1  0.867120707144
+loaded (33477) terms
+reuters21578_all_raw_stems_unigrams_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_df1_tf1 ^ wiki_wiktionary_bigrams_vw  -->  precision  0.94828680203 recall  0.798344017094 f1  0.866879350348
+loaded (39977) terms
+reuters21578_all_raw_stems_unigrams_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_df1_tf1 ^ wiki_google_bigrams_vw  -->  precision  0.948604060914 recall  0.798611111111 f1  0.86716937355
+loaded (32762) terms
+reuters21578_all_raw_stems_unigrams_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_df1_tf1 ^ wiktionary_google_bigrams_vw  -->  precision  0.948002536462 recall  0.798611111111 f1  0.866917947231
+loaded (40891) terms
+reuters21578_all_raw_stems_unigrams_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_df1_tf1 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.949125596184 recall  0.797275641026 f1  0.866598925824
+loaded (22293) terms
+reuters21578_all_raw_lemmas_unigrams_stopwords_df1_tf1  -->  precision  0.946030749922 recall  0.805288461538 f1  0.87000432838
+loaded (298235) terms
+reuters21578_all_raw_lemmas_bigrams_stopwords_df1_tf1  -->  precision  0.946165884194 recall  0.807425213675 f1  0.87130710477
+loaded (33457) terms
+reuters21578_all_raw_lemmas_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_stopwords_df1_tf1 ^ wiki_bigrams  -->  precision  0.947269303202 recall  0.80608974359 f1  0.870995670996
+loaded (24120) terms
+reuters21578_all_raw_lemmas_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_stopwords_df1_tf1 ^ wiktionary_bigrams  -->  precision  0.946428571429 recall  0.806891025641 f1  0.871107266436
+loaded (35743) terms
+reuters21578_all_raw_lemmas_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_stopwords_df1_tf1 ^ google_bigrams  -->  precision  0.946922110553 recall  0.805288461538 f1  0.870381062356
+loaded (33677) terms
+reuters21578_all_raw_lemmas_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_stopwords_df1_tf1 ^ wiki_wiktionary_bigrams_vw  -->  precision  0.947285848761 recall  0.806356837607 f1  0.871158562978
+loaded (41960) terms
+reuters21578_all_raw_lemmas_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_stopwords_df1_tf1 ^ wiki_google_bigrams_vw  -->  precision  0.947929736512 recall  0.807158119658 f1  0.871898442008
+loaded (36408) terms
+reuters21578_all_raw_lemmas_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_stopwords_df1_tf1 ^ wiktionary_google_bigrams_vw  -->  precision  0.947583176397 recall  0.806356837607 f1  0.871284271284
+loaded (42134) terms
+unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_lemmas_bigrams_stopwords_df1_tf1 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.947929736512 recall  0.807158119658 f1  0.871898442008
+loaded (17987) terms
+reuters21578_all_raw_stems_unigrams_stopwords_df1_tf1  -->  precision  0.943538268507 recall  0.803418803419 f1  0.867859203693
+loaded (280571) terms
+reuters21578_all_raw_stems_bigrams_stopwords_df1_tf1  -->  precision  0.94475831764 recall  0.803952991453 f1  0.868686868687
+loaded (31064) terms
+reuters21578_all_raw_stems_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_stopwords_df1_tf1 ^ wiki_bigrams  -->  precision  0.946165884194 recall  0.807425213675 f1  0.87130710477
+loaded (20012) terms
+reuters21578_all_raw_stems_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_stopwords_df1_tf1 ^ wiktionary_bigrams  -->  precision  0.945420326223 recall  0.805021367521 f1  0.869590305828
+loaded (34247) terms
+reuters21578_all_raw_stems_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_stopwords_df1_tf1 ^ google_bigrams  -->  precision  0.946725164525 recall  0.806891025641 f1  0.871232876712
+loaded (31317) terms
+reuters21578_all_raw_stems_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_stopwords_df1_tf1 ^ wiki_wiktionary_bigrams_vw  -->  precision  0.946478873239 recall  0.807692307692 f1  0.871595330739
+loaded (41507) terms
+reuters21578_all_raw_stems_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_stopwords_df1_tf1 ^ wiki_google_bigrams_vw  -->  precision  0.946512355333 recall  0.808226495726 f1  0.871920472554
+loaded (34984) terms
+reuters21578_all_raw_stems_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_stopwords_df1_tf1 ^ wiktionary_google_bigrams_vw  -->  precision  0.94614902943 recall  0.807158119658 f1  0.871144422024
+loaded (41699) terms
+reuters21578_all_raw_stems_unigrams_stopwords_df1_tf1 ^ reuters21578_all_raw_stems_bigrams_stopwords_df1_tf1 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.94684177611 recall  0.808760683761 f1  0.872371074618
