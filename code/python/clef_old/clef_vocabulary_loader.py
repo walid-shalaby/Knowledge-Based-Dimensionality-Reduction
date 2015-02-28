@@ -1,18 +1,16 @@
 
 # coding: utf-8
 
-## 20ng Vocabulary Loader
+## CLEF-IP2010 Vocabulary Loader
 
-####### Load 20ng docs vocabulary from DB table
+####### Load clef-ip2010 patents vocabulary from DB table
 
 # In[741]:
 
 def load_vocabulary(tbl_name):
     import sqlite3 as sqlitedb
-    from ng20_globals import db_path
+    from clef_globals import *
 
-    tbl_name = tbl_name.replace('.','_')
-    
     # load vocabulary from sqlite DB
     vocabulary = []
     stmt = 'select term from {0}'.format(tbl_name)
@@ -23,7 +21,7 @@ def load_vocabulary(tbl_name):
             term = cur.fetchone()
             if term==None or term[0]==None:
                 break
-            # retrieve docs text
+            # retrieve patent text
             vocabulary.append(term[0])
 
     print 'loaded ({0}) terms'.format(len(vocabulary))
@@ -35,13 +33,13 @@ def load_vocabulary(tbl_name):
 # load all unigrams from tbl_name_full1 and only bigrams existing in both tbl_name_full2&tbl_name_intersect
 def load_common_vocabulary(tbl_name_full1,tbl_name_full2,tbl_name_intersect,stem_or_lemma):
     import sqlite3 as sqlitedb
-    from ng20_globals import db_path
+    from clef_globals import *
 
-    tbl_name_full1 = tbl_name_full1.replace('.','_')
-    tbl_name_full2 = tbl_name_full2.replace('.','_')
-    
     # load vocabulary from sqlite DB
     vocabulary = []
+    #stmt = 'select term from {0} where instr(term,\' \')=0 union select {1} from {2},{3} where {4}=term'.format(tbl_name_full,stem_or_lemma,tbl_name_full,tbl_name_intersect,stem_or_lemma)
+    #stmt = 'select term from {0} where term not like \'% %\' union select {1} from {2},{3} where {4}=term union select bigram from {5},{6} where bigram=term'.format(tbl_name_full,stem_or_lemma,tbl_name_full,tbl_name_intersect,stem_or_lemma,tbl_name_full,tbl_name_intersect)
+    #stmt = 'select term from {0} union select {1} from {2} union select bigram from {2}'.format(tbl_name_full,stem_or_lemma,tbl_name_intersect)
     stmt = 'select term from {0} union select {1} from {2},{3} where {1}=term union select bigram from {2},{3} where bigram=term'.format(tbl_name_full1,stem_or_lemma,tbl_name_full2,tbl_name_intersect)
     con = sqlitedb.connect(db_path)
     with con:
@@ -50,7 +48,7 @@ def load_common_vocabulary(tbl_name_full1,tbl_name_full2,tbl_name_intersect,stem
             term = cur.fetchone()
             if term==None or term[0]==None:
                 break
-            # retrieve docs text
+            # retrieve patent text
             vocabulary.append(term[0])
 
     print 'loaded ({0}) terms'.format(len(vocabulary))
@@ -62,10 +60,8 @@ def load_common_vocabulary(tbl_name_full1,tbl_name_full2,tbl_name_intersect,stem
 # load only bigrams existing in both tbl_name_full1&tbl_name_intersect and extend the vocabulary with unigrams of common bigrams
 def load_common_vocabulary_extend_unigrams(tbl_name_full,tbl_name_intersect,stem_or_lemma):
     import sqlite3 as sqlitedb
-    from ng20_globals import db_path
+    from clef_globals import *
 
-    tbl_name_full = tbl_name_full.replace('.','_')
-    
     # load vocabulary from sqlite DB
     vocabulary = []
     stmt = 'select {0} from {1},{2} where {0}=term union select bigram from {1},{2} where bigram=term'.format(stem_or_lemma,tbl_name_full,tbl_name_intersect)

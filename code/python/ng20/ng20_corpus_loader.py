@@ -9,7 +9,8 @@
 
 def load_corpus(train_or_test):
     import sqlite3 as sqlitedb
-    from ng20_globals import train_or_test_values, db_path
+    from commons.globals import train_or_test_values
+    from ng20_globals import db_path
 
     if train_or_test not in train_or_test_values:
         raise ValueError('\'{0}\' is an invalid value. use {1}'.format(train_or_test,train_or_test_values))
@@ -45,7 +46,8 @@ def load_corpus(train_or_test):
 
 def load_corpus_and_labels(train_or_test):
     import sqlite3 as sqlitedb
-    from ng20_globals import train_or_test_values, db_path
+    from commons.globals import train_or_test_values
+    from ng20_globals import db_path
 
     if train_or_test not in train_or_test_values:
         raise ValueError('\'{0}\' is an invalid value. use {1}'.format(train_or_test,train_or_test_values))
@@ -95,7 +97,8 @@ def load_corpus_and_labels(train_or_test):
 
 def load_corpus_with_labels_mappings(train_or_test,labels_dic):
     import sqlite3 as sqlitedb
-    from ng20_globals import train_or_test_values, db_path
+    from commons.globals import train_or_test_values
+    from ng20_globals import db_path
 
     if train_or_test not in train_or_test_values:
         raise ValueError('\'{0}\' is an invalid value. use {1}'.format(train_or_test,train_or_test_values))

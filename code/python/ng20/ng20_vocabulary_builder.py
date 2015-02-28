@@ -49,7 +49,7 @@ def build_vocabulary_new(corpus,tokenizer,stop_words,max_ngram_size,min_df,min_t
 def save_vocabulary(vocabulary,tbl_name):
     # save vocabulary in DB for future use
     import sqlite3 as sqlitedb
-    from ng20_globals import db_path
+    from commons.globals import db_path
 
     tbl_name = tbl_name.replace('.','_')
     l = []
@@ -77,26 +77,6 @@ def build_all_unigrams_vocabulary(corpus):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
-# build raw unigrams vocabulary
-def build_raw_unigrams_vocabulary_new(corpus):
-    from ng20_globals import build_vocabulary_new
-    
-    tokenizer = None
-    stop_words = {}
-    max_ngram_size = 1
-    vocabulary = build_vocabulary(corpus,tokenizer,stop_words,max_ngram_size,1,1)
-    vocabulary_new = build_vocabulary_new(corpus,tokenizer,stop_words,max_ngram_size,1,1)
-    print len(vocabulary),',',len(vocabulary_new)
-    # save to DB
-    tbl_name = 'ng20_raw_unigrams'.format()
-    #save_vocabulary(vocabulary,tbl_name)
-    print 'done '+tbl_name
-
-
-# In[ ]:
-
 # build unigrams vocabulary
 def build_raw_unigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
@@ -111,13 +91,11 @@ def build_raw_unigrams_vocabulary(corpus):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build lemmatized unigrams vocabulary
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_unigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     
     tokenizer = RawLemmaTokenizer()
     stop_words = {}
@@ -135,7 +113,7 @@ def build_raw_lemmatized_unigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_test_unigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     
     tokenizer = RawLemmaTokenizer()
     stop_words = {}
@@ -153,7 +131,7 @@ def build_raw_lemmatized_test_unigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_stemmed_test_unigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import RawStemmingTokenizer
+    from commons.stemming_tokenizer import RawStemmingTokenizer
     
     tokenizer = RawStemmingTokenizer()
     stop_words = {}
@@ -171,7 +149,7 @@ def build_raw_stemmed_test_unigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_all_unigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     
     tokenizer = RawLemmaTokenizer()
     stop_words = {}
@@ -189,7 +167,7 @@ def build_raw_lemmatized_all_unigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_stemmed_all_unigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import RawStemmingTokenizer
+    from commons.stemming_tokenizer import RawStemmingTokenizer
     
     tokenizer = RawStemmingTokenizer()
     stop_words = {}
@@ -207,7 +185,7 @@ def build_raw_stemmed_all_unigrams_vocabulary(corpus):
 # uses alphabetic tokenizer
 def build_lemmatized_unigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import LemmaTokenizer
+    from commons.lemmatizing_tokenizer import LemmaTokenizer
     
     tokenizer = LemmaTokenizer()
     stop_words = {}
@@ -313,7 +291,7 @@ def build_all_bigrams_stopwords_vocabulary(corpus,stop_words,):
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_unigrams_stopwords_vocabulary(corpus,stop_words,):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     
     tokenizer = RawLemmaTokenizer()
     max_ngram_size = 1
@@ -330,7 +308,7 @@ def build_raw_lemmatized_unigrams_stopwords_vocabulary(corpus,stop_words,):
 # uses alphabetic tokenizer
 def build_lemmatized_unigrams_stopwords_vocabulary(corpus,stop_words,):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import LemmaTokenizer
+    from commons.lemmatizing_tokenizer import LemmaTokenizer
     
     tokenizer = LemmaTokenizer()
     max_ngram_size = 1
@@ -363,7 +341,7 @@ def build_all_bigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_bigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     
     tokenizer = RawLemmaTokenizer()
     stop_words = {}
@@ -381,7 +359,7 @@ def build_raw_lemmatized_bigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_all_bigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     
     tokenizer = RawLemmaTokenizer()
     stop_words = {}
@@ -399,7 +377,7 @@ def build_raw_lemmatized_all_bigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_stemmed_all_bigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import RawStemmingTokenizer
+    from commons.stemming_tokenizer import RawStemmingTokenizer
     
     tokenizer = RawStemmingTokenizer()
     stop_words = {}
@@ -417,7 +395,7 @@ def build_raw_stemmed_all_bigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_test_bigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     
     tokenizer = RawLemmaTokenizer()
     stop_words = {}
@@ -435,7 +413,7 @@ def build_raw_lemmatized_test_bigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_stemmed_test_bigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import RawStemmingTokenizer
+    from commons.stemming_tokenizer import RawStemmingTokenizer
     
     tokenizer = RawStemmingTokenizer()
     stop_words = {}
@@ -469,7 +447,7 @@ def build_raw_bigrams_vocabulary(corpus):
 # uses alphabetic tokenizer
 def build_lemmatized_bigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import LemmaTokenizer
+    from commons.lemmatizing_tokenizer import LemmaTokenizer
     
     tokenizer = LemmaTokenizer()
     stop_words = {}
@@ -487,7 +465,7 @@ def build_lemmatized_bigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_bigrams_stopwords_vocabulary(corpus,stop_words,):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     
     tokenizer = RawLemmaTokenizer()
     max_ngram_size = 2
@@ -504,7 +482,7 @@ def build_raw_lemmatized_bigrams_stopwords_vocabulary(corpus,stop_words,):
 # uses alphabetic tokenizer
 def build_lemmatized_bigrams_stopwords_vocabulary(corpus,stop_words,):
     from ng20_globals import min_tf,min_df
-    from lemmatizing_tokenizer import LemmaTokenizer
+    from commons.lemmatizing_tokenizer import LemmaTokenizer
     
     tokenizer = LemmaTokenizer()
     max_ngram_size = 2
@@ -521,7 +499,7 @@ def build_lemmatized_bigrams_stopwords_vocabulary(corpus,stop_words,):
 # uses alphanumeric tokenizer
 def build_raw_stemmed_unigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import RawStemmingTokenizer
+    from commons.stemming_tokenizer import RawStemmingTokenizer
     
     tokenizer = RawStemmingTokenizer()    
     stop_words = {}
@@ -539,7 +517,7 @@ def build_raw_stemmed_unigrams_vocabulary(corpus):
 # uses alphabetic tokenizer
 def build_stemmed_unigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import StemmingTokenizer
+    from commons.stemming_tokenizer import StemmingTokenizer
     
     tokenizer = StemmingTokenizer()    
     stop_words = {}
@@ -557,7 +535,7 @@ def build_stemmed_unigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_stemmed_unigrams_stopwords_vocabulary(corpus,stop_words,):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import RawStemmingTokenizer
+    from commons.stemming_tokenizer import RawStemmingTokenizer
     
     tokenizer = RawStemmingTokenizer()    
     max_ngram_size = 1
@@ -574,7 +552,7 @@ def build_raw_stemmed_unigrams_stopwords_vocabulary(corpus,stop_words,):
 # uses alphabetic tokenizer
 def build_stemmed_unigrams_stopwords_vocabulary(corpus,stop_words,):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import StemmingTokenizer
+    from commons.stemming_tokenizer import StemmingTokenizer
     
     tokenizer = StemmingTokenizer()    
     max_ngram_size = 1
@@ -591,7 +569,7 @@ def build_stemmed_unigrams_stopwords_vocabulary(corpus,stop_words,):
 # uses alphanumeric tokenizer
 def build_raw_stemmed_bigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import RawStemmingTokenizer
+    from commons.stemming_tokenizer import RawStemmingTokenizer
     
     tokenizer = RawStemmingTokenizer() 
     stop_words = {}
@@ -609,7 +587,7 @@ def build_raw_stemmed_bigrams_vocabulary(corpus):
 # uses alphabetic tokenizer
 def build_stemmed_bigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import StemmingTokenizer
+    from commons.stemming_tokenizer import StemmingTokenizer
     
     tokenizer = StemmingTokenizer() 
     stop_words = {}
@@ -627,7 +605,7 @@ def build_stemmed_bigrams_vocabulary(corpus):
 # uses alphanumeric tokenizer
 def build_raw_stemmed_bigrams_stopwords_vocabulary(corpus,stop_words,):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import RawStemmingTokenizer
+    from commons.stemming_tokenizer import RawStemmingTokenizer
     
     tokenizer = RawStemmingTokenizer() 
     max_ngram_size = 2    
@@ -644,7 +622,7 @@ def build_raw_stemmed_bigrams_stopwords_vocabulary(corpus,stop_words,):
 # uses alphabetic tokenizer
 def build_stemmed_bigrams_stopwords_vocabulary(corpus,stop_words,):
     from ng20_globals import min_tf,min_df
-    from stemming_tokenizer import StemmingTokenizer
+    from commons.stemming_tokenizer import StemmingTokenizer
     
     tokenizer = StemmingTokenizer() 
     max_ngram_size = 2    
@@ -659,7 +637,7 @@ def build_stemmed_bigrams_stopwords_vocabulary(corpus,stop_words,):
 
 def build():
     from ng20_corpus_loader import load_corpus
-    from stopwords_loader import load_inquiry_stopwords
+    from commons.stopwords_loader import load_inquiry_stopwords
     
     # load 20ng docs from DB
     corpus_all = load_corpus('both')
@@ -709,7 +687,10 @@ def build():
     #build_raw_stemmed_all_bigrams_vocabulary(corpus['corpus'],)
 
 
-# In[ ]:
+if __name__ == "__main__" and __package__ is None:
+    import sys
+    from os import path
+    sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 # build 20ng docs vocabulary
 build()
