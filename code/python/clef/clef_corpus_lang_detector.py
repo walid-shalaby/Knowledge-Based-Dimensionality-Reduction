@@ -10,8 +10,8 @@
 def detect_corpus_lang(vocabulary_src):
     import sys
     sys.path.append('langid.py-master/langid/')
-    import sqlite3 as sqlitedb
-    from clef_globals import *
+    from pysqlite2 import dbapi2 as sqlitedb
+    from clef_globals import db_path
     import langid
 
     # load patents text from sqlite DB using only vocabulary_src as main field for vocabulary (e.g., abstract, description, claims...)
@@ -39,10 +39,14 @@ def detect_corpus_lang(vocabulary_src):
         print 'processsed {0} records'.format(count)
 
 
-# In[ ]:
+if __name__ == "__main__" and __package__ is None:
+    import sys
+    from os import path
+    sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
-detect_corpus_lang('abstract')
-#detect_corpus_lang('description')
-#detect_corpus_lang('claims')
+
+#detect_corpus_lang('abstract')
+detect_corpus_lang('description')
+detect_corpus_lang('claims')
 print 'done'
 

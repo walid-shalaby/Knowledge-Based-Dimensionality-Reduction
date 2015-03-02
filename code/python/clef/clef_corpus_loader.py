@@ -8,7 +8,7 @@
 # In[ ]:
 
 def load_corpus(vocabulary_src,train_or_test):
-    import sqlite3 as sqlitedb
+    from pysqlite2 import dbapi2 as sqlitedb
     from clef_globals import db_path
     from commons.globals import train_or_test_values
     from clef_globals import vocabulary_src_values
@@ -19,15 +19,15 @@ def load_corpus(vocabulary_src,train_or_test):
         raise ValueError('\'{0}\' is an invalid value. use {1}'.format(vocabulary_src,vocabulary_src_values))
         
     if train_or_test=='both':
-        #patents_query = 'select p.id,lower({0}) from patents_dest p,patent_{0}_language_train_test_vw pl where p.id=pl.id and language=\'en\' and {0}!=\'\' and description!=\'\' and substr(p.id,length(p.id)-1) in (\'A1\',\'A2\') group by substr(p.id,4,7)'.format(vocabulary_src)
-        patents_query = 'select p.id,lower({0}) from patents_dest p,patent_{0}_language_train_test_vw pl where p.id=pl.id and language=\'en\' and {0}!=\'\''.format(vocabulary_src)
+        patents_query = 'select p.id,lower({0}) from patents p,patent_{0}_language_train_test_vw pl where p.id=pl.id and language=\'en\' and {0}!=\'\' and description!=\'\' and substr(p.id,length(p.id)-1) in (\'A1\',\'A2\') group by substr(p.id,4,7)'.format(vocabulary_src)
+        #patents_query = 'select p.id,lower({0}) from patents_dest p,patent_{0}_language_train_test_vw pl where p.id=pl.id and language=\'en\' and {0}!=\'\''.format(vocabulary_src)
     else:
         if train_or_test=='train':
             is_train = 1
         elif train_or_test=='test':
             is_train = 0
-        #patents_query = 'select p.id,lower({0}) from patents_dest p,patent_{0}_language_train_test_vw pl where p.id=pl.id and language=\'en\' and is_train={1} and {0}!=\'\' and description!=\'\' and substr(p.id,length(p.id)-1) in (\'A1\',\'A2\') group by substr(p.id,4,7)'.format(vocabulary_src,is_train)
-        patents_query = 'select p.id,lower({0}) from patents_dest p,patent_{0}_language_train_test_vw pl where p.id=pl.id and language=\'en\' and is_train={1} and {0}!=\'\' '.format(vocabulary_src,is_train)
+        patents_query = 'select p.id,lower({0}) from patents p,patent_{0}_language_train_test_vw pl where p.id=pl.id and language=\'en\' and is_train={1} and {0}!=\'\' and description!=\'\' and substr(p.id,length(p.id)-1) in (\'A1\',\'A2\') group by substr(p.id,4,7)'.format(vocabulary_src,is_train)
+        #patents_query = 'select p.id,lower({0}) from patents_dest p,patent_{0}_language_train_test_vw pl where p.id=pl.id and language=\'en\' and is_train={1} and {0}!=\'\' '.format(vocabulary_src,is_train)
     
     # load patents text from sqlite DB using only vocabulary_src as main field for vocabulary (e.g., abstract, description, claims...)
     ids = []
@@ -50,7 +50,7 @@ def load_corpus(vocabulary_src,train_or_test):
 # In[ ]:
 
 def load_corpus_and_labels(vocabulary_src,train_or_test):
-    import sqlite3 as sqlitedb    
+    from pysqlite2 import dbapi2 as sqlitedb    
     from clef_globals import db_path
     from commons.globals import train_or_test_values
     from clef_globals import vocabulary_src_values
@@ -109,7 +109,7 @@ def load_corpus_and_labels(vocabulary_src,train_or_test):
 # In[ ]:
 
 def load_corpus_with_labels_mappings(vocabulary_src,train_or_test,labels_dic):
-    import sqlite3 as sqlitedb    
+    from pysqlite2 import dbapi2 as sqlitedb    
     from clef_globals import db_path
     from commons.globals import train_or_test_values
     from clef_globals import vocabulary_src_values

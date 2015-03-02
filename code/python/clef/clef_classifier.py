@@ -802,45 +802,45 @@ def test(vocabulary_src):
         use_chi_features = i&chi_features_mask==chi_features_mask
         use_raw_tokens = i&raw_tokens_mask==raw_tokens_mask
         
-        #test_lemmatized_unigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
-        #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
-        #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
+        test_lemmatized_unigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
+                                 {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
+                                 vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
         
-        #test_lemmatized_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
-        #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
-        #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
+        test_lemmatized_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
+                                 {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
+                                 vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
         
         #test_lemmatized_bigrams_with_LSA({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
         #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
         #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens,113240)
         
-        #test_lemmatized_wiki_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
-        #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
-        #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
+        test_lemmatized_wiki_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
+                                 {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
+                                 vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
         
-        #test_lemmatized_wiktionary_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
-        #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
-        #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
+        test_lemmatized_wiktionary_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
+                                 {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
+                                 vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
         
-        #test_lemmatized_google_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
-        #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
-        #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
+        test_lemmatized_google_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
+                                 {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
+                                 vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
         
-        #test_lemmatized_wiki_wiktionary_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
-        #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
-        #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
+        test_lemmatized_wiki_wiktionary_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
+                                 {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
+                                 vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
         
-        #test_lemmatized_wiki_google_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
-        #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
-        #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
+        test_lemmatized_wiki_google_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
+                                 {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
+                                 vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
         
-        #test_lemmatized_wiktionary_google_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
-        #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
-        #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
+        test_lemmatized_wiktionary_google_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
+                                 {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
+                                 vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
         
-        #test_lemmatized_all_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
-        #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
-        #                         vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
+        test_lemmatized_all_bigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
+                                 {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
+                                 vocabulary_src,stopwords_removal,use_chi_features,use_raw_tokens)
         
         #test_stemmed_unigrams({'corpus':corpus_train_data['corpus'],'labels':corpus_train_data['labels']},
         #                         {'corpus':corpus_test_data['corpus'],'labels':corpus_test_data['labels']},
@@ -898,4 +898,5 @@ vocabulary_src = 'description'
 #test(vocabulary_src)
 
 print 'done!'
+
 

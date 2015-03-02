@@ -32,7 +32,7 @@ def build_vocabulary(corpus,tokenizer,stop_words,max_ngram_size,min_df,min_tf):
 
 def save_vocabulary(vocabulary,tbl_name):
     # save vocabulary in DB for future use
-    import sqlite3 as sqlitedb
+    from pysqlite2 import dbapi2 as sqlitedb
     from clef_globals import *
 
     l = []
@@ -596,7 +596,7 @@ def build_stemmed_bigrams_stopwords_vocabulary(corpus,stop_words,vocabulary_src)
 
 def build(vocabulary_src):
     from clef_corpus_loader import load_corpus
-    from stopwords_loader import load_inquiry_stopwords
+    from commons.stopwords_loader import load_inquiry_stopwords
     
     # load clef patents from DB using only vocabulary_src as main field for vocabulary (e.g., abstract, description, claims...)
     corpus_train = load_corpus(vocabulary_src,'train')
@@ -646,15 +646,18 @@ def build(vocabulary_src):
     #build_raw_stemmed_all_bigrams_vocabulary(corpus['corpus'],vocabulary_src)
 
 
-# In[ ]:
+if __name__ == "__main__" and __package__ is None:
+    import sys
+    from os import path
+    sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 # build clef abstracts vocabulary
 vocabulary_src = 'abstract'
-build(vocabulary_src)
+#build(vocabulary_src)
 
 # build clef claims vocabulary
 vocabulary_src = 'claims'
-#build(vocabulary_src)
+build(vocabulary_src)
 
 # build clef description vocabulary
 vocabulary_src = 'description'

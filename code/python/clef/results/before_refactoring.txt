@@ -1,0 +1,493 @@
+Python 2.7.6 (default, Mar 22 2014, 22:59:56) 
+[GCC 4.8.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+
+Imported NumPy 1.8.2, SciPy 0.13.3, Matplotlib 1.3.1
+
+Type "scientific" for more details.
+>>> runfile('/media/wshalaby/b667e28e-5e90-4884-8810-5d897c9e56ce/work/patents/patents-similarity/code/python/clef/clef_classifier.py', wdir=r'/media/wshalaby/b667e28e-5e90-4884-8810-5d897c9e56ce/work/patents/patents-similarity/code/python/clef')
+UMD has deleted: commons, clef_corpus_loader, commons.globals, clef_globals
+0.15.2
+loaded 411484 records.
+done loading 411484 train records and 121 labels.
+loaded 102872 records.
+done loading 102872 test records.
+clef_vocabulary_loader.py:10: SyntaxWarning: import * only allowed at module level
+  def load_vocabulary(tbl_name):
+clef_vocabulary_loader.py:34: SyntaxWarning: import * only allowed at module level
+  def load_common_vocabulary(tbl_name_full1,tbl_name_full2,tbl_name_intersect,stem_or_lemma):
+clef_vocabulary_loader.py:61: SyntaxWarning: import * only allowed at module level
+  def load_common_vocabulary_extend_unigrams(tbl_name_full,tbl_name_intersect,stem_or_lemma):
+loaded (58661) terms
+vectorizing done, 58661 terms vocabulary tokenized
+vectorizing done, 58661 terms vocabulary tokenized
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3  -->  precision  0.72495669746 recall  0.666692812666 f1  0.69460509442
+loaded (1132466) terms
+vectorizing done, 1132466 terms vocabulary tokenized
+vectorizing done, 1132466 terms vocabulary tokenized
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+clef_2010_abstract_raw_lemmas_bigrams_df2_tf3  -->  precision  0.759796558358 recall  0.695853646764 f1  0.726420680012
+loaded (100058) terms
+done loading vocabulary
+vectorizing done, 100058 terms vocabulary tokenized
+vectorizing done, 100058 terms vocabulary tokenized
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.736787159076 recall  0.681324516098 f1  0.707971259828
+loaded (67425) terms
+done loading vocabulary
+vectorizing done, 67425 terms vocabulary tokenized
+vectorizing done, 67425 terms vocabulary tokenized
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.72984040044 recall  0.672135202973 f1  0.699800231179
+loaded (113240) terms
+vectorizing done, 113240 terms vocabulary tokenized
+vectorizing done, 113240 terms vocabulary tokenized
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.734608406116 recall  0.681565863783 f1  0.7070937857
+loaded (102117) terms
+vectorizing done, 102117 terms vocabulary tokenized
+vectorizing done, 102117 terms vocabulary tokenized
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_wiktionary_bigrams_vw  -->  precision  0.736737793946 recall  0.681843413622 f1  0.708228488702
+loaded (140244) terms
+vectorizing done, 140244 terms vocabulary tokenized
+vectorizing done, 140244 terms vocabulary tokenized
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_google_bigrams_vw  -->  precision  0.739159270457 recall  0.68590408843 f1  0.711536595823
+loaded (118487) terms
+vectorizing done, 118487 terms vocabulary tokenized
+vectorizing done, 118487 terms vocabulary tokenized
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiktionary_google_bigrams_vw  -->  precision  0.735877515197 recall  0.682947579283 f1  0.708425259192
+loaded (142054) terms
+vectorizing done, 142054 terms vocabulary tokenized
+vectorizing done, 142054 terms vocabulary tokenized
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/preprocessing/label.py:469: DeprecationWarning: The multilabel parameter is deprecated as of version 0.15 and will be removed in 0.17. The parameter is no longer necessary because the value is automatically inferred.
+  "inferred.", DeprecationWarning)
+/usr/local/lib/python2.7/dist-packages/sklearn/utils/multiclass.py:194: DeprecationWarning: Direct support for sequence of sequences multilabel representation will be unavailable from version 0.17. Use sklearn.preprocessing.MultiLabelBinarizer to convert to a label indicator representation.
+  DeprecationWarning)
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.739424395889 recall  0.686266109958 f1  0.71185422319
+done!
+>>> 
+
