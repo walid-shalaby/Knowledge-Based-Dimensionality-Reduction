@@ -891,12 +891,11 @@ test(vocabulary_src)
 
 # test using clef claims vocabulary
 vocabulary_src = 'claims'
-#test(vocabulary_src)
+test(vocabulary_src)
 
 # test using clef description vocabulary
 vocabulary_src = 'description'
-#test(vocabulary_src)
+test(vocabulary_src)
 
 print 'done!'
-
 

@@ -1,18 +1,11 @@
-
-# coding: utf-8
-
 ## 20ng Vocabulary Builder
 
-####### Build stemmed and lemmatized vocabulary (unigrams + bigrams) from 20ng corpus and store into DB
-
-# In[ ]:
-
+# Build stemmed and lemmatized vocabulary (unigrams + bigrams) from 20ng corpus and store into DB
 def build_vocabulary(corpus,tokenizer,stop_words,max_ngram_size,min_df,min_tf):
     from sklearn.feature_extraction.text import CountVectorizer
     from ng20_globals import max_df
     
     # tokenize text
-    #vectorizer = CountVectorizer(min_df=min_df,tokenizer=tokenizer,ngram_range=(1,max_ngram_size),stop_words=stop_words)
     vectorizer = CountVectorizer(max_df=max_df,min_df=min_df,tokenizer=tokenizer,ngram_range=(1,max_ngram_size),stop_words=stop_words)
     corpus_vectors = vectorizer.fit_transform(corpus)
 
@@ -30,38 +23,21 @@ def build_vocabulary(corpus,tokenizer,stop_words,max_ngram_size,min_df,min_tf):
     return vectorizer.vocabulary_
 
 
-# In[ ]:
-"""
-def build_vocabulary_new(corpus,tokenizer,stop_words,max_ngram_size,min_df,min_tf):
-    from sklearn.feature_extraction.text import TfidfVectorizer
-    from ng20_globals import max_df
-    
-    # tokenize text
-    #vectorizer = CountVectorizer(min_df=min_df,tokenizer=tokenizer,ngram_range=(1,max_ngram_size),stop_words=stop_words)
-    vectorizer = TfidfVectorizer(max_df=max_df,min_df=min_df,tokenizer=tokenizer,ngram_range=(1,max_ngram_size),stop_words='english')
-    corpus_vectors = vectorizer.fit_transform(corpus)
-
-    return vectorizer.vocabulary_
-
-
-# In[ ]:
-"""
 def save_vocabulary(vocabulary,tbl_name):
     # save vocabulary in DB for future use
     import sqlite3 as sqlitedb
-    from commons.globals import db_path
+    from clef_globals import db_path
 
-    tbl_name = tbl_name.replace('.','_')
+   	# in case using min_df as fractions
+	tbl_name = tbl_name.replace('.','_')
     l = []
     l.extend([i] for i in vocabulary)
-    con = sqlitedb.connect(db_path)    
+    con = sqlitedb.connect(db_path)
     with con:
         con.execute('drop table if exists {0}'.format(tbl_name))
         con.execute('create table {0}(term text)'.format(tbl_name))
         con.executemany('insert into {0}(term) values(?)'.format(tbl_name),l)
 
-
-# In[ ]:
 
 # build raw unigrams vocabulary
 def build_all_unigrams_vocabulary(corpus):
@@ -125,8 +101,6 @@ def build_raw_lemmatized_test_unigrams_vocabulary(corpus):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build stemmed test unigrams vocabulary
 # uses alphanumeric tokenizer
 def build_raw_stemmed_test_unigrams_vocabulary(corpus):
@@ -141,9 +115,6 @@ def build_raw_stemmed_test_unigrams_vocabulary(corpus):
     tbl_name = 'ng20_raw_stems_test_unigrams_df{0}_tf{1}'.format(min_df,min_tf)
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name
-
-
-# In[ ]:
 
 # build lemmatized all unigrams vocabulary
 # uses alphanumeric tokenizer
@@ -161,8 +132,6 @@ def build_raw_lemmatized_all_unigrams_vocabulary(corpus):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build stemmed all unigrams vocabulary
 # uses alphanumeric tokenizer
 def build_raw_stemmed_all_unigrams_vocabulary(corpus):
@@ -178,8 +147,6 @@ def build_raw_stemmed_all_unigrams_vocabulary(corpus):
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name
 
-
-# In[ ]:
 
 # build lemmatized unigrams vocabulary
 # uses alphabetic tokenizer
@@ -197,8 +164,6 @@ def build_lemmatized_unigrams_vocabulary(corpus):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build unigrams stopwords vocabulary
 def build_unigrams_stopwords_vocabulary(corpus,stop_words,):
     from ng20_globals import min_tf,min_df
@@ -211,8 +176,6 @@ def build_unigrams_stopwords_vocabulary(corpus,stop_words,):
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name
 
-
-# In[ ]:
 
 # build bigrams stopwords vocabulary
 def build_bigrams_stopwords_vocabulary(corpus,stop_words,):
@@ -227,11 +190,8 @@ def build_bigrams_stopwords_vocabulary(corpus,stop_words,):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build all unigrams stopwords vocabulary
 def build_all_unigrams_stopwords_vocabulary(corpus,stop_words,):
-    #from ng20_globals import *
     
     tokenizer = None
     max_ngram_size = 1
@@ -240,6 +200,7 @@ def build_all_unigrams_stopwords_vocabulary(corpus,stop_words,):
     tbl_name = 'ng20_all_unigrams_stopwords'.format()
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name
+
 
 # build raw unigrams stopwords vocabulary
 def build_raw_unigrams_stopwords_vocabulary(corpus,stop_words):
@@ -254,8 +215,6 @@ def build_raw_unigrams_stopwords_vocabulary(corpus,stop_words):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build raw bigrams stopwords vocabulary
 def build_raw_bigrams_stopwords_vocabulary(corpus,stop_words):
     from ng20_globals import min_df,min_tf
@@ -267,9 +226,6 @@ def build_raw_bigrams_stopwords_vocabulary(corpus,stop_words):
     tbl_name = 'ng20_raw_bigrams_stopwords_df{0}_tf{1}'.format(min_df,min_tf)
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name
-
-
-# In[ ]:
 
 
 # build all bigrams stopwords vocabulary
@@ -284,8 +240,6 @@ def build_all_bigrams_stopwords_vocabulary(corpus,stop_words,):
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name
 
-
-# In[ ]:
 
 # build lemmatized unigrams stopwords vocabulary
 # uses alphanumeric tokenizer
@@ -302,8 +256,6 @@ def build_raw_lemmatized_unigrams_stopwords_vocabulary(corpus,stop_words,):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build lemmatized unigrams stopwords vocabulary
 # uses alphabetic tokenizer
 def build_lemmatized_unigrams_stopwords_vocabulary(corpus,stop_words,):
@@ -319,12 +271,9 @@ def build_lemmatized_unigrams_stopwords_vocabulary(corpus,stop_words,):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build raw bigrams vocabulary
 def build_all_bigrams_vocabulary(corpus):
-    #from ng20_globals import *
-    
+   
     tokenizer = None
     stop_words = {}
     max_ngram_size = 2
@@ -334,8 +283,6 @@ def build_all_bigrams_vocabulary(corpus):
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name    
 
-
-# In[ ]:
 
 # build lemmatized bigrams vocabulary
 # uses alphanumeric tokenizer
@@ -353,8 +300,6 @@ def build_raw_lemmatized_bigrams_vocabulary(corpus):
     print 'done '+tbl_name    
 
 
-# In[ ]:
-
 # build lemmatized all bigrams vocabulary
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_all_bigrams_vocabulary(corpus):
@@ -370,8 +315,6 @@ def build_raw_lemmatized_all_bigrams_vocabulary(corpus):
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name    
 
-
-# In[ ]:
 
 # build stemmed all bigrams vocabulary
 # uses alphanumeric tokenizer
@@ -389,8 +332,6 @@ def build_raw_stemmed_all_bigrams_vocabulary(corpus):
     print 'done '+tbl_name    
 
 
-# In[ ]:
-
 # build lemmatized test bigrams vocabulary
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_test_bigrams_vocabulary(corpus):
@@ -407,7 +348,6 @@ def build_raw_lemmatized_test_bigrams_vocabulary(corpus):
     print 'done '+tbl_name    
 
 
-# In[ ]:
 
 # build stemmed test bigrams vocabulary
 # uses alphanumeric tokenizer
@@ -425,8 +365,6 @@ def build_raw_stemmed_test_bigrams_vocabulary(corpus):
     print 'done '+tbl_name    
 
 
-# In[ ]:
-
 # build bigrams vocabulary
 def build_raw_bigrams_vocabulary(corpus):
     from ng20_globals import min_tf,min_df
@@ -440,8 +378,6 @@ def build_raw_bigrams_vocabulary(corpus):
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name    
 
-
-# In[ ]:
 
 # build lemmatized bigrams vocabulary
 # uses alphabetic tokenizer
@@ -459,8 +395,6 @@ def build_lemmatized_bigrams_vocabulary(corpus):
     print 'done '+tbl_name    
 
 
-# In[ ]:
-
 # build lemmatized bigrams stopwords vocabulary
 # uses alphanumeric tokenizer
 def build_raw_lemmatized_bigrams_stopwords_vocabulary(corpus,stop_words,):
@@ -476,8 +410,6 @@ def build_raw_lemmatized_bigrams_stopwords_vocabulary(corpus,stop_words,):
     print 'done '+tbl_name    
 
 
-# In[ ]:
-
 # build lemmatized bigrams stopwords vocabulary
 # uses alphabetic tokenizer
 def build_lemmatized_bigrams_stopwords_vocabulary(corpus,stop_words,):
@@ -492,8 +424,6 @@ def build_lemmatized_bigrams_stopwords_vocabulary(corpus,stop_words,):
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name    
 
-
-# In[ ]:
 
 # build stemmed unigrams vocabulary
 # uses alphanumeric tokenizer
@@ -511,8 +441,6 @@ def build_raw_stemmed_unigrams_vocabulary(corpus):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build stemmed unigrams vocabulary
 # uses alphabetic tokenizer
 def build_stemmed_unigrams_vocabulary(corpus):
@@ -529,8 +457,6 @@ def build_stemmed_unigrams_vocabulary(corpus):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build stemmed unigrams stopwords vocabulary
 # uses alphanumeric tokenizer
 def build_raw_stemmed_unigrams_stopwords_vocabulary(corpus,stop_words,):
@@ -546,8 +472,6 @@ def build_raw_stemmed_unigrams_stopwords_vocabulary(corpus,stop_words,):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build stemmed unigrams stopwords vocabulary
 # uses alphabetic tokenizer
 def build_stemmed_unigrams_stopwords_vocabulary(corpus,stop_words,):
@@ -562,8 +486,6 @@ def build_stemmed_unigrams_stopwords_vocabulary(corpus,stop_words,):
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name
 
-
-# In[ ]:
 
 # build stemmed bigrams vocabulary
 # uses alphanumeric tokenizer
@@ -581,8 +503,6 @@ def build_raw_stemmed_bigrams_vocabulary(corpus):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build stemmed bigrams vocabulary
 # uses alphabetic tokenizer
 def build_stemmed_bigrams_vocabulary(corpus):
@@ -599,8 +519,6 @@ def build_stemmed_bigrams_vocabulary(corpus):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build stemmed bigrams stopwords vocabulary
 # uses alphanumeric tokenizer
 def build_raw_stemmed_bigrams_stopwords_vocabulary(corpus,stop_words,):
@@ -616,8 +534,6 @@ def build_raw_stemmed_bigrams_stopwords_vocabulary(corpus,stop_words,):
     print 'done '+tbl_name
 
 
-# In[ ]:
-
 # build stemmed bigrams stopwords vocabulary
 # uses alphabetic tokenizer
 def build_stemmed_bigrams_stopwords_vocabulary(corpus,stop_words,):
@@ -632,8 +548,6 @@ def build_stemmed_bigrams_stopwords_vocabulary(corpus,stop_words,):
     save_vocabulary(vocabulary,tbl_name)
     print 'done '+tbl_name
 
-
-# In[ ]:
 
 def build():
     from ng20_corpus_loader import load_corpus

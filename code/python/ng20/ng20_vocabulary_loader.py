@@ -1,16 +1,11 @@
-
-# coding: utf-8
-
 ## 20ng Vocabulary Loader
 
-####### Load 20ng docs vocabulary from DB table
-
-# In[741]:
-
+# Load 20ng docs vocabulary from DB table
 def load_vocabulary(tbl_name):
     import sqlite3 as sqlitedb
     from ng20_globals import db_path
 
+	# in case using min_df as fractions
     tbl_name = tbl_name.replace('.','_')
     
     # load vocabulary from sqlite DB
@@ -30,14 +25,13 @@ def load_vocabulary(tbl_name):
     return vocabulary
 
 
-# In[743]:
-
 # load all unigrams from tbl_name_full1 and only bigrams existing in both tbl_name_full2&tbl_name_intersect
 def load_common_vocabulary(tbl_name_full1,tbl_name_full2,tbl_name_intersect,stem_or_lemma):
     import sqlite3 as sqlitedb
     from ng20_globals import db_path
 
-    tbl_name_full1 = tbl_name_full1.replace('.','_')
+    # in case using min_df as fractions
+	tbl_name_full1 = tbl_name_full1.replace('.','_')
     tbl_name_full2 = tbl_name_full2.replace('.','_')
     
     # load vocabulary from sqlite DB
@@ -57,13 +51,12 @@ def load_common_vocabulary(tbl_name_full1,tbl_name_full2,tbl_name_intersect,stem
     return vocabulary
 
 
-# In[ ]:
-
 # load only bigrams existing in both tbl_name_full1&tbl_name_intersect and extend the vocabulary with unigrams of common bigrams
 def load_common_vocabulary_extend_unigrams(tbl_name_full,tbl_name_intersect,stem_or_lemma):
     import sqlite3 as sqlitedb
     from ng20_globals import db_path
 
+	# in case using min_df as fractions
     tbl_name_full = tbl_name_full.replace('.','_')
     
     # load vocabulary from sqlite DB
