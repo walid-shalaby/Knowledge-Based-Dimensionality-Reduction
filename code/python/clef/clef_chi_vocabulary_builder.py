@@ -69,7 +69,7 @@ def save_vocabulary(vocabulary,tbl_name):
 def build_raw_lemmatized_chi_unigrams_vocabulary(corpus,labels,vocabulary_src):
     from clef_globals import *
     from clef_vocabulary_loader import load_vocabulary
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     
     tokenizer = RawLemmaTokenizer()
     stop_words = {}
@@ -93,7 +93,7 @@ def build_raw_lemmatized_chi_unigrams_vocabulary(corpus,labels,vocabulary_src):
 def build_lemmatized_chi_unigrams_vocabulary(corpus,labels,vocabulary_src):
     from clef_globals import *
     from clef_vocabulary_loader import load_vocabulary
-    from lemmatizing_tokenizer import LemmaTokenizer
+    from commons.lemmatizing_tokenizer import LemmaTokenizer
     
     tokenizer = LemmaTokenizer()
     stop_words = {}
@@ -117,7 +117,7 @@ def build_lemmatized_chi_unigrams_vocabulary(corpus,labels,vocabulary_src):
 def build_lemmatized_unigrams_stopwords_vocabulary(corpus,labels,stop_words,vocabulary_src):
     from clef_globals import *
     from clef_vocabulary_loader import load_vocabulary
-    from lemmatizing_tokenizer import LemmaTokenizer
+    from commons.lemmatizing_tokenizer import LemmaTokenizer
     
     tokenizer = LemmaTokenizer()
     max_ngram_size = 1
@@ -139,7 +139,7 @@ def build_lemmatized_unigrams_stopwords_vocabulary(corpus,labels,stop_words,voca
 def build_raw_lemmatized_chi_bigrams_vocabulary(corpus,labels,vocabulary_src):
     from clef_globals import *
     from clef_vocabulary_loader import load_vocabulary
-    from lemmatizing_tokenizer import RawLemmaTokenizer
+    from commons.lemmatizing_tokenizer import RawLemmaTokenizer
     from sklearn.feature_extraction.text import CountVectorizer
     
     tokenizer = RawLemmaTokenizer()
@@ -164,7 +164,7 @@ def build_raw_lemmatized_chi_bigrams_vocabulary(corpus,labels,vocabulary_src):
 def build_lemmatized_bigrams_vocabulary(corpus,labels,vocabulary_src):
     from clef_globals import *
     from clef_vocabulary_loader import load_vocabulary
-    from lemmatizing_tokenizer import LemmaTokenizer
+    from commons.lemmatizing_tokenizer import LemmaTokenizer
     
     tokenizer = LemmaTokenizer()
     stop_words = {}
@@ -188,7 +188,7 @@ def build_lemmatized_bigrams_vocabulary(corpus,labels,vocabulary_src):
 def build_lemmatized_bigrams_stopwords_vocabulary(corpus,labels,stop_words,vocabulary_src):
     from clef_globals import *
     from clef_vocabulary_loader import load_vocabulary
-    from lemmatizing_tokenizer import LemmaTokenizer
+    from commons.lemmatizing_tokenizer import LemmaTokenizer
     
     tokenizer = LemmaTokenizer()
     max_ngram_size = 2
@@ -304,7 +304,7 @@ def build(vocabulary_src):
     from sklearn.preprocessing import MultiLabelBinarizer
     
     # load clef patents with class lables from DB using only vocabulary_src as main field for vocabulary (e.g., abstract, description, claims...)
-    corpus_data = load_corpus_and_labels(vocabulary_src,'train')
+    corpus_data = load_corpus_and_labels(vocabulary_src,'both')
     corpus = corpus_data['corpus']
     labels = corpus_data['labels']
     labels_dic = corpus_data['labels_dic']

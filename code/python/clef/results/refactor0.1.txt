@@ -1,0 +1,131 @@
+>>> runfile('/media/wshalaby/b667e28e-5e90-4884-8810-5d897c9e56ce/work/patents/patents-similarity/code/python/clef/clef_classifier.py', wdir=r'/media/wshalaby/b667e28e-5e90-4884-8810-5d897c9e56ce/work/patents/patents-similarity/code/python/clef')
+UMD has deleted: commons, clef_corpus_loader, clef_globals, commons.globals, commons.stemming_tokenizer, commons.lemmatizing_tokenizer, commons.stopwords_loader
+0.15.2
+loaded 411484 records.
+done loading 411484 train records and 121 labels.
+loaded 102872 records.
+done loading 102872 test records.
+loaded (58661) terms
+vectorizing done, 58661 terms vocabulary tokenized
+vectorizing done, 58661 terms vocabulary tokenized
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3  -->  precision  0.72495669746 recall  0.666692812666 f1  0.69460509442
+loaded (1132466) terms
+vectorizing done, 1132466 terms vocabulary tokenized
+vectorizing done, 1132466 terms vocabulary tokenized
+clef_2010_abstract_raw_lemmas_bigrams_df2_tf3  -->  precision  0.759796558358 recall  0.695853646764 f1  0.726420680012
+loaded (100058) terms
+done loading vocabulary
+vectorizing done, 100058 terms vocabulary tokenized
+vectorizing done, 100058 terms vocabulary tokenized
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.73679196654 recall  0.681324516098 f1  0.707973479208
+loaded (67425) terms
+done loading vocabulary
+vectorizing done, 67425 terms vocabulary tokenized
+vectorizing done, 67425 terms vocabulary tokenized
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.729835618772 recall  0.672135202973 f1  0.6997980331
+loaded (113240) terms
+vectorizing done, 113240 terms vocabulary tokenized
+vectorizing done, 113240 terms vocabulary tokenized
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.734617960941 recall  0.681565863783 f1  0.70709821191
+loaded (102117) terms
+vectorizing done, 102117 terms vocabulary tokenized
+vectorizing done, 102117 terms vocabulary tokenized
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_wiktionary_bigrams_vw  -->  precision  0.736737793946 recall  0.681843413622 f1  0.708228488702
+loaded (140244) terms
+vectorizing done, 140244 terms vocabulary tokenized
+vectorizing done, 140244 terms vocabulary tokenized
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_google_bigrams_vw  -->  precision  0.739159270457 recall  0.68590408843 f1  0.711536595823
+loaded (118487) terms
+vectorizing done, 118487 terms vocabulary tokenized
+vectorizing done, 118487 terms vocabulary tokenized
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiktionary_google_bigrams_vw  -->  precision  0.735877515197 recall  0.682947579283 f1  0.708425259192
+loaded (142054) terms
+vectorizing done, 142054 terms vocabulary tokenized
+vectorizing done, 142054 terms vocabulary tokenized
+clef_2010_abstract_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_abstract_raw_lemmas_bigrams_df2_tf3 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.739424395889 recall  0.686266109958 f1  0.71185422319
+loaded 387269 records.
+done loading 387269 train records and 121 labels.
+loaded 96783 records.
+done loading 96783 test records.
+loaded (112514) terms
+vectorizing done, 112514 terms vocabulary tokenized
+vectorizing done, 112514 terms vocabulary tokenized
+clef_2010_claims_raw_lemmas_unigrams_df2_tf3  -->  precision  0.741508367807 recall  0.677564940239 f1  0.708096008953
+loaded (2254923) terms
+vectorizing done, 2254923 terms vocabulary tokenized
+vectorizing done, 2254923 terms vocabulary tokenized
+clef_2010_claims_raw_lemmas_bigrams_df2_tf3  -->  precision  0.776945490626 recall  0.708787250996 f1  0.741302985453
+loaded (168019) terms
+done loading vocabulary
+vectorizing done, 168019 terms vocabulary tokenized
+vectorizing done, 168019 terms vocabulary tokenized
+clef_2010_claims_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_claims_raw_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.751511789182 recall  0.690792031873 f1  0.719873785602
+loaded (123568) terms
+done loading vocabulary
+vectorizing done, 123568 terms vocabulary tokenized
+vectorizing done, 123568 terms vocabulary tokenized
+clef_2010_claims_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_claims_raw_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.745617397972 recall  0.681880478088 f1  0.712326030499
+loaded (184221) terms
+vectorizing done, 184221 terms vocabulary tokenized
+vectorizing done, 184221 terms vocabulary tokenized
+clef_2010_claims_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_claims_raw_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.750897930089 recall  0.691658964143 f1  0.720062115511
+loaded (170649) terms
+vectorizing done, 170649 terms vocabulary tokenized
+vectorizing done, 170649 terms vocabulary tokenized
+clef_2010_claims_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_claims_raw_lemmas_bigrams_df2_tf3 ^ wiki_wiktionary_bigrams_vw  -->  precision  0.751074627694 recall  0.690562549801 f1  0.719548604999
+loaded (222089) terms
+vectorizing done, 222089 terms vocabulary tokenized
+vectorizing done, 222089 terms vocabulary tokenized
+clef_2010_claims_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_claims_raw_lemmas_bigrams_df2_tf3 ^ wiki_google_bigrams_vw  -->  precision  0.754444828779 recall  0.695171314741 f1  0.72359625114
+loaded (191046) terms
+vectorizing done, 191046 terms vocabulary tokenized
+vectorizing done, 191046 terms vocabulary tokenized
+clef_2010_claims_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_claims_raw_lemmas_bigrams_df2_tf3 ^ wiktionary_google_bigrams_vw  -->  precision  0.751656293917 recall  0.692117928287 f1  0.720659489453
+loaded (224405) terms
+vectorizing done, 224405 terms vocabulary tokenized
+vectorizing done, 224405 terms vocabulary tokenized
+clef_2010_claims_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_claims_raw_lemmas_bigrams_df2_tf3 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.754269587533 recall  0.695101195219 f1  0.723477660859
+loaded 387629 records.
+done loading 387629 train records and 121 labels.
+loaded 96871 records.
+done loading 96871 test records.
+loaded (123570) terms
+vectorizing done, 123570 terms vocabulary tokenized
+vectorizing done, 123570 terms vocabulary tokenized
+clef_2010_description_raw_lemmas_unigrams_df2_tf3  -->  precision  0.745312986609 recall  0.68583109911 f1  0.714335935686
+loaded (2065559) terms
+vectorizing done, 2065559 terms vocabulary tokenized
+vectorizing done, 2065559 terms vocabulary tokenized
+clef_2010_description_raw_lemmas_bigrams_df2_tf3  -->  precision  0.77844828778 recall  0.717169658721 f1  0.746553615762
+loaded (179724) terms
+done loading vocabulary
+vectorizing done, 179724 terms vocabulary tokenized
+vectorizing done, 179724 terms vocabulary tokenized
+clef_2010_description_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_description_raw_lemmas_bigrams_df2_tf3 ^ wiki_bigrams  -->  precision  0.754701255046 recall  0.697733510798 f1  0.725100181667
+loaded (135333) terms
+done loading vocabulary
+vectorizing done, 135333 terms vocabulary tokenized
+vectorizing done, 135333 terms vocabulary tokenized
+clef_2010_description_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_description_raw_lemmas_bigrams_df2_tf3 ^ wiktionary_bigrams  -->  precision  0.748484304437 recall  0.690288931203 f1  0.718209677152
+loaded (192372) terms
+vectorizing done, 192372 terms vocabulary tokenized
+vectorizing done, 192372 terms vocabulary tokenized
+clef_2010_description_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_description_raw_lemmas_bigrams_df2_tf3 ^ google_bigrams  -->  precision  0.753597270751 recall  0.697739879129 f1  0.724593687482
+loaded (182562) terms
+vectorizing done, 182562 terms vocabulary tokenized
+vectorizing done, 182562 terms vocabulary tokenized
+clef_2010_description_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_description_raw_lemmas_bigrams_df2_tf3 ^ wiki_wiktionary_bigrams_vw  -->  precision  0.754683735976 recall  0.69827481898 f1  0.725384282062
+loaded (230492) terms
+vectorizing done, 230492 terms vocabulary tokenized
+vectorizing done, 230492 terms vocabulary tokenized
+clef_2010_description_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_description_raw_lemmas_bigrams_df2_tf3 ^ wiki_google_bigrams_vw  -->  precision  0.756839635585 recall  0.702573442784 f1  0.728697633713
+loaded (199604) terms
+vectorizing done, 199604 terms vocabulary tokenized
+vectorizing done, 199604 terms vocabulary tokenized
+clef_2010_description_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_description_raw_lemmas_bigrams_df2_tf3 ^ wiktionary_google_bigrams_vw  -->  precision  0.754251840862 recall  0.699287383698 f1  0.725730393145
+loaded (233012) terms
+vectorizing done, 233012 terms vocabulary tokenized
+vectorizing done, 233012 terms vocabulary tokenized
+clef_2010_description_raw_lemmas_unigrams_df2_tf3 ^ clef_2010_description_raw_lemmas_bigrams_df2_tf3 ^ wiki_wiktionary_google_bigrams_vw  -->  precision  0.757178920795 recall  0.702917332688 f1  0.729039864465
+done!
+>>> 

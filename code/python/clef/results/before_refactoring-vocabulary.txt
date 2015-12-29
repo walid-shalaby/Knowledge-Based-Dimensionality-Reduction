@@ -1,0 +1,73 @@
+Python 2.7.6 (default, Mar 22 2014, 22:59:56) 
+[GCC 4.8.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+
+Imported NumPy 1.8.2, SciPy 0.13.3, Matplotlib 1.3.1
+
+Type "scientific" for more details.
+>>> runfile('/media/wshalaby/b667e28e-5e90-4884-8810-5d897c9e56ce/work/patents/patents-similarity/code/python/clef/clef_vocabulary_builder.py', wdir=r'/media/wshalaby/b667e28e-5e90-4884-8810-5d897c9e56ce/work/patents/patents-similarity/code/python/clef')
+loaded 411484 records.
+removing (0) terms under tf threshold
+done clef_2010_abstract_raw_unigrams
+removing (12387) terms under tf threshold
+done clef_2010_abstract_raw_lemmas_unigrams_df2_tf3
+removing (457727) terms under tf threshold
+done clef_2010_abstract_raw_lemmas_bigrams_df2_tf3
+removing (0) terms under tf threshold
+done clef_2010_abstract_raw_bigrams
+removing (9263) terms under tf threshold
+done clef_2010_abstract_raw_stems_unigrams_df2_tf3
+removing (356752) terms under tf threshold
+done clef_2010_abstract_raw_stems_bigrams_df2_tf3
+removing (12382) terms under tf threshold
+done clef_2010_abstract_raw_lemmas_unigrams_stopwords_df2_tf3
+removing (706450) terms under tf threshold
+done clef_2010_abstract_raw_lemmas_bigrams_stopwords_df2_tf3
+removing (9260) terms under tf threshold
+done clef_2010_abstract_raw_stems_unigrams_stopwords_df2_tf3
+removing (510109) terms under tf threshold
+done clef_2010_abstract_raw_stems_bigrams_stopwords_df2_tf3
+loaded 387269 records.
+removing (0) terms under tf threshold
+done clef_2010_claims_raw_unigrams
+removing (19801) terms under tf threshold
+done clef_2010_claims_raw_lemmas_unigrams_df2_tf3
+removing (464802) terms under tf threshold
+done clef_2010_claims_raw_lemmas_bigrams_df2_tf3
+removing (0) terms under tf threshold
+done clef_2010_claims_raw_bigrams
+removing (16739) terms under tf threshold
+done clef_2010_claims_raw_stems_unigrams_df2_tf3
+removing (356672) terms under tf threshold
+done clef_2010_claims_raw_stems_bigrams_df2_tf3
+removing (19794) terms under tf threshold
+done clef_2010_claims_raw_lemmas_unigrams_stopwords_df2_tf3
+70645removing (711539) terms under tf threshold
+done clef_2010_claims_raw_lemmas_bigrams_stopwords_df2_tf3
+removing (16735) terms under tf threshold
+done clef_2010_claims_raw_stems_unigrams_stopwords_df2_tf3
+removing (492625) terms under tf threshold
+done clef_2010_claims_raw_stems_bigrams_stopwords_df2_tf3
+loaded 387629 records.
+removing (0) terms under tf threshold
+done clef_2010_description_raw_unigrams
+removing (37537) terms under tf threshold
+done clef_2010_description_raw_lemmas_unigrams_df2_tf3
+removing (802148) terms under tf threshold
+done clef_2010_description_raw_lemmas_bigrams_df2_tf3
+removing (0) terms under tf threshold
+done clef_2010_description_raw_bigrams
+removing (31700) terms under tf threshold
+done clef_2010_description_raw_stems_unigrams_df2_tf3
+removing (644620) terms under tf threshold
+done clef_2010_description_raw_stems_bigrams_df2_tf3
+removing (37534) terms under tf threshold
+done clef_2010_description_raw_lemmas_unigrams_stopwords_df2_tf3
+removing (1201809) terms under tf threshold
+done clef_2010_description_raw_lemmas_bigrams_stopwords_df2_tf3
+removing (31697) terms under tf threshold
+done clef_2010_description_raw_stems_unigrams_stopwords_df2_tf3
+removing (881711) terms under tf threshold
+done clef_2010_description_raw_stems_bigrams_stopwords_df2_tf3
+done!
+>>> 

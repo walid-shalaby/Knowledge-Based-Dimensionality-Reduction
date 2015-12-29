@@ -6,6 +6,7 @@ max_labels = 4 # use only top 4 probabilities labels as maximum labels per paten
 
 min_df = 2
 min_tf = 3
+max_df = 1.0
 test_set_size = 0.20
 max_chi_square_terms = 10000
 #db_path = '/home/wshalaby/work/patents/patents-similarity/data/CLEF/03-patents-with-5-fixes.db'
